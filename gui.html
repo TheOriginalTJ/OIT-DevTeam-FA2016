@@ -31,6 +31,9 @@
     <li class="nav-item">
         <a class="nav-link" data-toggle="tab" href="#delete" role="tab">Delete Class</a>
     </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#classrooms" role="tab">Classrooms</a>
+    </li>
 </ul>
 
 
@@ -265,6 +268,197 @@
                 </div>
             </div>
         </form>
+    </div>
+
+
+    <div id="classrooms" class="tab-pane fade">
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#add" role="tab">Add Classroom</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#edit" role="tab">Edit Classroom</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div id="add" class="tab-pane fade in active">
+                <form class="form-horizontal" role="form" method="get">
+                    <div class="row">
+                        <h1></h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-3">
+                            <div class="form-group">
+                                <label for="classroom_number">Classroom Number</label>
+                                <input type="text" id="classroom_number" class="form-control"
+                                       placeholder="Enter Classroom Number" required>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-md-offset-2">
+                            <div class="form-group">
+                                <label for="building">Building</label>
+                                <input type="text" id="building" class="form-control"
+                                       placeholder="Enter Building"
+                                       required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <center><h3>Classroom Features</h3></center>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-3">
+                            <div class="form-group form-group-sm">
+                                <div class="col-md-5">
+                                    <input class="form-control" type="text" id="chairs_add">
+                                </div>
+                                <label class="control-label" for="chairs_add">Number of Chairs</label>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-md-offset-2">
+                            <div class="form-group form-group-sm">
+                                <div class="col-md-5">
+                                    <input class="form-control" type="text" id="desks_add">
+                                </div>
+                                <label class="control-label" for="desks_add">Number of Desks</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-1">
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">White Board</label>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Chalk Board</label>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Built-in Computer/Laptop</label>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Built-in Sound System</label>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">CD Player</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-1">
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">DVD Player</label>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Data/Video Projector</label>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Hearing Assisted System</label>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Visual Optimizer</label>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Laptop Connectivity</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-1">
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Network Connections</label>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Overhead Projector</label>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Podium</label>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Projector Screen</label>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">TV/Monitors</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-1">
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Piano</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <h1></h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-md-offset-5">
+                                <button type="submit" class="btn btn-default">Add Classroom</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div id="edit" class="tab-pane fade">
+                <form class="form-horizontal" role="form" method="get">
+                    <div class="row">
+                        <h1></h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-3">
+                            <div class="form-group">
+                                <label for="classroom_number_edit">Classroom Number</label>
+                                <input type="text" id="classroom_number_edit" class="form-control"
+                                       placeholder="Enter Classroom Number">
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-md-offset-2">
+                            <div class="form-group">
+                                <label for="building_edit">Building</label>
+                                <input type="text" id="building_edit" class="form-control"
+                                       placeholder="Enter Building">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h1></h1>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <div class="col-md-2 col-md-offset-5">
+                                <button type="submit" class="btn btn-default">Search for Classroom</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
 </div>
 

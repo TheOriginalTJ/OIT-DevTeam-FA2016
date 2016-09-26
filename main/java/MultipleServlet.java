@@ -45,6 +45,5 @@ public class MultipleServlet extends HttpServlet {
         } catch (FileUploadException e) {
             logg.error("Exception while uploading file: ", e);
         }
-        System.out.println(file_name);
     }
 }

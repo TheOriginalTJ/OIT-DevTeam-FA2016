@@ -27,12 +27,6 @@
             <artifactId>apache-jsp</artifactId>
             <version>9.2.11.v20150529</version>
         </dependency>
-        <!-- Logback -->
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>1.1.7</version>
-        </dependency>
 
         <dependency>
             <groupId>commons-fileupload</groupId>

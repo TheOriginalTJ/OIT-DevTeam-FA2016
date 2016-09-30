@@ -2,8 +2,6 @@ import java.io.File;
 import java.net.*;
 import java.util.ArrayList;
 import java.util.List;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.eclipse.jetty.jsp.JettyJspServlet;
 import org.apache.tomcat.InstanceManager;
 import org.apache.tomcat.SimpleInstanceManager;
@@ -24,7 +22,6 @@ import org.eclipse.jetty.webapp.WebAppContext;
 public class Main {
     // Resource path pointing to where the WEBROOT is.
     private static final String WEBROOT_INDEX = "/webroot/";
-    private static final Logger logg = LoggerFactory.getLogger(Main.class);
 
     public static void main(String[] args) {
 
@@ -64,9 +61,8 @@ public class Main {
         try {
             server.start();
         } catch (Exception e) {
-            logg.error("Exception while starting server: ", e);
+            System.out.println("Exception while starting server: " + e);
         }
-        logg.debug("Successfully connected to the server");
 
         this.serverURI = getServerUri(connector);
     }
@@ -80,13 +76,13 @@ public class Main {
     private URI getWebRootResourceUri() {
         URL indexUri = this.getClass().getResource(WEBROOT_INDEX);
         if (indexUri == null) {
-            logg.error("Unable to find resource ", WEBROOT_INDEX);
+            System.out.println("Unable to find resource " + WEBROOT_INDEX);
         }
         // Points to wherever /webroot/ (the resource) is
         try {
             return indexUri.toURI();
         } catch (URISyntaxException e) {
-            logg.error("URI Syntax Error: ", e);
+            System.out.println("URI Syntax Error: " + e);
             return null;
         }
     }
@@ -100,7 +96,7 @@ public class Main {
 
         if (!scratchDir.exists()) {
             if (!scratchDir.mkdirs()) {
-                logg.error("Unable to create scratch directory: ", scratchDir);
+                System.out.println("Unable to create scratch directory: " + scratchDir);
             }
         }
         return scratchDir;
@@ -125,6 +121,10 @@ public class Main {
         context.addServlet(jspServletHolder(), "*.jsp");
         context.addServlet(defaultServletHolder(baseUri), context_path);
         context.addServlet(MultipleServlet.class, "/multiple");
+        context.addServlet(DeleteServlet.class, "/delete");
+        context.addServlet(AddClassroomServlet.class, "/addClassroom");
+        context.addServlet(EditClassroomServlet.class, "/editClassroom");
+        context.addServlet(SingleServlet.class, "/single");
 
         context.addServlet(defaultServletHolder(baseUri), "/");
         return context;
@@ -195,7 +195,7 @@ public class Main {
         try {
             serverURI = new URI(String.format("%s://%s:%d/", scheme, host, port));
         } catch (URISyntaxException e) {
-            logg.error("URI Syntax Exception: ", e);
+            System.out.println("URI Syntax Exception: " + e);
         }
         return serverURI;
     }
@@ -209,7 +209,7 @@ public class Main {
         try {
             server.join();
         } catch (InterruptedException e) {
-            logg.error("Interrupted signal: ", e);
+            System.out.println("Interrupted signal: " + e);
         }
     }
 }

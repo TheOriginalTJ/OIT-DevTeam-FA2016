@@ -125,6 +125,7 @@ public class Main {
         context.addServlet(AddClassroomServlet.class, "/addClassroom");
         context.addServlet(EditClassroomServlet.class, "/editClassroom");
         context.addServlet(SingleServlet.class, "/single");
+        context.addServlet(ScheduleServlet.class, "/schedule");
 
         context.addServlet(defaultServletHolder(baseUri), "/");
         return context;

@@ -5,7 +5,6 @@ import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.apache.commons.io.IOUtils;
 
-import OIT_Dev.Class;
 import OIT_Dev.Parser;
 
 import javax.servlet.http.HttpServlet;
@@ -19,15 +18,13 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.List;
 
-public class MultipleServlet extends HttpServlet {
-
+public class ScheduleServlet extends HttpServlet {
     protected void doPost(final HttpServletRequest request, final HttpServletResponse response) {
         response.setContentType("text/html");
         response.setStatus(HttpServletResponse.SC_OK);
 
-
         String file_name = null;
-        FileItem fileItem=null;
+        FileItem fileItem;
         InputStream fileInputStream = null;
 
         //get all parameters from the form
@@ -51,7 +48,7 @@ public class MultipleServlet extends HttpServlet {
         }
 
         File file = new File(file_name);
-       
+        
         try {
         	OutputStream outputStream = new FileOutputStream(file);
 			IOUtils.copy(fileInputStream, outputStream);
@@ -68,9 +65,5 @@ public class MultipleServlet extends HttpServlet {
         ClassList cl = new GUI_Dev.ClassList();
         cl.setClassList(parse.parseClass());
         
-       /* List<Class> classes = cl.getClassList();
-        for(int i=0; i<20; i++){
-        	System.out.println(classes.get(i).getDisc());
-        }*/
     }
 }

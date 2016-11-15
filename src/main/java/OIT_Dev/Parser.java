@@ -1,4 +1,4 @@
-
+package OIT_Dev;
 import java.util.*;
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -11,7 +11,6 @@ Seating Type;Amount of Seats;whiteboard;chalkboard;computer/laptop;sound system;
 video projector;hearing assisted system;visual optimizer;laptop connectivity;
 network connections;overhead projector;podium;projector screen;tv/monitors;piano"
 TOTAL CRITERIA: 25
-
 	CLASSROOM:
 "Building;Roomnum;Seats;Seatingtype;whiteboard;chalkboard;computer;soundsystem;cdplayer;dvdplayer;
 videoprojector;hearingassisted;visualoptimizer;laptopconnectivity;networkconnections;overheadprojector;
@@ -63,7 +62,7 @@ public class Parser {
 					 * [8] = numseats
 					 */
 					Class currentClass = new Class(entries[0],entries[1],entries[2],entries[3],entries[4],entries[5],
-						entries[6],entries[7],entries[8]);
+						entries[6],entries[8],entries[7]);
 					
 					//Review formatting - close on fail
 					if(reviewClass(entries, lineNumber) == false) {
@@ -90,9 +89,9 @@ public class Parser {
 					 * [8] = numseats
 					 */
 					Class currentClass = new Class(entries[0],entries[1],entries[2],entries[3],entries[4],entries[5],
-						entries[6],entries[7],entries[8],entries[9],entries[10],entries[11],entries[12],entries[13],
+						entries[6],entries[8],entries[7],entries[9],entries[10],entries[11],entries[12],entries[13],
 						entries[14],entries[15],entries[16],entries[17],entries[18],entries[19],entries[20],entries[21],
-						entries[22],entries[23],entries[24]);
+						entries[22],entries[23],entries[24],0);
 					
 					//Review formatting - close on fail
 					if(reviewClass(entries, lineNumber) == false) {
@@ -276,13 +275,13 @@ public class Parser {
 		}
 		//e[7] = Seating type
 		//Seating type format check
-		if(e[7].toLowerCase() != "group" && e[7].toLowerCase() != "individual") {
+		if(e[8].toLowerCase().equals("group") && e[8].toLowerCase().equals("individual")) {
 			System.out.println("Error in 'seating type' format (Line: " + line + ") (please use 'group' or 'individual').");
 			return false;
 		}
 		//e[8] = Seat amount
 		//Seat amount isNumeric check
-		if(isNumeric(e[8]) == false) {
+		if(isNumeric(e[7]) == false) {
 			System.out.println("Error in 'seat amount' format; ensure all characters are digits. (Line: " + line + ")");
 			return false;
 		}

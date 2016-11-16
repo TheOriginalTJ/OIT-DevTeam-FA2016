@@ -64,6 +64,11 @@ public class MultipleServlet extends HttpServlet {
         Parser parse = new Parser(file.getAbsolutePath());
         Resource res = new Resource();
         res.classList.setClassList(parse.parseClass());
+        
+        
+        
+        
+        
        
         try {
 			response.sendRedirect("http://localhost:8080/ClassAllocation/result.html");

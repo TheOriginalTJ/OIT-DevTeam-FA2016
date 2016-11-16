@@ -3,8 +3,8 @@ package OIT_Dev;
 public class Classroom {
 	
 	private String building;
-	private int roomnum;
-	private int seats;
+	private String roomnum;
+	private String seats;
 	private String seatingtype;
 	private String whiteboard;
 	private String chalkboard;
@@ -25,7 +25,7 @@ public class Classroom {
 	private Class currentclass;
 	
 	//abridged constructor
-	public Classroom(String building, int roomnum, int seats, String seatingtype){
+	public Classroom(String building, String roomnum, String seats, String seatingtype){
 		this.building = building;
 		this.roomnum = roomnum;
 		this.seats = seats;
@@ -33,7 +33,7 @@ public class Classroom {
 	}// end constructor
 	
 	//full constructor
-	public Classroom(String building, int roomnum, int seats, String seatingtype, String w, String ch,
+	public Classroom(String building, String roomnum, String seats, String seatingtype, String w, String ch,
 			String co, String s, String cd, String dvd, String v, String h, String vis, String l,
 			String n, String o, String pod, String ps, String m, String p) {
 		this.building = building;
@@ -66,19 +66,19 @@ public class Classroom {
 		this.building = building;
 	}
 
-	public int getRoomnum() {
+	public String getRoomnum() {
 		return roomnum;
 	}
 
-	public void setRoomnum(int roomnum) {
+	public void setRoomnum(String roomnum) {
 		this.roomnum = roomnum;
 	}
 
 	public int getSeats() {
-		return seats;
+		return Integer.parseInt(seats);
 	}
 
-	public void setSeats(int seats) {
+	public void setSeats(String seats) {
 		this.seats = seats;
 	}
 

@@ -1,3 +1,4 @@
+package OIT_Dev;
 
 import java.util.*;
 import java.io.BufferedReader;
@@ -11,7 +12,6 @@ Seating Type;Amount of Seats;whiteboard;chalkboard;computer/laptop;sound system;
 video projector;hearing assisted system;visual optimizer;laptop connectivity;
 network connections;overhead projector;podium;projector screen;tv/monitors;piano"
 TOTAL CRITERIA: 25
-
 	CLASSROOM:
 "Building;Roomnum;Seats;Seatingtype;whiteboard;chalkboard;computer;soundsystem;cdplayer;dvdplayer;
 videoprojector;hearingassisted;visualoptimizer;laptopconnectivity;networkconnections;overheadprojector;

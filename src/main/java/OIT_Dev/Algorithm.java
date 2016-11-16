@@ -56,19 +56,42 @@ public class Algorithm {
                 newSol.setGene(i, sched2.getGene(i));
             }
         }
+        for(int i = 0; i < sched1.size(); i++){
+        	for(int j = 0; j < sched1.size(); j++){
+        		
+        	}
+        }
+        for(int i = 0; i < sched1.size(); i++){
+        	for(int j = 0; j < sched1.size(); j++){
+        		
+        	}
+        }
         return newSol;
     }
 
-    // Mutate a schedule
+    // Mutate an ENTIRE SCHEDULE
     private static void mutate(Schedule sched) {
-        // Loop through genes
+        /*// Loop through genes
         for (int i = 0; i < sched.size(); i++) {
             if (Math.random() <= mutationRate) {
                 // Create random gene
-                byte gene = (byte) Math.round(Math.random());
+            	int newBuilding = (int)(Math.random()*100)%8;
+                Class gene = new Class(sched.getGene(i));
                 sched.setGene(i, gene);
             }
-        }
+        }*/
+    	for(int i = 0; i < sched.genecount; i++){
+    		boolean mutate;
+    		if(Math.random() <= mutationRate){
+    			mutate = true;
+    		}
+    		else{
+    			mutate = false;
+    		}
+    		if(mutate){
+    			sched.mutateRoom(i);
+    		}
+		}
     }
 
     // Select sched for crossover

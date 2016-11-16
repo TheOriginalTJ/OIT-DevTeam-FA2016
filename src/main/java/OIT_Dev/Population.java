@@ -52,4 +52,14 @@ public class Population {
 	public void saveSched(int index, Schedule sch) {
 		schedules[index] = sch;
 	}
+	
+	
+	public void evolve(int i, Population myPop){
+		for (int j = 0; j < i; j++) {
+            myPop = Algorithm.evolvePopulation(myPop);
+        }
+		
+		System.out.println("Fittest: " + myPop.getFittest() 
+			+ "Fitness: " + myPop.getFittest().getFitness());
+	}
 }

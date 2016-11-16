@@ -1,3 +1,4 @@
+package OIT_Dev;
 
 import java.util.*;
 import java.io.BufferedReader;
@@ -11,7 +12,6 @@ Seating Type;Amount of Seats;whiteboard;chalkboard;computer/laptop;sound system;
 video projector;hearing assisted system;visual optimizer;laptop connectivity;
 network connections;overhead projector;podium;projector screen;tv/monitors;piano"
 TOTAL CRITERIA: 25
-
 	CLASSROOM:
 "Building;Roomnum;Seats;Seatingtype;whiteboard;chalkboard;computer;soundsystem;cdplayer;dvdplayer;
 videoprojector;hearingassisted;visualoptimizer;laptopconnectivity;networkconnections;overheadprojector;
@@ -21,7 +21,7 @@ TOTAL CRITERIA: 20
 
 public class Parser {
 
-	private final String COMMA = ",";
+	private final String TAB = "\t";
 	private String csvFile;
 	List<Class> classList = null;
 	List<Classroom> classroomList = null;
@@ -45,7 +45,7 @@ public class Parser {
 			while((currentLine = reader.readLine()) != null) {
 				
 				//Split current line into 'entries' array
-				String[] entries = currentLine.split(COMMA);
+				String[] entries = currentLine.split(TAB);
 				
 				//Check to make sure there is enough criteria to create a Class
 				if(entries.length == 9) {
@@ -142,7 +142,7 @@ public class Parser {
 			while((currentLine = reader.readLine()) != null) {
 				
 				//Split current line into 'entries' array
-				String[] entries = currentLine.split(COMMA);
+				String[] entries = currentLine.split(TAB);
 				
 				//Check to make sure there is enough criteria to create a Classroom
 				if(entries.length == 20) {

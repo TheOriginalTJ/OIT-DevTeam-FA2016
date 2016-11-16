@@ -1,16 +1,13 @@
-package OIT_Dev;
-
-
 
 public class Class {
 	
-	private String disc;
 	private String classnum;
 	private String sectionnum;
 	private String courseName;
 	private String instructorID;
 	private String meetingDays;
-	private String classTimes;
+	private String startTime;
+	private String endTime;
 	private String seatingType;
 	private String numseats;
 	private String cb_whiteboard;
@@ -33,22 +30,21 @@ public class Class {
 	private double score;
 
 	//constructor
-	public Class(String disc, String classnum, String sectionnum, String courseName, 
-			String instructorID, String meetingDays, String classTimes, String seatingType, 
+	public Class(String classnum, String sectionnum, String courseName, 
+			String instructorID, String meetingDays, String startTime, String endTime, String seatingType, 
 			String numseats, String cb_whiteboard, String cb_chalkboard,
 			String cb_computer, String cb_soundsystem, String cb_cdplayer,
 			String cb_dvdplayer, String cb_videoprojector, String cb_hearingassisted,
 			String cb_visualoptimizer, String cb_laptopconnectivity,
 			String cb_networkconnections, String cb_overheadprojector,
-			String cb_podium, String cb_projectorscreen, String cb_monitors, String cb_piano,
-			double score) { 
-		this.disc = disc;
+			String cb_podium, String cb_projectorscreen, String cb_monitors, String cb_piano) { 
 		this.classnum = classnum;
 		this.sectionnum = sectionnum;
 		this.courseName = courseName;
 		this.instructorID = instructorID;
 		this.meetingDays = meetingDays;
-		this.classTimes = classTimes;
+		this.startTime = startTime;
+		this.endTime = endTime;
 		this.seatingType = seatingType;
 		this.numseats = numseats;
 		this.cb_whiteboard = cb_whiteboard;
@@ -71,16 +67,16 @@ public class Class {
 	} // end constructor
 	
 	//abridged constructor
-	public Class(String disc, String classnum, String sectionnum, String courseName, 
-			String instructorID, String meetingDays, String classTimes, String seatingType, 
+	public Class(String classnum, String sectionnum, String courseName, 
+			String instructorID, String meetingDays, String startTime, String endTime, String seatingType, 
 			String numseats) {
-		this.disc = disc;
 		this.classnum = classnum;
 		this.sectionnum = sectionnum;
 		this.courseName = courseName;
 		this.instructorID = instructorID;
 		this.meetingDays = meetingDays;
-		this.classTimes = classTimes;
+		this.startTime = startTime;
+		this.endTime = endTime;
 		this.seatingType = seatingType;
 		this.numseats = numseats;
 		this.cb_whiteboard = "n";
@@ -103,13 +99,13 @@ public class Class {
 	
 	//abridged constructor
 		public Class(Class oldClass) {
-			this.disc = oldClass.disc;
 			this.classnum = oldClass.classnum;
 			this.sectionnum = oldClass.sectionnum;
 			this.courseName = oldClass.courseName;
 			this.instructorID = oldClass.instructorID;
 			this.meetingDays = oldClass.meetingDays;
-			this.classTimes = oldClass.classTimes;
+			this.startTime = oldClass.startTime;
+			this.endTime = oldClass.endTime;
 			this.seatingType = oldClass.seatingType;
 			this.numseats = oldClass.numseats;
 			this.cb_whiteboard = oldClass.cb_whiteboard;
@@ -292,16 +288,6 @@ public class Class {
 			score = actual/possible;
 		}
 	}
-	
-	
-	
-	public String getDisc() {
-		return disc;
-	}
-
-	public void setDisc(String disc) {
-		this.disc = disc;
-	}
 
 	public String getClassnum() {
 		return classnum;
@@ -343,12 +329,20 @@ public class Class {
 		this.meetingDays = meetingDays;
 	}
 
-	public String getClassTimes() {
-		return classTimes;
+	public String getStartTime() {
+		return startTime;
 	}
 
-	public void setClassTimes(String classTimes) {
-		this.classTimes = classTimes;
+	public void setStartTime(String startTime) {
+		this.startTime = startTime;
+	}
+	
+	public String getEndTime() {
+		return endTime;
+	}
+
+	public void setEndTime(String endTime) {
+		this.endTime = endTime;
 	}
 
 	public String getSeatingType() {
@@ -513,8 +507,7 @@ public class Class {
 	}
 	
 	public boolean equalTo(Class cmpr){//Pass in the comparative class so we can check.
-		if((this.getDisc().equals(cmpr.getDisc()))//A really, really
-			&&(this.getClassnum().equals(cmpr.getClassnum()))//Really...
+			if(this.getClassnum().equals(cmpr.getClassnum())//Really...
 				&&(this.getSectionnum().equals(cmpr.getSectionnum()))){//long if statement.
 			return true;
 		}

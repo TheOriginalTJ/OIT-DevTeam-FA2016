@@ -62,8 +62,10 @@ public class ScheduleServlet extends HttpServlet {
         System.out.println(file.length());*/
         
         Parser parse = new Parser(file.getAbsolutePath());
-        ClassList cl = new GUI_Dev.ClassList();
-        cl.setClassList(parse.parseClass());
+        Resource res = new Resource();
+        res.classList.setClassList(parse.parseClass());
+        /*ClassList cl = new GUI_Dev.ClassList();
+        cl.setClassList(parse.parseClass());*/
         
     }
 }

@@ -1,9 +1,18 @@
 package GUI_Dev;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import OIT_Dev.Class;
+
 public class DeleteServlet extends HttpServlet {
+	
+	private List<Class> filteredList;
 
     protected void doPost(final HttpServletRequest request, final HttpServletResponse response) {
         response.setContentType("text/html");
@@ -16,5 +25,67 @@ public class DeleteServlet extends HttpServlet {
         /*System.out.println(discipline);
         System.out.println(courseNumber);
         System.out.println(instructor);*/
+        
+        //ClassList cl = new ClassList();
+        //List<Class> classList = cl.getClassList();
+        Resource res = new Resource();
+        List<Class> classList = res.classList.getClassList();
+        
+        List<Class> filtered = new ArrayList<Class>();
+        
+        for(int i=0; i<classList.size(); i++){
+        	if(!discipline.equals("") && discipline.equals(classList.get(i).getDisc())){
+        		filtered.add(classList.get(i));
+        	}
+        	if(!courseNumber.equals("") && courseNumber.equals(classList.get(i).getDisc())){
+        		filtered.add(classList.get(i));
+        	}
+        	if(!instructor.equals("") && instructor.equals(classList.get(i).getInstructorID())){
+        		filtered.add(classList.get(i));
+        	}
+        }
+        
+        setFilteredList(filtered);
+        
+        /*for(int i=0; i<filtered.size(); i++){
+        	System.out.println(filtered.get(i).getCourseName());
+        }*/
+       /* try {
+			response.getWriter().print("<button type='button' class='btn btn-info btn-lg' data-toggle='modal' data-target='#myModal'>Open Modal</button>");
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}*/
+    
     }
+
+	public List<Class> getFilteredList() {
+		return filteredList;
+	}
+
+	public void setFilteredList(List<Class> filteredList) {
+		this.filteredList = filteredList;
+	}
+    
 }

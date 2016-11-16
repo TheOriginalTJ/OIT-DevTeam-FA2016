@@ -61,19 +61,10 @@ public class MultipleServlet extends HttpServlet {
 			e.printStackTrace();
 		}
         
-        /*System.out.println(file.getAbsolutePath());
-        System.out.println(file.length());*/
-        
         Parser parse = new Parser(file.getAbsolutePath());
         Resource res = new Resource();
         res.classList.setClassList(parse.parseClass());
-       // ClassList cl = new GUI_Dev.ClassList();
-       // cl.setClassList(parse.parseClass());
-        
-        /*List<Class> classes = cl.getClassList();
-        for(int i=0; i<20; i++){
-        	System.out.println(classes.get(i).getDisc());
-        }*/
+       
         try {
 			response.sendRedirect("http://localhost:8080/ClassAllocation/result.html");
 		} catch (IOException e) {

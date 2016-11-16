@@ -58,14 +58,9 @@ public class ScheduleServlet extends HttpServlet {
 			e.printStackTrace();
 		}
         
-        /*System.out.println(file.getAbsolutePath());
-        System.out.println(file.length());*/
-        
         Parser parse = new Parser(file.getAbsolutePath());
         Resource res = new Resource();
         res.classList.setClassList(parse.parseClass());
-        /*ClassList cl = new GUI_Dev.ClassList();
-        cl.setClassList(parse.parseClass());*/
         
     }
 }

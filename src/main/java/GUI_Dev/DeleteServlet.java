@@ -26,8 +26,7 @@ public class DeleteServlet extends HttpServlet {
         System.out.println(courseNumber);
         System.out.println(instructor);*/
         
-        //ClassList cl = new ClassList();
-        //List<Class> classList = cl.getClassList();
+        
         Resource res = new Resource();
         List<Class> classList = res.classList.getClassList();
         

@@ -3,8 +3,8 @@ package OIT_Dev;
 public class Classroom {
 	
 	private String building;
-	private String roomnum;
-	private String seats;
+	private int roomnum;
+	private int seats;
 	private String seatingtype;
 	private String whiteboard;
 	private String chalkboard;
@@ -25,7 +25,7 @@ public class Classroom {
 	private Class currentclass;
 	
 	//abridged constructor
-	public Classroom(String building, String roomnum, String seats, String seatingtype){
+	public Classroom(String building, int roomnum, int seats, String seatingtype){
 		this.building = building;
 		this.roomnum = roomnum;
 		this.seats = seats;
@@ -33,7 +33,7 @@ public class Classroom {
 	}// end constructor
 	
 	//full constructor
-	public Classroom(String building, String roomnum, String seats, String seatingtype, String w, String ch,
+	public Classroom(String building, int roomnum, int seats, String seatingtype, String w, String ch,
 			String co, String s, String cd, String dvd, String v, String h, String vis, String l,
 			String n, String o, String pod, String ps, String m, String p) {
 		this.building = building;
@@ -66,19 +66,19 @@ public class Classroom {
 		this.building = building;
 	}
 
-	public String getRoomnum() {
+	public int getRoomnum() {
 		return roomnum;
 	}
 
-	public void setRoomnum(String roomnum) {
+	public void setRoomnum(int roomnum) {
 		this.roomnum = roomnum;
 	}
 
-	public String getSeats() {
+	public int getSeats() {
 		return seats;
 	}
 
-	public void setSeats(String seats) {
+	public void setSeats(int seats) {
 		this.seats = seats;
 	}
 
@@ -90,128 +90,176 @@ public class Classroom {
 		this.seatingtype = seatingtype;
 	}
 
-	public String isWhiteboard() {
-		return whiteboard;
+	public boolean isWhiteboard() {
+		if(whiteboard.equals("y")){
+			return true;
+		}
+		return false;
 	}
 
 	public void setWhiteboard(String whiteboard) {
 		this.whiteboard = whiteboard;
 	}
 
-	public String isChalkboard() {
-		return chalkboard;
+	public boolean isChalkboard() {
+		if(chalkboard.equals("y")){
+			return true;
+		}
+		return false;
 	}
 
 	public void setChalkboard(String chalkboard) {
 		this.chalkboard = chalkboard;
 	}
 
-	public String isComputer() {
-		return computer;
+	public boolean isComputer() {
+		if(computer.equals("y")){
+			return true;
+		}
+		return false;
 	}
 
 	public void setComputer(String computer) {
 		this.computer = computer;
 	}
 
-	public String isSoundsystem() {
-		return soundsystem;
+	public boolean isSoundsystem() {
+		if(soundsystem.equals("y")){
+			return true;
+		}
+		return false;
 	}
 
 	public void setSoundsystem(String soundsystem) {
 		this.soundsystem = soundsystem;
 	}
 
-	public String isCdplayer() {
-		return cdplayer;
+	public boolean isCdplayer() {
+		if(cdplayer.equals("y")){
+			return true;
+		}
+		return false;
 	}
 
 	public void setCdplayer(String cdplayer) {
 		this.cdplayer = cdplayer;
 	}
 
-	public String isDvdplayer() {
-		return dvdplayer;
+	public boolean isDvdplayer() {
+		if(dvdplayer.equals("y")){
+			return true;
+		}
+		return false;
 	}
 
 	public void setDvdplayer(String dvdplayer) {
 		this.dvdplayer = dvdplayer;
 	}
 
-	public String isVideoprojector() {
-		return videoprojector;
+	public boolean isVideoprojector() {
+		if(videoprojector.equals("y")){
+			return true;
+		}
+		return false;
 	}
 
 	public void setVideoprojector(String videoprojector) {
 		this.videoprojector = videoprojector;
 	}
 
-	public String isHearingassisted() {
-		return hearingassisted;
+	public boolean isHearingassisted() {
+		if(hearingassisted.equals("y")){
+			return true;
+		}
+		return false;
 	}
 
 	public void setHearingassisted(String hearingassisted) {
 		this.hearingassisted = hearingassisted;
 	}
 
-	public String isVisualoptimizer() {
-		return visualoptimizer;
+	public boolean isVisualoptimizer() {
+		if(visualoptimizer.equals("y")){
+			return true;
+		}
+		return false;
 	}
 
 	public void setVisualoptimizer(String visualoptimizer) {
 		this.visualoptimizer = visualoptimizer;
 	}
 
-	public String isLaptopconnectivity() {
-		return laptopconnectivity;
+	public boolean isLaptopconnectivity() {
+		if(laptopconnectivity.equals("y")){
+			return true;
+		}
+		return false;
 	}
 
 	public void setLaptopconnectivity(String laptopconnectivity) {
 		this.laptopconnectivity = laptopconnectivity;
 	}
 
-	public String isNetworkconnections() {
-		return networkconnections;
+	public boolean isNetworkconnections() {
+		if(networkconnections.equals("y")){
+			return true;
+		}
+		return false;
 	}
 
 	public void setNetworkconnections(String networkconnections) {
 		this.networkconnections = networkconnections;
 	}
 
-	public String isOverheadprojector() {
-		return overheadprojector;
+	public boolean isOverheadprojector() {
+		if(overheadprojector.equals("y")){
+			return true;
+		}
+		return false;
 	}
 
 	public void setOverheadprojector(String overheadprojector) {
 		this.overheadprojector = overheadprojector;
 	}
 
-	public String isPodium() {
-		return podium;
+	public boolean isPodium() {
+		if(podium.equals("y")){
+			return true;
+		}
+		return false;
 	}
 
 	public void setPodium(String podium) {
 		this.podium = podium;
 	}
 
-	public String isProjectorscreen() {
-		return projectorscreen;
+	public boolean isProjectorscreen() {
+		if(projectorscreen.equals("y")){
+			return true;
+		}
+		return false;
 	}
 
 	public void setProjectorscreen(String projectorscreen) {
 		this.projectorscreen = projectorscreen;
 	}
 
-	public String isMonitors() {
-		return monitors;
+	public boolean isMonitors() {
+		if(monitors.equals("y")){
+			return true;
+		}
+		return false;
 	}
 
 	public void setMonitors(String monitors) {
 		this.monitors = monitors;
 	}
 
-	public String isPiano() {
-		return piano;
+	public boolean isPiano() {
+		if(piano.equals("y")){
+			return true;
+		}
+		return false;
 	}
 
 	public void setPiano(String piano) {
@@ -219,11 +267,27 @@ public class Classroom {
 	}
 
 	public Class getCurrentclass() {
-		return currentclass;
+		return this.currentclass;
 	}
 
 	public void setCurrentclass(Class currentclass) {
 		this.currentclass = currentclass;
 	}
 
+	public boolean isTaken(){
+		if(this.currentclass == null){
+			return false;
+		}
+		return true;
+	}
+	
+	public boolean equalTo(Classroom cmpr){//Pass in the comparative class so we can check.
+		if((this.getBuilding().equals(cmpr.getBuilding()))//A really, really
+			&&(this.getRoomnum() == cmpr.getRoomnum())){//long if statement.
+			return true;
+		}
+		else
+			return false;
+	}
+	
 }

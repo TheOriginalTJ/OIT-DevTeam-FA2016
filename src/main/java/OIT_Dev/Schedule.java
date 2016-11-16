@@ -10,16 +10,67 @@ public class Schedule {
 	// Cache
 	private double fitness = 0;
 	
-	public Schedule(String fileName, ArrayList<Classroom> roomList)
-	{
+	public int roomlength;
+	public int genecount;
+	
+	public Schedule(){
+		
+	}
+	
+	public void mutateRoom(int index){
+		Classroom initial = getGene(index).getRoomchoice();
+		int j = (int) (Math.random()*100)%roomlength;
+		
+		if(getRoom(j).isTaken()){
+			Class replace = getRoom(j).getCurrentclass();
+			for(int i = 0; i < genecount; i++){
+				if(getGene(i).equalTo(replace)){
+					//Swap classes
+					initial.setCurrentclass(replace);
+					getRoom(j).setCurrentclass(getGene(index));
+					//Swap Classrooms
+					getGene(index).setRoomchoice(getRoom(j));
+					replace.setRoomchoice(initial);
+					//Exit for-loop.
+					break;
+				}
+				else{
+					//do nothing and progress through loop.
+				}
+			}
+		}else{//If room is empty, simply update items and move rooms.
+			genes.get(index).setRoomchoice(rooms.get(j));
+			rooms.get(j).setCurrentclass(genes.get(index));
+		}
+	}
+	
+	public void loadSchedule(String fileName, ArrayList<Classroom> roomList){
 		Parser myParser = new Parser(fileName);
 		genes = new ArrayList<Class>(myParser.parse());
+		genecount = genes.size();
 		rooms = new ArrayList<Classroom>(roomList);
+		roomlength = rooms.size();
 	}
 
 	// Create a random schedule
 	public void generateSched() {
-		
+		for(int i = 0; i < size(); i++){
+			int j = (int) (Math.random()*100)%rooms.size();
+			int count = 0;
+			while(rooms.get(j).isTaken()){
+				if(j < rooms.size()-1){
+					j++;
+				}else{
+					j = 0;
+				}
+				count += 1;
+				if(count == rooms.size()){
+					break;//HERE WE WILL THROW AN ERROR LATER ON.
+				}
+			}
+			genes.get(i).setRoomchoice(rooms.get(j));
+			rooms.get(j).setCurrentclass(genes.get(i));
+		}
 	}
 
 	/* Getters and setters */
@@ -40,6 +91,14 @@ public class Schedule {
 		fitness = 0;
 	}
 	
+	public Classroom getRoom(int index) {
+		return rooms.get(index);
+	}
+
+	public void setRoom(int index, Classroom room) {
+		rooms.set(index, room);
+	}
+
 
 	/* Public methods */
 	public int size() {
@@ -77,8 +136,7 @@ public class Schedule {
 						}
 						else{
 							return false;//If even ONE CLASS is in a different location, 
-											//then the schedules are NOT EQUAL.
-						}
+						}//then the schedules are NOT EQUAL.
 					}
 				}
 			}

@@ -1,6 +1,7 @@
 package OIT_Dev;
 
 
+
 public class Class {
 	
 	private String disc;
@@ -100,8 +101,36 @@ public class Class {
 		this.cb_piano = "n";
 	}
 	
-	
-	
+	//abridged constructor
+		public Class(Class oldClass) {
+			this.disc = oldClass.disc;
+			this.classnum = oldClass.classnum;
+			this.sectionnum = oldClass.sectionnum;
+			this.courseName = oldClass.courseName;
+			this.instructorID = oldClass.instructorID;
+			this.meetingDays = oldClass.meetingDays;
+			this.classTimes = oldClass.classTimes;
+			this.seatingType = oldClass.seatingType;
+			this.numseats = oldClass.numseats;
+			this.cb_whiteboard = oldClass.cb_whiteboard;
+			this.cb_chalkboard = oldClass.cb_chalkboard;
+			this.cb_computer = oldClass.cb_computer;
+			this.cb_soundsystem = oldClass.cb_soundsystem;
+			this.cb_cdplayer = oldClass.cb_cdplayer;
+			this.cb_dvdplayer = oldClass.cb_dvdplayer;
+			this.cb_videoprojector = oldClass.cb_videoprojector;
+			this.cb_hearingassisted = oldClass.cb_hearingassisted;
+			this.cb_visualoptimizer = oldClass.cb_visualoptimizer;
+			this.cb_laptopconnectivity = oldClass.cb_laptopconnectivity;
+			this.cb_networkconnections = oldClass.cb_networkconnections;
+			this.cb_overheadprojector = oldClass.cb_overheadprojector;
+			this.cb_podium = oldClass.cb_podium;
+			this.cb_projectorscreen = oldClass.cb_projectorscreen;
+			this.cb_monitors = oldClass.cb_monitors;
+			this.cb_piano = oldClass.cb_piano;
+			this.score = 0;
+		}
+
 	public void calcScore(){
 		double actual = 0;
 		double possible = 0;
@@ -115,7 +144,7 @@ public class Class {
 			possible++;
 		}
 
-		if(this.getNumseats() <= Integer.getInteger(room.getSeats()) + 5){
+		if(this.getNumseats() <= room.getSeats() + 5){
 			possible++;
 			actual++;
 		}else{
@@ -124,7 +153,7 @@ public class Class {
 		
 		if(this.getCb_whiteboard().equals("n")){
 			//DON'T ADD TO TOTAL ACTUAL OR TOTAL POSSIBLE.
-		}else if(this.getCb_whiteboard().equals("y") && room.isWhiteboard().equals("y")){
+		}else if(this.getCb_whiteboard().equals("y") && room.isWhiteboard()){
 			possible++;
 			actual++;
 		}else{//Increment possible and not total to denote a failure to meet a requirement.
@@ -133,7 +162,7 @@ public class Class {
 		
 		if(this.getCb_chalkboard().equals("n")){
 			//DON'T ADD TO TOTAL ACTUAL OR TOTAL POSSIBLE.
-		}else if(this.getCb_chalkboard().equals("y") && room.isChalkboard().equals("y")){
+		}else if(this.getCb_chalkboard().equals("y") && room.isChalkboard()){
 			possible++;
 			actual++;
 		}else{//Increment possible and not total to denote a failure to meet a requirement.
@@ -142,7 +171,7 @@ public class Class {
 
 		if(this.getCb_computer().equals("n")){
 			//DON'T ADD TO TOTAL ACTUAL OR TOTAL POSSIBLE.
-		}else if(this.getCb_computer().equals("y") && room.isComputer().equals("y")){
+		}else if(this.getCb_computer().equals("y") && room.isComputer()){
 			possible++;
 			actual++;
 		}else{//Increment possible and not total to denote a failure to meet a requirement.
@@ -151,7 +180,7 @@ public class Class {
 		
 		if(this.getCb_soundsystem().equals("n")){
 			//DON'T ADD TO TOTAL ACTUAL OR TOTAL POSSIBLE.
-		}else if(this.getCb_soundsystem().equals("y") && room.isSoundsystem().equals("y")){
+		}else if(this.getCb_soundsystem().equals("y") && room.isSoundsystem()){
 			possible++;
 			actual++;
 		}else{//Increment possible and not total to denote a failure to meet a requirement.
@@ -160,7 +189,7 @@ public class Class {
 	
 		if(this.getCb_cdplayer().equals("n")){
 			//DON'T ADD TO TOTAL ACTUAL OR TOTAL POSSIBLE.
-		}else if(this.getCb_cdplayer().equals("y") && room.isCdplayer().equals("y")){
+		}else if(this.getCb_cdplayer().equals("y") && room.isCdplayer()){
 			possible++;
 			actual++;
 		}else{//Increment possible and not total to denote a failure to meet a requirement.
@@ -169,7 +198,7 @@ public class Class {
 	
 		if(this.getCb_dvdplayer().equals("n")){
 			//DON'T ADD TO TOTAL ACTUAL OR TOTAL POSSIBLE.
-		}else if(this.getCb_dvdplayer().equals("y") && room.isDvdplayer().equals("y")){
+		}else if(this.getCb_dvdplayer().equals("y") && room.isDvdplayer()){
 			possible++;
 			actual++;
 		}else{//Increment possible and not total to denote a failure to meet a requirement.
@@ -178,7 +207,7 @@ public class Class {
 		
 		if(this.getCb_videoprojector().equals("n")){
 			//DON'T ADD TO TOTAL ACTUAL OR TOTAL POSSIBLE.
-		}else if(this.getCb_videoprojector().equals("y") && room.isVideoprojector().equals("y")){
+		}else if(this.getCb_videoprojector().equals("y") && room.isVideoprojector()){
 			possible++;
 			actual++;
 		}else{//Increment possible and not total to denote a failure to meet a requirement.
@@ -187,7 +216,7 @@ public class Class {
 		
 		if(this.getCb_hearingassisted().equals("n")){
 			//DON'T ADD TO TOTAL ACTUAL OR TOTAL POSSIBLE.
-		}else if(this.getCb_hearingassisted().equals("y") && room.isHearingassisted().equals("y")){
+		}else if(this.getCb_hearingassisted().equals("y") && room.isHearingassisted()){
 			possible++;
 			actual++;
 		}else{//Increment possible and not total to denote a failure to meet a requirement.
@@ -196,7 +225,7 @@ public class Class {
 	
 		if(this.getCb_visualoptimizer().equals("n")){
 			//DON'T ADD TO TOTAL ACTUAL OR TOTAL POSSIBLE.
-		}else if(this.getCb_visualoptimizer().equals("y") && room.isVisualoptimizer().equals("y")){
+		}else if(this.getCb_visualoptimizer().equals("y") && room.isVisualoptimizer()){
 			possible++;
 			actual++;
 		}else{//Increment possible and not total to denote a failure to meet a requirement.
@@ -205,7 +234,7 @@ public class Class {
 		
 		if(this.getCb_laptopconnectivity().equals("n")){
 			//DON'T ADD TO TOTAL ACTUAL OR TOTAL POSSIBLE.
-		}else if(this.getCb_laptopconnectivity().equals("y") && room.isLaptopconnectivity().equals("y")){
+		}else if(this.getCb_laptopconnectivity().equals("y") && room.isLaptopconnectivity()){
 			possible++;
 			actual++;
 		}else{//Increment possible and not total to denote a failure to meet a requirement.
@@ -214,7 +243,7 @@ public class Class {
 	
 		if(this.getCb_networkconnections().equals("n")){
 			//DON'T ADD TO TOTAL ACTUAL OR TOTAL POSSIBLE.
-		}else if(this.getCb_networkconnections().equals("y") && room.isNetworkconnections().equals("y")){
+		}else if(this.getCb_networkconnections().equals("y") && room.isNetworkconnections()){
 			possible++;
 			actual++;
 		}else{//Increment possible and not total to denote a failure to meet a requirement.
@@ -223,7 +252,7 @@ public class Class {
 
 		if(this.getCb_overheadprojector().equals("n")){
 			//DON'T ADD TO TOTAL ACTUAL OR TOTAL POSSIBLE.
-		}else if(this.getCb_overheadprojector().equals("y") && room.isOverheadprojector().equals("y")){
+		}else if(this.getCb_overheadprojector().equals("y") && room.isOverheadprojector()){
 			possible++;
 			actual++;
 		}else{//Increment possible and not total to denote a failure to meet a requirement.
@@ -232,7 +261,7 @@ public class Class {
 
 		if(this.getCb_podium().equals("n")){
 			//DON'T ADD TO TOTAL ACTUAL OR TOTAL POSSIBLE.
-		}else if(this.getCb_podium().equals("y") && room.isPodium().equals("y")){
+		}else if(this.getCb_podium().equals("y") && room.isPodium()){
 			possible++;
 			actual++;
 		}else{//Increment possible and not total to denote a failure to meet a requirement.
@@ -241,7 +270,7 @@ public class Class {
 		
 		if(this.getCb_monitors().equals("n")){
 			//DON'T ADD TO TOTAL ACTUAL OR TOTAL POSSIBLE.
-		}else if(this.getCb_monitors().equals("y") && room.isMonitors().equals("y")){
+		}else if(this.getCb_monitors().equals("y") && room.isMonitors()){
 			possible++;
 			actual++;
 		}else{//Increment possible and not total to denote a failure to meet a requirement.
@@ -250,7 +279,7 @@ public class Class {
 		
 		if(this.getCb_piano().equals("n")){
 			//DON'T ADD TO TOTAL ACTUAL OR TOTAL POSSIBLE.
-		}else if(this.getCb_piano().equals("y") && room.isPiano().equals("y")){
+		}else if(this.getCb_piano().equals("y") && room.isPiano()){
 			possible++;
 			actual++;
 		}else{//Increment possible and not total to denote a failure to meet a requirement.
@@ -481,5 +510,15 @@ public class Class {
 
 	public double getScore(){
 	    return score;
+	}
+	
+	public boolean equalTo(Class cmpr){//Pass in the comparative class so we can check.
+		if((this.getDisc().equals(cmpr.getDisc()))//A really, really
+			&&(this.getClassnum().equals(cmpr.getClassnum()))//Really...
+				&&(this.getSectionnum().equals(cmpr.getSectionnum()))){//long if statement.
+			return true;
+		}
+		else
+			return false;
 	}
 }

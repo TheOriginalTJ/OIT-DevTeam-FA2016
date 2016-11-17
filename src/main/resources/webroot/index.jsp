@@ -81,10 +81,10 @@
             </div>
         </form>
         <h1> </h1>
-        <center><h5>Example CSV</h5></center>
-        <center><img src="exampleCSV.png" alt="Example CSV" style="width:1250px;"><center>
-        <a class="btn btn-default" href="http://localhost:8080/ClassAllocation/ExampleCSV.csv">
-            Download Example CSV File</a>
+        <center><h5>Example TXT (Separated by tabs)</h5></center>
+        <center><img src="exampleTXT.png" alt="Example TXT (Separated by tabs)" style="width:1250px;"><center>
+        <a class="btn btn-default" href="http://localhost:8080/ClassAllocation/ExampleTXT.txt" download>
+            Download Example TXT File</a>
     </div>
 
 

@@ -295,7 +295,7 @@ public class Parser {
 				return false;
 			}
 			//Character check
-			if(e[i] != "y" && e[i] != "n") {
+			if(e[i].equals("y") && e[i].equals("n")) {
 				System.out.println("Error in checkbox criteria format - line: " + line + "/entry: " + i + " (please "
 						+ "use 'y' or 'n' only for checkbox criteria.");
 				return false;
@@ -308,10 +308,10 @@ public class Parser {
 		//e[0] = building
 		//e[1] = roomnum
 		//Room number isNumeric check
-		if(isNumeric(e[1]) == false) {
+		/*if(isNumeric(e[1]) == false) {
 			System.out.println("Error in room number format; ensure all characters are digits. (Line: " + line + ")");
 			return false;
-		}
+		}*/
 		//e[2] = seats
 		//Seat amount isNumeric check
 		if(isNumeric(e[2]) == false) {
@@ -320,7 +320,7 @@ public class Parser {
 		}
 		//e[3] = seatingtype
 		//Seating type format check
-		if(e[3].toLowerCase() != "group" && e[3].toLowerCase() != "individual") {
+		if(e[3].toLowerCase().equals("group") && e[3].toLowerCase().equals("individual")) {
 			System.out.println("Error in 'seating type' format (Line: " + line + ") (please use 'group' or 'individual').");
 			return false;
 		}
@@ -333,7 +333,7 @@ public class Parser {
 				return false;
 			}
 			//Character check
-			if(e[i] != "y" && e[i] != "n") {
+			if(e[i].equals("y") && e[i].equals("n")) {
 				System.out.println("Error in checkbox criteria format - line: " + line + "/entry: " + i + " (please "
 						+ "use 'y' or 'n' only for checkbox criteria.");
 				return false;

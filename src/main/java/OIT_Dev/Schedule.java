@@ -14,7 +14,7 @@ public class Schedule {
 	public int genecount;
 	
 	public Schedule(){
-		
+		loadSchedule();
 	}
 	
 	public void mutateRoom(int index){
@@ -167,5 +167,3 @@ public class Schedule {
 	}
 	*/
 }
-
-

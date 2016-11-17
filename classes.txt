@@ -1,0 +1,524 @@
+Course #	Section #	Course Name	Instructor ID	days	beg_tm	end_tm	Number of Slots	Seating type	 Whiteboard	 Chalkboard	 Computer/Laptop	 Sound System	 CD Player	 DVD Player	 Video Projector	 Hearing Assisted System	 Visual Optimizer	 Laptop Connectivity	 Network Connections	 Overhead Projector	 Podium	 Projector Screen	 TV/Monitors	 Piano
+AADS214	1	AFRICA AND AFRICAN DIASPORA	123456	-M-W-F-	920	1030	29	group	y	n	y	y	y	y	n	y	n	y	n	n	n	n	y	y
+ANTH101	1	INTRO TO ANTHROPOLOGY	123456	-M-W-F-	800	910	46	group	n	n	n	n	y	y	y	y	n	y	n	y	n	n	n	y
+ANTH101	2	INTRO TO ANTHROPOLOGY	123456	--T-R--	1000	1150	46	group	n	n	n	n	y	y	y	y	n	y	n	y	n	n	n	y
+ANTH101	3	INTRO TO ANTHROPOLOGY	123456	--T-R--	1400	1550	46	group	n	n	n	n	y	y	y	y	n	y	n	y	n	n	n	y
+ANTH201	1	ANTHROPOLOGY TOOLKIT	123456	-M-W-F-	1440	1630	28	individual	n	y	n	y	n	y	n	y	n	y	y	y	y	n	y	y
+ANTH243	1	BIOLOGICAL ANTHROPOLOGY	123456	-M-W---	1800	1950	29	group	y	n	y	y	y	y	n	y	n	y	n	n	n	n	y	y
+ANTH281	1	ARCHAEOLOGY AND PRE-HISTORY	123456	-M-W-F-	800	910	29	group	y	n	y	y	y	y	n	y	n	y	n	n	n	n	y	y
+ANTH337	1	ATLANTIC WORLD ARCHAEOLOGY	123456	-M-W-F-	1040	1150	29	group	y	n	y	y	y	y	n	y	n	y	n	n	n	n	y	y
+ANTH348	1	AFRICAN AMERICAN CULTURE	123456	-M-W-F-	1200	1310	29	group	y	n	y	y	y	y	n	y	n	y	n	n	n	n	y	y
+ANTH349	1	ANTHROPOLOGICAL THEORY	123456	-M-W-F-	1320	1430	28	individual	n	y	n	y	n	y	n	y	n	y	y	y	y	n	y	y
+ANTH357	1	ARCHAEOLOGICAL ANALYSIS/CURATION	123456	--T-R--	1400	1550	28	individual	n	y	n	y	n	y	n	y	n	y	y	y	y	n	y	y
+ANTH360	1	KINSHIP & SOCIAL ORGANIZATION	123456	-M-W-F-	920	1030	28	individual	n	y	n	y	n	y	n	y	n	y	y	y	y	n	y	y
+ANTH385	1	ANTHROPOLOGICAL RESEARCH METHODS	123456	--T-R--	800	950	29	group	y	n	y	y	y	y	n	y	n	y	n	n	n	n	y	y
+ART105	1	INTRO TO VISUAL THINKING	123456	-M-W---	1440	1630	37	individual	n	n	y	y	y	y	n	n	n	n	n	n	y	y	n	n
+ART204	2	INTRO TO DRAWING	123456	--T-R--	1320	1550	15	individual	n	y	y	n	y	y	y	y	n	y	n	n	y	n	n	n
+ART206	1	INTRO TO PAINTING	123456	-M-W---	1320	1550	19	group	y	n	y	n	n	n	y	y	y	n	y	n	n	n	n	n
+ART208	1	INTRO TO SCULPTURE	123456	-M-W---	1130	1400	13	individual	y	y	n	y	n	y	y	y	n	y	n	n	n	n	n	y
+ART212	1	INTRO PHOTOGRAPHY	123456	--T-R--	920	1150	23	individual	n	y	y	n	n	y	n	y	n	y	y	y	y	n	n	y
+ART212	2	INTRO PHOTOGRAPHY	123456	--T-R--	1320	1550	23	individual	n	y	y	n	n	y	n	y	n	y	y	y	y	n	n	y
+ART214	1	INTRO TO DIGITAL MEDIA ART	123456	-M-W---	920	1150	23	individual	n	y	y	n	n	y	n	y	n	y	y	y	y	n	n	y
+ART214	2	INTRO TO DIGITAL MEDIA ART	123456	-M-W---	1800	2030	23	individual	n	y	y	n	n	y	n	y	n	y	y	y	y	n	n	y
+ART233	2	TOPICS IN STUDIO ART:Digital Media	123456	-M-W---	1800	2030	23	individual	n	y	y	n	n	y	n	y	n	y	y	y	y	n	n	y
+ART233	1	TOPICS IN STUDIO ART:Photography	123456	-M-W---	1800	2030	37	individual	n	n	y	y	y	y	n	n	n	n	n	n	y	y	n	n
+ART304	1	ADVANCED DRAWING	123456	--T-R--	1800	2030	15	individual	n	y	y	n	y	y	y	y	n	y	n	n	y	n	n	n
+ART314	1	ADVANCED DIGITAL ART	123456	-M-W---	1320	1550	23	individual	n	y	y	n	n	y	n	y	n	y	y	y	y	n	n	y
+ART338	1	ADV TOP: FIGURE SCULPTURE	123456	-M-W---	830	1100	13	individual	y	y	n	y	n	y	y	y	n	y	n	n	n	n	n	y
+ART347	1	ADV TOP: BOOK ARTS	123456	--T-R--	920	1150	19	group	y	n	y	n	n	n	y	y	y	n	y	n	n	n	n	n
+ART369	1	ART FOR EDUCATORS	123456	--T-R--	920	1150	20	individual	y	n	y	n	n	n	y	y	y	y	n	y	n	n	y	n
+ART493	1	ST MARYS PROJ STU ART I	123456	--T-R--	1320	1550	29	group	n	n	y	y	n	y	y	n	n	y	y	n	y	n	n	y
+ARTH100	1	INTRO TO ART HISTORY	123456	--T-R--	1400	1550	49	group	y	y	y	n	n	y	n	y	n	n	n	n	y	n	n	n
+ARTH224	1	ANCIENT AMER ART/ARCHITECTURE	123456	--T-R--	1000	1150	49	group	y	y	y	n	n	y	n	y	n	n	n	n	y	n	n	n
+ARTH255	1	TOPICS IN GLOBAL ART HISTORY:Art in the Age of Discovery	123456	--T-R--	800	950	49	group	y	y	y	n	n	y	n	y	n	n	n	n	y	n	n	n
+ARTH316	1	MOD ART: 1850-1945	123456	-M-W---	1440	1630	49	group	y	y	y	n	n	y	n	y	n	n	n	n	y	n	n	n
+ARTH321	1	ART/ARCHITECTURE ANCIENT MAYA	123456	--T-R--	1200	1350	49	group	y	y	y	n	n	y	n	y	n	n	n	n	y	n	n	n
+ARTH450	1	ADVANCED SEMINAR IN ART HISTORY:Studio of One's Own-Women/Art	123456	--T-R--	1000	1150	35	individual	y	n	y	n	y	n	n	y	y	y	n	y	n	y	n	y
+ARTH470	1	CRIT APPROACHES ANALYSIS OF ART	123456	---W---	1800	2140	49	group	y	y	y	n	n	y	n	y	n	n	n	n	y	n	n	n
+ASIA200	1	INTRO TO ASIAN STUDIES	123456	-M-W---	1440	1630	35	individual	y	n	y	n	y	n	n	y	y	y	n	y	n	y	n	y
+ASIA305	1	CHINESE CINEMA	123456	-M-W---	1440	1630	41	group	y	n	n	y	y	y	n	n	n	y	n	y	y	n	n	y
+ASTR155	1	STELLAR ASTRONOMY AND COSMOLOGY	123456	--T-R--	1400	1550	46	individual	y	n	n	y	n	y	y	n	n	y	n	n	y	n	n	y
+ASTR155L	1	ASTRONOMY LAB	123456	-----F-	920	1150	17	individual	n	y	y	n	y	y	n	y	y	n	n	n	n	n	y	n
+ASTR155L	2	ASTRONOMY LAB	123456	-----F-	1320	1550	17	individual	n	y	y	n	y	y	n	y	y	n	n	n	n	n	y	n
+BIOL101	3	CONTEMPORARY BIOSCIENCE W/LAB	123456	----R--	1300	1550	31	group	y	y	n	n	n	n	y	y	y	y	y	y	y	y	n	n
+BIOL101	1	CONTEMPORARY BIOSCIENCE W/LAB	123456	--T-R--	1000	1150	20	group	y	n	y	y	n	n	y	n	y	y	n	y	n	n	y	y
+BIOL101	2	CONTEMPORARY BIOSCIENCE W/LAB	123456	--T-R--	1400	1550	22	group	y	y	y	n	n	n	n	y	n	y	n	y	n	y	y	n
+BIOL101	3	CONTEMPORARY BIOSCIENCE W/LAB	123456	-M-W---	1440	1630	22	group	y	y	y	n	n	n	n	y	n	y	n	y	n	y	y	n
+BIOL101	1	CONTEMPORARY BIOSCIENCE W/LAB	123456	--T----	1300	1550	38	group	y	y	n	y	n	y	n	n	y	n	y	y	y	y	n	n
+BIOL101	2	CONTEMPORARY BIOSCIENCE W/LAB	123456	---W---	1320	1610	38	group	y	y	n	y	n	y	n	n	y	n	y	y	y	y	n	n
+BIOL105	1	PRINCIPLES OF BIOLOGY I	123456	-M-W---	800	910	46	individual	y	n	n	y	n	y	y	n	n	y	n	n	y	n	n	y
+BIOL105	1	PRINCIPLES OF BIOLOGY I	123456	-----F-	800	910	46	individual	y	n	n	y	n	y	y	n	n	y	n	n	y	n	n	y
+BIOL105	2	PRINCIPLES OF BIOLOGY I	123456	-M-W---	800	910	46	individual	y	n	n	y	n	y	y	n	n	y	n	n	y	n	n	y
+BIOL105	3	PRINCIPLES OF BIOLOGY I	123456	-----F-	920	1030	46	individual	y	n	n	y	n	y	y	n	n	y	n	n	y	n	n	y
+BIOL105	3	PRINCIPLES OF BIOLOGY I	123456	-M-W---	920	1030	46	individual	y	n	n	y	n	y	y	n	n	y	n	n	y	n	n	y
+BIOL105	4	PRINCIPLES OF BIOLOGY I	123456	-M-W---	920	1030	46	individual	y	n	n	y	n	y	y	n	n	y	n	n	y	n	n	y
+BIOL105	5	PRINCIPLES OF BIOLOGY I	123456	-M-W---	1040	1150	46	individual	y	n	n	y	n	y	y	n	n	y	n	n	y	n	n	y
+BIOL105	5	PRINCIPLES OF BIOLOGY I	123456	-----F-	1040	1150	46	individual	y	n	n	y	n	y	y	n	n	y	n	n	y	n	n	y
+BIOL105	6	PRINCIPLES OF BIOLOGY I	123456	-M-W---	1040	1150	46	individual	y	n	n	y	n	y	y	n	n	y	n	n	y	n	n	y
+BIOL105	2	PRINCIPLES OF BIOLOGY I	123456	-----F-	800	910	31	group	y	y	n	n	n	n	y	y	y	y	y	y	y	y	n	n
+BIOL105	4	PRINCIPLES OF BIOLOGY I	123456	-----F-	920	1030	31	group	y	y	n	n	n	n	y	y	y	y	y	y	y	y	n	n
+BIOL105	6	PRINCIPLES OF BIOLOGY I	123456	-----F-	1040	1150	31	group	y	y	n	n	n	n	y	y	y	y	y	y	y	y	n	n
+BIOL105L	1	PRIN OF BIOL I LAB	123456	-M-----	1320	1610	41	individual	y	n	n	n	y	n	n	n	y	n	n	y	y	y	y	n
+BIOL105L	2	PRIN OF BIOL I LAB	123456	--T----	830	1120	41	individual	y	n	n	n	y	n	n	n	y	n	n	y	y	y	y	n
+BIOL105L	3	PRIN OF BIOL I LAB	123456	--T----	1300	1550	41	individual	y	n	n	n	y	n	n	n	y	n	n	y	y	y	y	n
+BIOL105L	4	PRIN OF BIOL I LAB	123456	---W---	1320	1610	41	individual	y	n	n	n	y	n	n	n	y	n	n	y	y	y	y	n
+BIOL105L	5	PRIN OF BIOL I LAB	123456	---W---	1800	2050	41	individual	y	n	n	n	y	n	n	n	y	n	n	y	y	y	y	n
+BIOL105L	6	PRIN OF BIOL I LAB	123456	----R--	830	1120	41	individual	y	n	n	n	y	n	n	n	y	n	n	y	y	y	y	n
+BIOL105L	7	PRIN OF BIOL I LAB	123456	----R--	1300	1550	41	individual	y	n	n	n	y	n	n	n	y	n	n	y	y	y	y	n
+BIOL109	1	EMERGING SCHOLARS PROGRAM	123456	-M-----	1800	2050	17	group	y	y	y	n	n	n	y	n	y	n	y	n	y	n	n	n
+BIOL270	1	GENETICS	123456	-M-W-F-	920	1030	20	group	y	n	y	y	n	n	y	n	y	y	n	y	n	n	y	y
+BIOL270	2	GENETICS	123456	-M-W-F-	1040	1150	20	group	y	n	y	y	n	n	y	n	y	y	n	y	n	n	y	y
+BIOL270L	1	GENETICS LAB	123456	-M-----	1320	1610	41	individual	n	n	n	n	y	n	y	y	n	y	n	y	n	y	y	n
+BIOL270L	2	GENETICS LAB	123456	--T----	1300	1550	41	individual	n	n	n	n	y	n	y	y	n	y	n	y	n	y	y	n
+BIOL270L	3	GENETICS LAB	123456	---W---	1320	1610	41	individual	n	n	n	n	y	n	y	y	n	y	n	y	n	y	y	n
+BIOL270L	4	GENETICS LAB	123456	----R--	1300	1550	41	individual	n	n	n	n	y	n	y	y	n	y	n	y	n	y	y	n
+BIOL303	1	INVERTEBRATE ZOOLOGY	123456	-M-W-F-	1040	1150	21	individual	n	y	y	n	n	y	y	n	n	n	n	y	y	n	n	y
+BIOL303	1	INVERTEBRATE ZOOLOGY	123456	-M-----	1320	1610	31	group	y	y	n	n	y	n	n	n	n	y	y	y	y	n	n	y
+BIOL305	1	ANIMAL BEHAVIOR	123456	---W---	1320	1610	10	group	y	n	n	y	y	n	n	n	y	n	n	y	n	y	y	n
+BIOL305	1	ANIMAL BEHAVIOR	123456	-M-W-F-	800	910	21	individual	n	y	y	n	n	y	y	n	n	n	n	y	y	n	n	y
+BIOL311	1	BIOSTATISTICS	123456	--T-R--	1000	1150	46	individual	y	n	n	y	n	y	y	n	n	y	n	n	y	n	n	y
+BIOL311	1	BIOSTATISTICS	123456	--T----	1300	1550	26	individual	n	n	n	n	n	n	n	n	n	n	y	n	n	n	n	y
+BIOL330	1	HUMAN ANATOMY & PHYSIOLOGY	123456	--T-R--	800	950	46	individual	y	n	n	y	n	y	y	n	n	y	n	n	y	n	n	y
+BIOL330L	1	HUMAN ANATOMY/PHYSIOLOGY LAB	123456	---W---	1320	1610	31	group	y	y	n	n	y	n	n	n	n	y	y	y	y	n	n	y
+BIOL330L	2	HUMAN ANATOMY/PHYSIOLOGY LAB	123456	----R--	1300	1550	31	group	y	y	n	n	y	n	n	n	n	y	y	y	y	n	n	y
+BIOL436	1	COMPARATIVE ANIMAL PHYSIOLOGY	123456	-M-W-F-	920	1030	21	individual	n	y	y	n	n	y	y	n	n	n	n	y	y	n	n	y
+BIOL436	1	COMPARATIVE ANIMAL PHYSIOLOGY	123456	-M-----	1320	1610	38	group	y	y	n	y	n	y	n	n	y	n	y	y	y	y	n	n
+BIOL463	1	ECOLOGY OF COASTAL SYSTEMS	123456	--T----	1300	1550	10	group	y	n	n	y	y	n	n	n	y	n	n	y	n	y	y	n
+BIOL463	1	ECOLOGY OF COASTAL SYSTEMS	123456	--T-R--	800	950	22	group	y	y	y	n	n	n	n	y	n	y	n	y	n	y	y	n
+BIOL493	1	ST. MARY'S PROJECT	123456	-----F-	1320	1430	46	individual	y	n	n	y	n	y	y	n	n	y	n	n	y	n	n	y
+BIOL494	1	ST. MARY'S PROJECT	123456	-----F-	1320	1430	46	individual	y	n	n	y	n	y	y	n	n	y	n	n	y	n	n	y
+CHEM101	1	CONTEMPORARY CHEMISTRY W/ LAB	123456	--T-R--	1000	1150	17	group	y	y	y	n	n	n	y	n	y	n	y	n	y	n	n	n
+CHEM101	1	CONTEMPORARY CHEMISTRY W/ LAB	123456	--T----	1240	1550	33	group	y	y	n	y	y	n	y	y	y	y	y	n	y	y	n	y
+CHEM103	1	GENERAL CHEMISTRY I	123456	--T----	1800	2200	29	individual	y	n	y	y	n	y	n	n	n	n	y	n	n	y	y	y
+CHEM103	1	GENERAL CHEMISTRY I	123456	--T----	1800	2200	17	group	y	y	y	n	n	n	y	n	y	n	y	n	y	n	n	n
+CHEM103	1	GENERAL CHEMISTRY I	123456	--T----	1800	2200	48	individual	y	y	y	y	y	n	y	n	n	y	n	y	n	n	n	y
+CHEM103	1	GENERAL CHEMISTRY I	123456	-M-W-F-	920	1030	30	group	n	y	y	y	n	n	n	n	n	n	y	y	y	y	n	n
+CHEM103	2	GENERAL CHEMISTRY I	123456	-M-W-F-	1040	1150	30	group	n	y	y	y	n	n	n	n	n	n	y	y	y	y	n	n
+CHEM103	2	GENERAL CHEMISTRY I	123456	--T----	1800	2200	30	group	n	y	y	y	n	n	n	n	n	n	y	y	y	y	n	n
+CHEM103	3	GENERAL CHEMISTRY I	123456	-M-W-F-	800	910	30	group	n	y	y	y	n	n	n	n	n	n	y	y	y	y	n	n
+CHEM103	2	GENERAL CHEMISTRY I	123456	--T----	1800	2200	47	individual	y	y	y	y	y	n	n	y	n	n	y	y	n	y	y	y
+CHEM103	3	GENERAL CHEMISTRY I	123456	--T----	1800	2200	27	group	n	n	n	y	y	n	y	n	n	n	y	y	n	y	y	y
+CHEM103	3	GENERAL CHEMISTRY I	123456	--T----	1800	2200	30	individual	y	y	y	n	y	n	n	y	y	n	n	y	y	y	n	y
+CHEM106	1	GENERAL CHEMISTRY II	123456	-M-W-F-	1040	1150	30	individual	y	y	y	n	y	n	n	y	y	n	n	y	y	y	n	y
+CHEM106L	1	GEN CHEM II LAB	123456	-M-----	1320	1630	33	group	y	y	n	y	y	n	y	y	y	y	y	n	y	y	n	y
+CHEM109	1	EMERGING SCHOLARS PROGRAM	123456	-M-----	1800	2000	48	individual	y	y	y	y	y	n	y	n	n	y	n	y	n	n	n	y
+CHEM306	1	INSTR ANALYSIS	123456	-M-W-F-	920	1030	48	individual	y	y	y	y	y	n	y	n	n	y	n	y	n	n	n	y
+CHEM306	1	INSTR ANALYSIS	123456	---W---	1320	1630	35	group	n	y	y	n	y	n	y	y	n	y	y	y	n	y	n	y
+CHEM311	1	ORGANIC CHEMISTRY I	123456	----R--	1800	2200	29	individual	y	n	y	y	n	y	n	n	n	n	y	n	n	y	y	y
+CHEM311	2	ORGANIC CHEMISTRY I	123456	----R--	1800	2200	30	group	n	y	y	y	n	n	n	n	n	n	y	y	y	y	n	n
+CHEM311	1	ORGANIC CHEMISTRY I	123456	-M-W-F-	1040	1150	47	individual	y	y	y	y	y	n	n	y	n	n	y	y	n	y	y	y
+CHEM311	2	ORGANIC CHEMISTRY I	123456	-M-W-F-	920	1030	47	individual	y	y	y	y	y	n	n	y	n	n	y	y	n	y	y	y
+CHEM311	3	ORGANIC CHEMISTRY I	123456	-M-W-F-	800	910	47	individual	y	y	y	y	y	n	n	y	n	n	y	y	n	y	y	y
+CHEM311	3	ORGANIC CHEMISTRY I	123456	----R--	1800	2200	47	individual	y	y	y	y	y	n	n	y	n	n	y	y	n	y	y	y
+CHEM311L	1	ORGANIC CHEM I LAB	123456	-M-----	1320	1630	15	individual	n	n	y	n	n	n	y	y	n	y	n	y	n	n	y	y
+CHEM311L	2	ORGANIC CHEM I LAB	123456	-M-----	1800	2110	15	individual	n	n	y	n	n	n	y	y	n	y	n	y	n	n	y	y
+CHEM311L	3	ORGANIC CHEM I LAB	123456	--T----	1240	1550	15	individual	n	n	y	n	n	n	y	y	n	y	n	y	n	n	y	y
+CHEM311L	4	ORGANIC CHEM I LAB	123456	---W---	1320	1630	15	individual	n	n	y	n	n	n	y	y	n	y	n	y	n	n	y	y
+CHEM311L	5	ORGANIC CHEM I LAB	123456	---W---	1800	2110	15	individual	n	n	y	n	n	n	y	y	n	y	n	y	n	n	y	y
+CHEM311L	6	ORGANIC CHEM I LAB	123456	----R--	1240	1550	15	individual	n	n	y	n	n	n	y	y	n	y	n	y	n	n	y	y
+CHEM311L	7	ORGANIC CHEM I LAB	123456	----R--	840	1150	15	individual	n	n	y	n	n	n	y	y	n	y	n	y	n	n	y	y
+CHEM325	1	INTRO TO CHEMICAL LIT	123456	-----F-	1320	1430	43	individual	n	y	n	n	y	y	n	n	y	y	n	y	y	y	y	y
+CHEM405	1	INORGANIC CHEMISTRY	123456	-M-W-F-	800	910	48	individual	y	y	y	y	y	n	y	n	n	y	n	y	n	n	n	y
+CHEM405	1	INORGANIC CHEMISTRY	123456	----R--	1240	1550	35	group	n	y	y	n	y	n	y	y	n	y	y	y	n	y	n	y
+CHEM420	1	BIOCHEMISTRY I	123456	-M-W-F-	920	1030	29	individual	y	n	y	y	n	y	n	n	n	n	y	n	n	y	y	y
+CHEM420	2	BIOCHEMISTRY I	123456	-M-W-F-	1200	1310	29	individual	y	n	y	y	n	y	n	n	n	n	y	n	n	y	y	y
+CHEM420	1	BIOCHEMISTRY I	123456	-M-----	1800	2200	30	group	n	y	y	y	n	n	n	n	n	n	y	y	y	y	n	n
+CHEM420	2	BIOCHEMISTRY I	123456	-M-----	1800	2200	30	group	n	y	y	y	n	n	n	n	n	n	y	y	y	y	n	n
+CHEM420L	1	BIOCHEMISTRY I LAB	123456	---W---	1320	1630	33	group	y	y	n	y	y	n	y	y	y	y	y	n	y	y	n	y
+CHEM420L	2	BIOCHEMISTRY I LAB	123456	---W---	1800	2110	33	group	y	y	n	y	y	n	y	y	y	y	y	n	y	y	n	y
+CHEM420L	3	BIOCHEMISTRY I LAB	123456	----R--	1240	1550	33	group	y	y	n	y	y	n	y	y	y	y	y	n	y	y	n	y
+CHEM451	1	PHYSICAL CHEMISTRY I	123456	--T-R--	1000	1150	30	individual	y	y	y	n	y	n	n	y	y	n	n	y	y	y	n	y
+CHEM451	1	PHYSICAL CHEMISTRY I	123456	----R--	1800	2200	30	individual	y	y	y	n	y	n	n	y	y	n	n	y	y	y	n	y
+CHEM451L	1	PHYSICAL CHEM I LAB	123456	-M-----	1320	1630	35	group	n	y	y	n	y	n	y	y	n	y	y	y	n	y	n	y
+CHEM451L	2	PHYSICAL CHEM I LAB	123456	--T----	1240	1550	35	group	n	y	y	n	y	n	y	y	n	y	y	y	n	y	n	y
+CORE101	11	FIRST YEAR SEMINAR:Haruki Murakami	123456	--T-R--	1200	1350	48	group	y	n	y	y	y	n	y	y	y	n	n	n	y	n	n	y
+CORE101	14	FIRST YEAR SEMINAR:Japanese Arts and Ways	123456	--T-R--	1800	1950	42	individual	n	n	n	n	y	y	n	y	y	n	y	y	y	n	n	y
+CORE101	21	FIRST YEAR SEMINAR:Music and Loss	123456	--T-R--	1200	1350	46	group	y	y	n	n	y	n	y	y	y	n	n	n	n	y	y	n
+CORE101	33	FIRST YEAR SEMINAR:Perf. Empathy and the Art of	123456	--T-R--	1800	1950	42	group	n	n	y	y	y	y	y	n	y	y	y	y	n	y	y	y
+CORE101	23	FIRST YEAR SEMINAR:Women/Gender/Religion . . .	123456	-M-W-F-	1200	1310	21	individual	y	n	n	n	y	n	n	n	y	n	y	n	y	n	n	n
+CORE101	24	FIRST YEAR SEMINAR:Busnss.Ethics/Corp.Responsiblty	123456	--T-R--	1200	1350	21	group	y	n	n	y	y	y	y	y	y	n	n	n	y	n	n	n
+CORE101	4	"FIRST YEAR SEMINAR:Genes, God, and Goodness"	123456	-M-W-F-	1200	1310	18	individual	y	n	n	y	y	y	n	y	n	n	n	n	y	y	y	y
+CORE101	15	FIRST YEAR SEMINAR:The Quest for Humanity in Amer.	123456	--T-R--	1200	1350	28	group	y	n	y	y	y	n	y	y	y	y	n	n	n	y	n	y
+CORE101	6	FIRST YEAR SEMINAR:Evolution of Altruism	123456	-M-W-F-	1200	1310	21	individual	n	y	y	n	n	y	y	n	n	n	n	y	y	n	n	y
+CORE101	30	FIRST YEAR SEMINAR:Galileo and  Modern Science	123456	-M-W-F-	1200	1310	22	group	y	y	y	n	n	n	n	y	n	y	n	y	n	y	y	n
+CORE101	20	FIRST YEAR SEMINAR:Mind-bending Math	123456	-M-W-F-	1200	1310	11	individual	y	n	n	y	y	n	n	n	y	y	n	n	n	n	y	y
+CORE101	27	FIRST YEAR SEMINAR:Critical Thinking: A User's Guid	123456	-M-W-F-	1200	1310	17	group	y	y	y	n	n	n	y	n	y	n	y	n	y	n	n	n
+CORE101	12	FIRST YEAR SEMINAR:True Grit: The Art of Resilience	123456	--T-R--	1200	1350	48	individual	y	y	y	y	y	n	y	n	n	y	n	y	n	n	n	y
+CORE101	28	"FIRST YEAR SEMINAR:Mind, Brain, Music"	123456	-M-W-F-	1200	1310	48	individual	y	y	y	y	y	n	y	n	n	y	n	y	n	n	n	y
+CORE101	8	FIRST YEAR SEMINAR:American Football	123456	-M-W-F-	1200	1310	30	group	n	y	y	y	n	n	n	n	n	n	y	y	y	y	n	n
+CORE101	13	FIRST YEAR SEMINAR:The Beatles	123456	--T-R--	1200	1350	27	group	n	n	n	y	y	n	y	n	n	n	y	y	n	y	y	y
+CORE101	16	FIRST YEAR SEMINAR:Winston Churchill	123456	--T-R--	1200	1350	41	group	y	n	n	y	y	y	n	n	n	y	n	y	y	n	n	y
+CORE101	17	FIRST YEAR SEMINAR:The Many Lives of Lincoln	123456	-M-W-F-	1200	1310	41	group	y	n	n	y	y	y	n	n	n	y	n	y	y	n	n	y
+CORE101	25	FIRST YEAR SEMINAR:Politics of the City: Baltimore	123456	--T-R--	1800	1950	9	individual	n	y	n	y	n	n	n	y	y	n	n	y	y	y	y	n
+CORE101	26	FIRST YEAR SEMINAR:Road to the White House	123456	-M-W-F-	1200	1310	9	individual	n	y	n	y	n	n	n	y	y	n	n	y	y	y	y	n
+CORE101	18	FIRST YEAR SEMINAR:Creativity as a Force	123456	-M-W-F-	1200	1310	35	individual	y	n	y	n	y	n	n	y	y	y	n	y	n	y	n	y
+CORE101	19	FIRST YEAR SEMINAR:Concepts of Family and Identity	123456	--T-R--	1200	1350	31	group	y	n	y	y	n	y	n	y	y	n	n	n	y	y	y	n
+CORE101	35	FIRST YEAR SEMINAR:Concepts of Family and Identity	123456	--T-R--	1200	1350	31	group	y	n	y	y	n	y	n	y	y	n	n	n	y	y	y	n
+CORE101	32	FIRST YEAR SEMINAR:Masks and Disguise Across Hist.	123456	--T-R--	1200	1350	28	group	y	y	y	n	n	n	y	y	n	n	y	n	y	n	y	n
+CORE101	2	FIRST YEAR SEMINAR:The Art of Political Protest	123456	--T-R--	1200	1350	36	individual	y	y	y	n	n	y	n	y	y	n	y	y	y	n	y	n
+CORE101	1	FIRST YEAR SEMINAR:Global Scholars	123456	-M-W-F-	1200	1310	28	individual	n	y	n	y	n	y	n	y	n	y	y	y	y	n	y	y
+CORE101	9	"FIRST YEAR SEMINAR:Privilege, Power and Difference"	123456	--T-R--	1200	1350	28	individual	n	y	n	y	n	y	n	y	n	y	y	y	y	n	y	y
+CORE101	22	FIRST YEAR SEMINAR:Race and Racism in the U.S.	123456	-M-W-F-	1200	1310	46	group	n	n	n	n	y	y	y	y	n	y	n	y	n	n	n	y
+CORE301	3	INQUIRY IN THE LIBERAL ARTS:The Future of Nature	123456	--T-R--	1200	1350	30	group	y	n	y	y	y	n	n	n	y	y	n	y	y	n	y	n
+CORE301	1	INQUIRY IN THE LIBERAL ARTS:Campus Ecology	123456	--T-R--	1200	1350	22	group	y	y	y	n	n	n	n	y	n	y	n	y	n	y	y	n
+CORE301	4	"INQUIRY IN THE LIBERAL ARTS:Genius, Creativity, and Madness"	123456	--T-R--	1200	1350	17	group	y	y	y	n	n	n	y	n	y	n	y	n	y	n	n	n
+CORE301	2	INQUIRY IN THE LIBERAL ARTS:Is it just progress?	123456	--T-R--	1200	1350	30	group	n	y	y	y	n	n	n	n	n	n	y	y	y	y	n	n
+CORE301	5	INQUIRY IN THE LIBERAL ARTS:Capitalism's Crises	123456	--T-R--	1800	1950	36	group	n	n	y	y	n	y	y	n	y	n	y	n	y	n	n	n
+CORE301	6	INQUIRY IN THE LIBERAL ARTS:Whistleblowers & Organizations	123456	-M-W-F-	1200	1310	25	group	n	y	y	y	n	y	n	n	y	y	n	y	n	n	y	y
+COSC120	1	COMPUTER SCIENCE I	123456	-M-W-F-	920	1030	31	group	y	n	y	n	n	n	y	n	y	y	y	n	y	y	n	y
+COSC120	2	COMPUTER SCIENCE I	123456	--T-R--	1200	1350	31	group	y	n	y	n	n	n	y	n	y	y	y	n	y	y	n	y
+COSC120	3	COMPUTER SCIENCE I	123456	-M-W---	1440	1630	31	group	y	n	y	n	n	n	y	n	y	y	y	n	y	y	n	y
+COSC130	1	INTRO TO COMPUTER SCIENCE II	123456	-M-W-F-	1040	1150	50	group	n	y	n	y	n	y	n	y	y	n	y	y	n	n	y	y
+COSC181	1	EMERGING SCHOLARS	123456	-M-W---	1800	1950	50	group	n	y	n	y	n	y	n	y	y	n	y	y	n	n	y	y
+COSC201	2	ALGORITHMS/DATA STRUCTURES	123456	-M-W---	1440	1630	50	group	n	y	n	y	n	y	n	y	y	n	y	y	n	n	y	y
+COSC201	1	ALGORITHMS/DATA STRUCTURES	123456	--T-R--	1400	1550	31	group	y	n	y	n	n	n	y	n	y	y	y	n	y	y	n	y
+COSC230	1	COMPUTER ARCHITECTURE	123456	-M-W-F-	1200	1310	31	group	y	n	y	n	n	n	y	n	y	y	y	n	y	y	n	y
+COSC301	1	SOFTWARE ENGINEERING I	123456	--T-R--	1800	1950	31	group	y	n	y	n	n	n	y	n	y	y	y	n	y	y	n	y
+COSC391	1	PROGRAMMING TEAM SEMINAR	123456	---W---	1640	1750	50	group	n	y	n	y	n	y	n	y	y	n	y	y	n	n	y	y
+COSC420	1	DISTRIBUTED/PARALLEL COMPUTING	123456	-M-W-F-	920	1030	50	group	n	y	n	y	n	y	n	y	y	n	y	y	n	n	y	y
+COSC440	1	THEORY OF COMPUTATION	123456	-M-W-F-	1320	1430	11	individual	y	n	n	y	y	n	n	n	y	y	n	n	n	n	y	y
+COSC480	1	TOPICS IN COMPUTER SCIENCE	123456	--T-R--	1400	1550	50	group	n	y	n	y	n	y	n	y	y	n	y	y	n	n	y	y
+COSC480	2	TOPICS IN COMPUTER SCIENCE	123456	-M-W-F-	1200	1310	50	group	n	y	n	y	n	y	n	y	y	n	y	y	n	n	y	y
+ECON102	1	PRINCIPLES OF MICROECONOMICS	123456	-M-W-F-	920	1030	42	individual	n	n	n	n	n	n	n	y	y	y	y	n	y	y	n	y
+ECON102	2	PRINCIPLES OF MICROECONOMICS	123456	-M-W---	1440	1630	12	individual	n	n	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+ECON103	2	PRINCIPLES OF MACROECONOMICS	123456	--T-R--	1400	1550	42	individual	n	n	n	n	n	n	n	y	y	y	y	n	y	y	n	y
+ECON103	1	PRINCIPLES OF MACROECONOMICS	123456	--T-R--	1200	1350	16	individual	n	n	n	y	y	y	n	y	y	y	y	n	n	n	n	y
+ECON250	1	PRINCIPLES OF ACCOUNTING	123456	--T-R--	800	950	29	group	y	n	n	n	y	n	y	n	n	n	y	y	n	y	n	n
+ECON251	1	INTERMEDIATE MACROECONOMICS	123456	-M-W-F-	920	1030	12	individual	n	n	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+ECON251	2	INTERMEDIATE MACROECONOMICS	123456	--T-R--	1000	1150	36	group	n	n	y	y	n	y	y	n	y	n	y	n	y	n	n	n
+ECON252	3	INTERMEDIATE MICROECONOMICS	123456	--T-R--	1000	1150	16	individual	n	n	n	y	y	y	n	y	y	y	y	n	n	n	n	y
+ECON252	1	INTERMEDIATE MICROECONOMICS	123456	-M-W-F-	1040	1150	36	group	n	n	y	y	n	y	y	n	y	n	y	n	y	n	n	n
+ECON252	2	INTERMEDIATE MICROECONOMICS	123456	-M-W-F-	1200	1310	36	group	n	n	y	y	n	y	y	n	y	n	y	n	y	n	n	n
+ECON253	2	ECONOMIC STATISTICS	123456	--T-R--	1000	1150	42	individual	n	n	n	n	n	n	n	y	y	y	y	n	y	y	n	y
+ECON253	1	ECONOMIC STATISTICS	123456	--T-R--	800	950	36	group	n	n	y	y	n	y	y	n	y	n	y	n	y	n	n	n
+ECON310	1	TOPICS IN ECONOMICS:Real Estate Finance	123456	-M-----	1700	2040	36	group	n	n	y	y	n	y	y	n	y	n	y	n	y	n	n	n
+ECON350	1	ENVIRONMENTAL ECONOMICS	123456	-M-W-F-	800	910	36	group	n	n	y	y	n	y	y	n	y	n	y	n	y	n	n	n
+ECON353	1	CORPORATE FINANCE	123456	--T-R--	1200	1350	5	individual	y	n	y	n	y	y	n	y	y	y	n	y	y	n	n	y
+ECON355	1	LABOR ECONOMICS	123456	-M-W---	1440	1630	36	group	n	n	y	y	n	y	y	n	y	n	y	n	y	n	n	n
+ECON356	1	INTERNATIONAL ECONOMICS	123456	--T-R--	1000	1150	16	individual	n	n	n	y	y	y	n	y	y	y	y	n	n	n	n	y
+ECON357	1	MONEY & BANKING	123456	-M-W-F-	1200	1310	12	individual	n	n	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+ECON357	2	MONEY & BANKING	123456	-M-W-F-	1320	1430	11	individual	y	y	y	n	y	n	y	y	y	y	y	y	y	y	y	n
+ECON359	1	PUBLIC SECTOR ECONOMICS	123456	-M-W-F-	1200	1310	42	individual	n	n	n	n	n	n	n	y	y	y	y	n	y	y	n	y
+ECON360	1	COMPARATIVE ECON SYSTEMS	123456	-M-W-F-	920	1030	11	individual	y	y	y	n	y	n	y	y	y	y	y	y	y	y	y	n
+ECON372	1	ECON OF DEVELOPING COUNTRIES	123456	--T-R--	1400	1550	16	individual	n	n	n	y	y	y	n	y	y	y	y	n	n	n	n	y
+ECON425	1	ECONOMETRICS	123456	--T-R--	1200	1350	47	group	n	y	y	y	y	n	n	n	n	n	n	y	y	n	n	y
+EDUC180	1	INTRO TO SIGN LANGUAGE	123456	--T-R--	900	950	13	individual	y	y	y	y	y	y	n	n	n	n	y	y	n	y	n	n
+EDUC206	1	EDUCATION IN AMERICA	123456	-M-W-F-	920	1030	37	individual	n	n	n	y	n	y	n	n	n	n	y	y	n	y	n	y
+EDUC206	2	EDUCATION IN AMERICA	123456	-M-W---	1440	1630	37	individual	n	n	n	y	n	y	n	n	n	n	y	y	n	y	n	y
+EDUC286	1	LANGUAGE ACQUISITION & READING	123456	--T-R--	1200	1350	49	group	n	n	y	y	n	n	y	n	n	y	n	n	y	n	y	y
+EDUC296	1	LANG ACQUIS/PHONEMIC AWARENESS	123456	--T----	1800	1950	49	group	n	n	y	y	n	n	y	n	n	y	n	n	y	n	y	y
+EDUC336	1	EXCEPTIONALITY	123456	-M-W-F-	1040	1150	37	individual	n	n	n	y	n	y	n	n	n	n	y	y	n	y	n	y
+EDUC336	2	EXCEPTIONALITY	123456	-M-W-F-	1200	1310	37	individual	n	n	n	y	n	y	n	n	n	n	y	y	n	y	n	y
+EDUC368	1	EDUCATIONAL PSYCHOLOGY	123456	--T-R--	1000	1150	37	individual	n	n	n	y	n	y	n	n	n	n	y	y	n	y	n	y
+EDUC368	2	EDUCATIONAL PSYCHOLOGY	123456	--T-R--	1200	1350	37	individual	n	n	n	y	n	y	n	n	n	n	y	y	n	y	n	y
+EDUC491	1	ESL ACROSS THE CURRICULUM	123456	--T-R--	1800	1950	37	individual	n	n	n	y	n	y	n	n	n	n	y	y	n	y	n	y
+ENGL101	1	INTRO TO WRITING	123456	--T-R--	1000	1150	30	group	y	n	y	y	y	n	n	n	y	y	n	y	y	n	y	n
+ENGL101	3	INTRO TO WRITING	123456	--T-R--	1000	1150	17	individual	n	n	n	y	y	y	n	n	y	n	y	n	y	y	y	n
+ENGL101	2	INTRO TO WRITING	123456	--T-R--	1400	1550	28	group	y	n	y	y	y	n	y	y	y	y	n	n	n	y	n	y
+ENGL106	1	INTRO TO LITERATURE	123456	-M-W---	1800	1950	48	group	y	n	y	y	y	n	y	y	y	n	n	n	y	n	n	y
+ENGL106	2	INTRO TO LITERATURE	123456	-M-W---	1440	1630	48	group	y	n	y	y	y	n	y	y	y	n	n	n	y	n	n	y
+ENGL130	1	LITERARY TOPICS:AMERICAN FANTASY	123456	-M-W-F-	920	1030	48	group	y	n	y	y	y	n	y	y	y	n	n	n	y	n	n	y
+ENGL130	2	LITERARY TOPICS:Reading Nature	123456	-M-W-F-	1040	1150	28	group	y	n	y	y	y	n	y	y	y	y	n	n	n	y	n	y
+ENGL201	1	TOPICS IN WRITING:CREATIVE NONFICTION	123456	--T-R--	1800	1950	17	individual	n	n	n	y	y	y	n	n	y	n	y	n	y	y	y	n
+ENGL204	1	READING/WRITING IN THE MAJOR	123456	-M-W-F-	1040	1150	42	individual	n	n	n	n	y	y	n	y	y	n	y	y	y	n	n	y
+ENGL204	2	READING/WRITING IN THE MAJOR	123456	--T-R--	1400	1550	17	individual	n	n	n	y	y	y	n	n	y	n	y	n	y	y	y	n
+ENGL235	1	"TOPICS LITERATURE AND CULTURE:SHAKESPEARE, SEX, AND GENDER"	123456	--T-R--	1400	1550	48	group	y	n	y	y	y	n	y	y	y	n	n	n	y	n	n	y
+ENGL235	2	TOPICS LITERATURE AND CULTURE:Asian American Literature	123456	-M-W-F-	1200	1310	36	individual	y	y	y	n	n	y	n	y	y	n	y	y	y	n	y	n
+ENGL270	1	CREATIVE WRITING	123456	--T-R--	1000	1150	42	individual	n	n	n	n	y	y	n	y	y	n	y	y	y	n	n	y
+ENGL270	2	CREATIVE WRITING	123456	-M-W-F-	920	1030	28	group	y	n	y	y	y	n	y	y	y	y	n	n	n	y	n	y
+ENGL281	1	LITERATURE IN HISTORY I: The	123456	-M-W---	1800	1950	42	individual	n	n	n	n	y	y	n	y	y	n	y	y	y	n	n	y
+ENGL282	1	LITERATURE IN HIST. II The Rise	123456	-M-W-F-	1040	1150	48	group	y	n	y	y	y	n	y	y	y	n	n	n	y	n	n	y
+ENGL283	1	LITERATURE IN HISTORY III	123456	--T-R--	800	950	42	individual	n	n	n	n	y	y	n	y	y	n	y	y	y	n	n	y
+ENGL283	2	LITERATURE IN HISTORY III	123456	-M-W-F-	1320	1430	42	individual	n	n	n	n	y	y	n	y	y	n	y	y	y	n	n	y
+ENGL304	1	METHODS OF LITERARY STUDY	123456	--T-R--	1000	1150	48	group	y	n	y	y	y	n	y	y	y	n	n	n	y	n	n	y
+ENGL350	1	STUDIES IN LANGUAGE:RHETORIC OF POLITICS	123456	-M-W---	1440	1630	28	group	y	n	y	y	y	n	y	y	y	y	n	n	n	y	n	y
+ENGL355	1	STUDIES IN BRITISH LITERATURE:RENAISSANCE DRAMA	123456	-M-W---	1440	1630	48	group	y	n	y	y	y	n	y	y	y	n	n	n	y	n	n	y
+ENGL355	2	STUDIES IN BRITISH LITERATURE:VICTORIAN ADAPTATIONS	123456	--T-R--	1200	1350	42	individual	n	n	n	n	y	y	n	y	y	n	y	y	y	n	n	y
+ENGL365	2	"STUDIES IN AMERICAN LITERATURE:WRIGHT, BALDWIN, ELLISON"	123456	-M-W---	1440	1630	42	individual	n	n	n	n	y	y	n	y	y	n	y	y	y	n	n	y
+ENGL365	1	STUDIES IN AMERICAN LITERATURE:SOUTHERN LITERATURE	123456	--T-R--	1400	1550	30	group	y	n	y	y	y	n	n	n	y	y	n	y	y	n	y	n
+ENGL380	1	"STUDIES IN WORLD LIT:YEATS, MISHIMA, & JAPANESE NOH"	123456	--T-R--	1400	1550	27	group	n	n	n	y	y	n	y	n	n	n	y	y	n	y	y	y
+ENGL390	1	TOPICS IN LITERATURE:MULTICULTURAL VOICES	123456	--T-R--	1400	1550	42	individual	n	n	n	n	y	y	n	y	y	n	y	y	y	n	n	y
+ENGL395	1	TOPICS IN WRITING:ADVANCED CREATIVE NON-FICTION	123456	--T-R--	1800	1950	17	individual	n	n	n	y	y	y	n	n	y	n	y	n	y	y	y	n
+ENGL395	2	TOPICS IN WRITING:ADVANCED POETRY	123456	--T-R--	1200	1350	17	individual	n	n	n	y	y	y	n	n	y	n	y	n	y	y	y	n
+ENGL410	1	"STUDIES IN AUTHORS:WRIGHT, BALDWIN, ELLISON"	123456	-M-W---	1440	1630	42	individual	n	n	n	n	y	y	n	y	y	n	y	y	y	n	n	y
+ENGL420	1	STUDIES IN THEORY:THEORIES OF THE READER	123456	-M-W-F-	1200	1310	42	individual	n	n	n	n	y	y	n	y	y	n	y	y	y	n	n	y
+ENST100	1	INTRO TO ENVIRONMENTAL STUDIES	123456	-M-W-F-	1040	1150	42	individual	n	n	n	n	n	n	n	y	y	y	y	n	y	y	n	y
+ENST100	2	INTRO TO ENVIRONMENTAL STUDIES	123456	-M-W---	1440	1630	11	individual	y	y	y	n	y	n	y	y	y	y	y	y	y	y	y	n
+ENST245	1	TOPICS IN ENVIRONMENTAL STUDIES:Environmental Studies Toolkit	123456	-M-W---	1800	1950	47	group	n	y	y	y	y	n	n	n	n	n	n	y	y	n	n	y
+ENST382	1	GIS APPLICATIONS	123456	-M-W---	1440	1630	47	group	n	y	y	y	y	n	n	n	n	n	n	y	y	n	n	y
+ENST385	1	ADVANCED TOPICS IN ENVIRONMENTAL	123456	-M-W-F-	920	1030	9	individual	n	y	n	y	n	n	n	y	y	n	n	y	y	y	y	n
+ENST390	1	APPLIED SUSTAINABILITY PRACTICUM	123456	--T-R--	920	1150	20	individual	y	n	y	n	n	n	y	y	y	y	n	y	n	n	y	n
+ENST490	1	ENVIRONMENTAL KEYSTONE SEMINAR	123456	--T-R--	1400	1550	9	individual	n	y	n	y	n	n	n	y	y	n	n	y	y	y	y	n
+ENST493	1	ST. MARY'S PROJECT	123456	-----F-	1440	1630	9	individual	n	y	n	y	n	n	n	y	y	n	n	y	y	y	y	n
+ENST493	2	ST. MARY'S PROJECT	123456	--T-R--	1200	1350	9	individual	n	y	n	y	n	n	n	y	y	n	n	y	y	y	y	n
+HIST104	1	HIST FOUND MODERN WORLD TO 1450	123456	-M-W-F-	800	910	12	individual	n	n	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+HIST105	1	WESTERN CIVILIZATION	123456	--T-R--	1000	1150	12	individual	n	n	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+HIST108	1	HISTORY OF THE MODERN WORLD	123456	--T-R--	800	950	16	individual	n	n	n	y	y	y	n	y	y	y	y	n	n	n	n	y
+HIST200	1	UNITED STATES HIST 1776-1980	123456	-M-W-F-	920	1030	36	group	n	n	y	y	n	y	y	n	y	n	y	n	y	n	n	n
+HIST219	1	ATLANTIC WORLD SURVEY	123456	--T-R--	1400	1550	12	individual	n	n	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+HIST224	1	INTRODUCTION TO HISTORICAL METHO	123456	--T-R--	1800	1950	47	group	n	y	y	y	y	n	n	n	n	n	n	y	y	n	n	y
+HIST272	1	ANCIENT MEDITERRANEAN	123456	-M-W---	1440	1630	16	individual	n	n	n	y	y	y	n	y	y	y	y	n	n	n	n	y
+HIST280	1	AFRICA AND AFRICAN DIASPORA	123456	-M-W-F-	920	1030	29	group	y	n	y	y	y	y	n	y	n	y	n	n	n	n	y	y
+HIST336	1	JEWISH PEOPLE IN MODERN WORLD	123456	--T-R--	1400	1550	41	group	y	n	n	y	y	y	n	n	n	y	n	y	y	n	n	y
+HIST354	1	HISTORY OF JAPAN TO 1600	123456	-M-W-F-	1040	1150	11	individual	y	y	y	n	y	n	y	y	y	y	y	y	y	y	y	n
+HIST369	1	HISTORY OF APARTHEID	123456	-M-W-F-	1320	1430	29	group	y	n	y	y	y	y	n	y	n	y	n	n	n	n	y	y
+HIST375	1	THE AMERICAN REVOLUTION	123456	--T-R--	1200	1350	42	individual	n	n	n	n	n	n	n	y	y	y	y	n	y	y	n	y
+HIST384	1	MEDIEVAL EUROPE	123456	--T-R--	1800	1950	41	group	y	n	n	y	y	y	n	n	n	y	n	y	y	n	n	y
+HIST393	1	TOPICS IN EUROPEAN HISTORY:The World of Late Antiquity	123456	-M-W---	1800	1950	41	group	y	n	n	y	y	y	n	n	n	y	n	y	y	n	n	y
+HIST394	1	"TOP:ASIAN,AFRICAN,LAT AM HIST:Chinese History and Film"	123456	-M-W---	1440	1630	41	group	y	n	n	y	y	y	n	n	n	y	n	y	y	n	n	y
+HIST396	1	"TOP:COMPAR,THEMATIC,GLOBAL HIST:World War I"	123456	--T-R--	1800	1950	25	group	n	y	y	y	n	y	n	n	y	y	n	y	n	n	y	y
+HIST415	1	TOPICS IN AMERICAN HISTORY:The US During World War II	123456	-M-W---	1440	1630	9	individual	n	y	n	y	n	n	n	y	y	n	n	y	y	y	y	n
+HIST419	1	AFRICAN-AMERICAN HIST IN US	123456	-M-W-F-	1040	1150	28	individual	n	y	n	y	n	y	n	y	n	y	y	y	y	n	y	y
+HIST435	2	"TOPICS:EUROPEAN HISTORY:Revolution, Sex/Absinthe Europe"	123456	--T-R--	1200	1350	12	individual	n	n	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+HIST435	1	TOPICS:EUROPEAN HISTORY:Europe Since 1945	123456	--T-R--	1000	1150	41	group	y	n	n	y	y	y	n	n	n	y	n	y	y	n	n	y
+ILAS206	1	INTRO LATIN AM LIT IN TRANS	123456	-M-W-F-	1320	1430	28	group	y	y	y	n	n	n	y	y	n	n	y	n	y	n	y	n
+ILCC101	1	ELEM CHINESE I	123456	-M-W-F-	1040	1150	35	individual	y	n	y	n	y	n	n	y	y	y	n	y	n	y	n	y
+ILCC200	1	CONVERSATIONAL CHINESE	123456	----R--	1630	1730	31	group	y	n	y	y	n	y	n	y	y	n	n	n	y	y	y	n
+ILCC201	1	INTERMED CHINESE I	123456	-M-W-F-	1040	1150	46	group	n	n	n	n	y	y	y	y	n	y	n	y	n	n	n	y
+ILCC363	1	CHINESE LITERATURE II	123456	-M-W-F-	1320	1430	35	individual	y	n	y	n	y	n	n	y	y	y	n	y	n	y	n	y
+ILCF101	1	ELEM FRENCH I	123456	-M-W-F-	800	910	31	group	y	n	y	y	n	y	n	y	y	n	n	n	y	y	y	n
+ILCF101	2	ELEM FRENCH I	123456	-M-W-F-	920	1030	31	group	y	n	y	y	n	y	n	y	y	n	n	n	y	y	y	n
+ILCF102	1	ELEM FRENCH II	123456	-M-W-F-	1200	1310	31	group	y	n	y	y	n	y	n	y	y	n	n	n	y	y	y	n
+ILCF200	1	FRENCH CONVERSATION	123456	---W---	1640	1740	28	group	y	y	y	n	n	n	y	y	n	n	y	n	y	n	y	n
+ILCF201	1	INTERM FRENCH I	123456	-M-W-F-	920	1030	41	group	y	n	n	y	y	y	n	n	n	y	n	y	y	n	n	y
+ILCF202	1	INTERMED FRENCH II	123456	-M-W-F-	1040	1150	31	group	y	n	y	y	n	y	n	y	y	n	n	n	y	y	y	n
+ILCF206	1	INTRO LIT IN FRENCH	123456	-M-W-F-	1200	1310	5	individual	y	n	y	n	y	y	n	y	y	y	n	y	y	n	n	y
+ILCF356	1	FRANCOPHONE CULTURE AND CIV	123456	-M-W---	1440	1630	36	individual	y	y	y	n	n	y	n	y	y	n	y	y	y	n	y	n
+ILCG101	1	ELEM GERMAN I	123456	-M-W-F-	920	1030	35	individual	y	n	y	n	y	n	n	y	y	y	n	y	n	y	n	y
+ILCG201	1	INTERMED GERMAN	123456	-M-W-F-	1320	1430	46	group	n	n	n	n	y	y	y	y	n	y	n	y	n	n	n	y
+ILCS101	1	ELEM SPANISH I	123456	-M-W-F-	1200	1310	28	group	y	y	y	n	n	n	y	y	n	n	y	n	y	n	y	n
+ILCS101	2	ELEM SPANISH I	123456	-M-W-F-	920	1030	28	group	y	y	y	n	n	n	y	y	n	n	y	n	y	n	y	n
+ILCS101	3	ELEM SPANISH I	123456	-M-W-F-	920	1030	36	individual	y	y	y	n	n	y	n	y	y	n	y	y	y	n	y	n
+ILCS110	1	ACCELERATED ELEM SPANISH	123456	-M-W-F-	1320	1430	5	individual	y	n	y	n	y	y	n	y	y	y	n	y	y	n	n	y
+ILCS110	2	ACCELERATED ELEM SPANISH	123456	-M-W-F-	1040	1150	5	individual	y	n	y	n	y	y	n	y	y	y	n	y	y	n	n	y
+ILCS200	1	SPANISH CONVERSATION	123456	---W---	1640	1740	36	individual	y	y	y	n	n	y	n	y	y	n	y	y	y	n	y	n
+ILCS201	2	INTERMED SPANISH I	123456	-M-W-F-	1320	1430	31	group	y	n	y	y	n	y	n	y	y	n	n	n	y	y	y	n
+ILCS201	1	INTERMED SPANISH I	123456	-M-W-F-	920	1030	46	group	n	n	n	n	y	y	y	y	n	y	n	y	n	n	n	y
+ILCS202	1	INTERMED SPANISH II	123456	-M-W-F-	1040	1150	28	group	y	y	y	n	n	n	y	y	n	n	y	n	y	n	y	n
+ILCS206	1	INTRO TO LIT SPANISH	123456	-M-W-F-	920	1030	36	individual	y	y	y	n	n	y	n	y	y	n	y	y	y	n	y	n
+ILCS206	2	INTRO TO LIT SPANISH	123456	-M-W-F-	1040	1150	36	individual	y	y	y	n	n	y	n	y	y	n	y	y	y	n	y	n
+ILCS361	1	INDIGENOUS CULTURES LATIN AMER	123456	-M-W-F-	920	1030	5	individual	y	n	y	n	y	y	n	y	y	y	n	y	y	n	n	y
+ILCS362	1	AFRICAN DIASPORA CULTURAL	123456	-M-W-F-	1320	1430	36	individual	y	y	y	n	n	y	n	y	y	n	y	y	y	n	y	n
+ILCS390	1	SPANISH IN THE COMMUNITY	123456	-M-W---	1800	1950	28	group	y	y	y	n	n	n	y	y	n	n	y	n	y	n	y	n
+ILCT106	1	INTRO TO WORLD LITERATURE	123456	-M-W-F-	1200	1310	36	individual	y	y	y	n	n	y	n	y	y	n	y	y	y	n	y	n
+ILCT293	1	INTRO TO CULTURAL STUDIES	123456	-M-----	1440	1630	28	group	y	y	y	n	n	n	y	y	n	n	y	n	y	n	y	n
+ILCT306	1	ASIAN AMERICAN LITERATURE	123456	-M-W-F-	1200	1310	36	individual	y	y	y	n	n	y	n	y	y	n	y	y	y	n	y	n
+ILCT306	2	ASIAN AMERICAN LITERATURE:Asian American Literature	123456	-M-W-F-	1200	1310	36	individual	y	y	y	n	n	y	n	y	y	n	y	y	y	n	y	n
+ILCT350	1	"HISTORY, MEMORY, & AUTOBIOGRAPHY"	123456	-M-W-F-	1200	1310	36	individual	y	y	y	n	n	y	n	y	y	n	y	y	y	n	y	n
+ILCT393	1	ST. MARY'S PROJECT WORKSHOP	123456	---W---	1440	1630	28	group	y	y	y	n	n	n	y	y	n	n	y	n	y	n	y	n
+MATH111	1	PRECALCULUS	123456	--T-R--	1800	1950	22	group	y	y	y	n	n	n	n	y	n	y	n	y	n	y	y	n
+MATH131	1	"SURVEY OF MATHEMATICS:Games, Puzzles, and Politics"	123456	--T-R--	1200	1350	46	individual	y	n	n	y	n	y	y	n	n	y	n	n	y	n	n	y
+MATH131	2	SURVEY OF MATHEMATICS	123456	-M-W---	1800	1950	22	group	y	y	y	n	n	n	n	y	n	y	n	y	n	y	y	n
+MATH151	2	CALCULUS I	123456	-M-----	1800	1950	20	group	y	n	y	y	n	n	y	n	y	y	n	y	n	n	y	y
+MATH151	5	CALCULUS I	123456	-M-W-F-	1200	1310	20	group	y	n	y	y	n	n	y	n	y	y	n	y	n	n	y	y
+MATH151	5	CALCULUS I	123456	---W---	1800	1950	20	group	y	n	y	y	n	n	y	n	y	y	n	y	n	n	y	y
+MATH151	3	CALCULUS I	123456	-M-----	1800	1950	18	individual	y	n	n	y	y	y	n	y	n	n	n	n	y	y	y	y
+MATH151	1	CALCULUS I	123456	--T----	1800	1950	21	individual	n	y	y	n	n	y	y	n	n	n	n	y	y	n	n	y
+MATH151	4	CALCULUS I	123456	---W---	1800	1950	21	individual	n	y	y	n	n	y	y	n	n	n	n	y	y	n	n	y
+MATH151	2	CALCULUS I	123456	-M-W-F-	920	1030	22	group	y	y	y	n	n	n	n	y	n	y	n	y	n	y	y	n
+MATH151	3	CALCULUS I	123456	-M-W-F-	1040	1150	22	group	y	y	y	n	n	n	n	y	n	y	n	y	n	y	y	n
+MATH151	4	CALCULUS I	123456	-M-W-F-	1320	1430	22	group	y	y	y	n	n	n	n	y	n	y	n	y	n	y	y	n
+MATH151	1	CALCULUS I	123456	-M-W-F-	920	1030	11	individual	y	n	n	y	y	n	n	n	y	y	n	n	n	n	y	y
+MATH152	1	CALCULUS II	123456	--T----	1800	1950	18	individual	y	n	n	y	y	y	n	y	n	n	n	n	y	y	y	y
+MATH152	2	CALCULUS II	123456	-M-----	1800	1950	21	individual	n	y	y	n	n	y	y	n	n	n	n	y	y	n	n	y
+MATH152	2	CALCULUS II	123456	-M-W-F-	1320	1430	21	individual	n	y	y	n	n	y	y	n	n	n	n	y	y	n	n	y
+MATH152	1	CALCULUS II	123456	-M-W-F-	800	910	22	group	y	y	y	n	n	n	n	y	n	y	n	y	n	y	y	n
+MATH161	1	MATH FOR TEACHERS I	123456	--T-R--	1800	1950	50	group	n	y	n	y	n	y	n	y	y	n	y	y	n	n	y	y
+MATH181	1	EMERGING SCHOLARS PROGRAM	123456	----R--	1800	1950	11	individual	y	n	n	y	y	n	n	n	y	y	n	n	n	n	y	y
+MATH255	2	VECTOR CALCULUS	123456	-M-W---	1440	1630	21	individual	n	y	y	n	n	y	y	n	n	n	n	y	y	n	n	y
+MATH255	1	VECTOR CALCULUS	123456	--T-R--	1000	1150	22	group	y	y	y	n	n	n	n	y	n	y	n	y	n	y	y	n
+MATH256	1	LINEAR ALGEBRA	123456	--T-R--	1400	1550	21	individual	n	y	y	n	n	y	y	n	n	n	n	y	y	n	n	y
+MATH281	1	FOUNDATIONS OF MATHEMATICS	123456	-M-W-F-	1200	1310	46	individual	y	n	n	y	n	y	y	n	n	y	n	n	y	n	n	y
+MATH321	1	ALGEBRA I	123456	-M-W---	1440	1630	11	individual	y	n	n	y	y	n	n	n	y	y	n	n	n	n	y	y
+MATH351	1	ANALYSIS I	123456	-M-W-F-	920	1030	18	individual	y	n	n	y	y	y	n	y	n	n	n	n	y	y	y	y
+MATH351	2	ANALYSIS I	123456	-M-W-F-	1320	1430	18	individual	y	n	n	y	y	y	n	y	n	n	n	n	y	y	y	y
+MATH391	1	MATH PUTNAM TEAM SEMINAR	123456	----R--	900	950	11	individual	y	n	n	y	y	n	n	n	y	y	n	n	n	n	y	y
+MATH411	1	PARTIAL DIFFERENTIAL EQUATIONS	123456	--T-R--	1400	1550	11	individual	y	n	n	y	y	n	n	n	y	y	n	n	n	n	y	y
+MATH444	1	MATH MODELING	123456	--T-R--	1000	1150	11	individual	y	n	n	y	y	n	n	n	y	y	n	n	n	n	y	y
+MATH485	1	TOPICS IN MATHEMATICS	123456	-M-W-F-	1320	1430	20	group	y	n	y	y	n	n	y	n	y	y	n	y	n	n	y	y
+MUSA173	1	BEGINNING PIANO I(CLASS)	123456	-M-W---	920	1030	13	group	y	y	n	y	y	y	n	n	n	y	y	y	y	n	n	y
+MUSA174	1	BEGINNING PIANO II (CLASS)	123456	-M-W---	1040	1150	13	group	y	y	n	y	y	y	n	n	n	y	y	y	y	n	n	y
+MUSA176	1	BEGINNING VOICE (CLASS)	123456	----R--	1200	1310	13	group	y	y	n	y	y	y	n	n	n	y	y	y	y	n	n	y
+MUSA180	1	CHOIR	123456	--T----	1830	2000	14	individual	y	n	n	y	y	n	n	y	n	y	n	n	n	y	n	n
+MUSA182	1	CHAMBER SINGERS	123456	-M-W---	1640	1750	14	individual	y	n	n	y	y	n	n	y	n	y	n	n	n	y	n	n
+MUSA184	1	JAZZ COMBO	123456	-M-----	2005	2105	14	individual	y	n	n	y	y	n	n	y	n	y	n	n	n	y	n	n
+MUSA186	1	JAZZ ENSEMBLE	123456	-M-W---	1800	1950	14	individual	y	n	n	y	y	n	n	y	n	y	n	n	n	y	n	n
+MUSA189	1	ORCHESTRA	123456	--T-R--	1600	1725	14	individual	y	n	n	y	y	n	n	y	n	y	n	n	n	y	n	n
+MUSA273	1	INTERMEDIATE CLASS PIANO	123456	-------	0	0	13	group	y	y	n	y	y	y	n	n	n	y	y	y	y	n	n	y
+MUSA480	1	CHOIR	123456	--T----	1830	2000	14	individual	y	n	n	y	y	n	n	y	n	y	n	n	n	y	n	n
+MUSA482	1	CHAMBER SINGERS	123456	-M-W---	1640	1750	14	individual	y	n	n	y	y	n	n	y	n	y	n	n	n	y	n	n
+MUSA484	1	JAZZ COMBO	123456	-M-----	2005	2105	14	individual	y	n	n	y	y	n	n	y	n	y	n	n	n	y	n	n
+MUSA486	1	JAZZ ENSEMBLE	123456	-M-W---	1800	1950	14	individual	y	n	n	y	y	n	n	y	n	y	n	n	n	y	n	n
+MUSA489	1	ORCHESTRA	123456	--T-R--	1600	1725	14	individual	y	n	n	y	y	n	n	y	n	y	n	n	n	y	n	n
+MUSC112	1	MUSIC AS COMMUNICATION	123456	--T-R--	1400	1550	12	group	y	y	n	y	n	n	y	n	y	n	y	y	n	n	n	n
+MUSC201	1	SIGHT SINGING & EARTRAINING I	123456	-M-W---	1320	1410	14	individual	y	n	n	y	y	n	n	y	n	y	n	n	n	y	n	n
+MUSC203	1	MUSIC THEORY I	123456	-M-W-F-	1040	1150	46	group	y	y	n	n	y	n	y	y	y	n	n	n	n	y	y	n
+MUSC216	1	INTRO MUSICS OF THE WORLD	123456	--T-R--	1400	1550	46	group	y	y	n	n	y	n	y	y	y	n	n	n	n	y	y	n
+MUSC219	1	MUSIC: SOUNDING GENDER	123456	--T-R--	1000	1150	46	group	y	y	n	n	y	n	y	y	y	n	n	n	n	y	y	n
+MUSC303	1	MUSIC THEORY III	123456	--T-R--	1200	1350	12	group	y	y	n	y	n	n	y	n	y	n	y	y	n	n	n	n
+MUSC309	1	SIGHTSINGING & DICTATION III	123456	-M-W---	1220	1310	14	individual	y	n	n	y	y	n	n	y	n	y	n	n	n	y	n	n
+MUSC319	1	MUSIC HISTORY SURVEY II	123456	-M-W---	1440	1630	12	group	y	y	n	y	n	n	y	n	y	n	y	y	n	n	n	n
+MUSC493	1	ST. MARY'S PROJECT-SEMINAR	123456	--T-R--	1400	1550	14	individual	y	n	n	y	y	n	n	y	n	y	n	n	n	y	n	n
+MUST200	1	INTRO TO MUSEUM STUDIES	123456	-M-W---	1800	1950	46	group	n	n	n	n	y	y	y	y	n	y	n	y	n	n	n	y
+MUST390	1	TOPICS IN MUSEUM STUDIES	123456	--T-R--	1000	1150	35	individual	y	n	y	n	y	n	n	y	y	y	n	y	n	y	n	y
+NEUR301	1	SEMINAR IN THE NEUROSCIENCES:Mechanisms of Long Term Memory	123456	---W---	1440	1630	29	individual	y	n	y	y	n	y	n	n	n	n	y	n	n	y	y	y
+NEUR303	1	ADV SEMINAR IN NEUROSCIENCES	123456	---W---	1440	1630	29	individual	y	n	y	y	n	y	n	n	n	n	y	n	n	y	y	y
+NEUR370	1	"THE NEUROSCIENCE OF SEX, GENDER,"	123456	--T-R--	1000	1150	27	group	n	n	n	y	y	n	y	n	n	n	y	y	n	y	y	y
+PHEC112	1	TENNIS I	123456	-M-W---	1320	1410	27	individual	n	n	y	n	y	y	y	y	y	n	n	y	n	y	n	y
+PHEC118	1	SWIMMING FITNESS	123456	--T-R--	1000	1050	27	individual	n	n	y	n	y	y	y	y	y	n	n	y	n	y	n	y
+PHEC120	1	LAWN SPORTS	123456	-M-W---	1040	1130	27	individual	n	n	y	n	y	y	y	y	y	n	n	y	n	y	n	y
+PHEC125	1	SCUBA DIVING	123456	-M-----	1800	2200	27	individual	n	n	y	n	y	y	y	y	y	n	n	y	n	y	n	y
+PHEC131	1	BASIC SAILING	123456	-M-W---	1040	1230	21	group	y	n	y	y	y	y	y	n	y	y	y	y	n	y	y	n
+PHEC131	2	BASIC SAILING	123456	-M-W---	1240	1430	21	group	y	n	y	y	y	y	y	n	y	y	y	y	n	y	y	n
+PHEC131	3	BASIC SAILING	123456	--T-R--	1000	1150	21	group	y	n	y	y	y	y	y	n	y	y	y	y	n	y	y	n
+PHEC131	4	BASIC SAILING	123456	--T-R--	1200	1350	21	group	y	n	y	y	y	y	y	n	y	y	y	y	n	y	y	n
+PHEC136	1	RECESS: GREATEST HITS	123456	--T-R--	1100	1150	27	individual	n	n	y	n	y	y	y	y	y	n	n	y	n	y	n	y
+PHEC136	2	RECESS: GREATEST HITS	123456	-M-W---	1040	1150	27	individual	n	n	y	n	y	y	y	y	y	n	n	y	n	y	n	y
+PHEC158	1	CORE STRENGTH	123456	--T-R--	1000	1050	27	individual	n	n	y	n	y	y	y	y	y	n	n	y	n	y	n	y
+PHEC158	2	CORE STRENGTH	123456	--T-R--	1000	1050	27	individual	n	n	y	n	y	y	y	y	y	n	n	y	n	y	n	y
+PHEC159	1	KICKBALL	123456	--T-R--	1100	1150	27	individual	n	n	y	n	y	y	y	y	y	n	n	y	n	y	n	y
+PHEC161	1	STANDARD FIRST AID & CPR	123456	--T-R--	1000	1050	27	individual	n	n	y	n	y	y	y	y	y	n	n	y	n	y	n	y
+PHEC164	1	Intro to Athletic Training	123456	-M-W---	920	1030	27	individual	n	n	y	n	y	y	y	y	y	n	n	y	n	y	n	y
+PHEC167	1	SELF-DEFENSE AGNST SEX ASSAULT	123456	--T----	1600	1750	27	individual	n	n	y	n	y	y	y	y	y	n	n	y	n	y	n	y
+PHEC167	2	SELF-DEFENSE AGNST SEX ASSAULT	123456	--T----	1800	1950	27	individual	n	n	y	n	y	y	y	y	y	n	n	y	n	y	n	y
+PHEC181	1	INDOOR BASEBALL	123456	--T-R--	1000	1050	27	individual	n	n	y	n	y	y	y	y	y	n	n	y	n	y	n	y
+PHEC181	2	INDOOR BASEBALL	123456	--T-R--	1000	1050	27	individual	n	n	y	n	y	y	y	y	y	n	n	y	n	y	n	y
+PHEC191	1	COUCH TO 5K	123456	--T-R--	1100	1150	27	individual	n	n	y	n	y	y	y	y	y	n	n	y	n	y	n	y
+PHEC232	1	ADVANCED SCUBA DIVING	123456	-M-----	1800	2200	27	individual	n	n	y	n	y	y	y	y	y	n	n	y	n	y	n	y
+PHIL101	1	INTRO TO PHILOSOPHY	123456	--T-R--	1400	1550	21	individual	y	n	n	n	y	n	n	n	y	n	y	n	y	n	n	n
+PHIL101	2	INTRO TO PHILOSOPHY	123456	--T-R--	1800	1950	17	individual	n	y	n	y	y	y	y	y	n	n	y	y	n	n	y	n
+PHIL120	4	INTRO TO ETHICS	123456	-M-W---	1800	1950	21	individual	y	n	n	n	y	n	n	n	y	n	y	n	y	n	n	n
+PHIL120	1	INTRO TO ETHICS	123456	-M-W-F-	1200	1310	17	individual	n	y	n	y	y	y	y	y	n	n	y	y	n	n	y	n
+PHIL120	2	INTRO TO ETHICS	123456	-M-W-F-	1320	1430	17	individual	n	y	n	y	y	y	y	y	n	n	y	y	n	n	y	n
+PHIL120	3	INTRO TO ETHICS	123456	-M-W---	1440	1630	17	individual	n	y	n	y	y	y	y	y	n	n	y	y	n	n	y	n
+PHIL215	1	SYSTEMS OF LOGIC	123456	--T-R--	1000	1150	21	individual	y	n	n	n	y	n	n	n	y	n	y	n	y	n	n	n
+PHIL280	1	"TOPICS IN PHILOSOPHY:""Liberty and Justice for All"""	123456	-M-W---	1440	1630	21	individual	y	n	n	n	y	n	n	n	y	n	y	n	y	n	n	n
+PHIL297	1	DIRECTED RESEARCH	123456	-M-W-F-	800	910	21	group	y	n	n	y	y	y	y	y	y	n	n	n	y	n	n	n
+PHIL297	1	DIRECTED RESEARCH:Ethics Bowl Seminar	123456	-M-W-F-	800	910	21	group	y	n	n	y	y	y	y	y	y	n	n	n	y	n	n	n
+PHIL300	1	ANCIENT GREEK AND ROMAN PHILOSOP	123456	-M-W-F-	920	1030	21	group	y	n	n	y	y	y	y	y	y	n	n	n	y	n	n	n
+PHIL325	1	FEMINISM & PHILOSOPHY	123456	-M-W-F-	1320	1430	21	individual	y	n	n	n	y	n	n	n	y	n	y	n	y	n	n	n
+PHIL352	1	SOUTH ASIAN PHIL & RELIGION	123456	--T-R--	1200	1350	29	group	y	n	y	y	y	y	n	y	n	y	n	n	n	n	y	y
+PHIL380	1	"TOPICS IN PHILOSOPHY:""Liberty and Justice For All"""	123456	-M-W---	1440	1630	21	individual	y	n	n	n	y	n	n	n	y	n	y	n	y	n	n	n
+PHIL381	1	HAPPINESS AND MEANING	123456	-M-W-F-	1040	1150	21	individual	y	n	n	n	y	n	n	n	y	n	y	n	y	n	n	n
+PHIL382	1	MEDITATION AND THE MIND	123456	--T-R--	1200	1350	17	individual	n	y	n	y	y	y	y	y	n	n	y	y	n	n	y	n
+PHIL382	2	MEDITATION AND THE MIND	123456	--T-R--	1400	1550	17	individual	n	y	n	y	y	y	y	y	n	n	y	y	n	n	y	n
+PHIL402	1	PHILOSOPHY OF RELIGION	123456	--T-R--	1800	1950	21	individual	y	n	n	n	y	n	n	n	y	n	y	n	y	n	n	n
+PHYC101	1	INTRO TO PSYCHOLOGY	123456	-M-W-F-	1040	1150	29	individual	y	n	y	y	n	y	n	n	n	n	y	n	n	y	y	y
+PHYC101	2	INTRO TO PSYCHOLOGY	123456	-M-W-F-	920	1030	30	individual	y	y	y	n	y	n	n	y	y	n	n	y	y	y	n	y
+PHYC101	3	INTRO TO PSYCHOLOGY	123456	-M-W-F-	800	910	30	individual	y	y	y	n	y	n	n	y	y	n	n	y	y	y	n	y
+PHYC205	1	LEARNING AND COGNITION	123456	-M-W-F-	920	1030	17	group	y	y	y	n	n	n	y	n	y	n	y	n	y	n	n	n
+PHYC230	1	LIFESPAN DEVELOPMENT	123456	--T-R--	1000	1150	29	individual	y	n	y	y	n	y	n	n	n	n	y	n	n	y	y	y
+PHYC230	2	LIFESPAN DEVELOPMENT	123456	-M-W-F-	1320	1430	29	individual	y	n	y	y	n	y	n	n	n	n	y	n	n	y	y	y
+PHYC235	2	PHYSIOLOGICAL AND SENSORY PSYCH.	123456	--T-R--	1200	1350	29	individual	y	n	y	y	n	y	n	n	n	n	y	n	n	y	y	y
+PHYC235	1	PHYSIOLOGICAL AND SENSORY PSYCH.	123456	-M-W-F-	920	1030	27	group	n	n	n	y	y	n	y	n	n	n	y	y	n	y	y	y
+PHYC250	1	SOCIAL PSYCHOLOGY	123456	-M-W-F-	1040	1150	31	group	n	y	n	y	n	y	n	y	n	n	n	y	n	n	n	n
+PHYC250	2	SOCIAL PSYCHOLOGY	123456	-M-W-F-	1200	1310	31	group	n	y	n	y	n	y	n	y	n	n	n	y	n	n	n	n
+PHYC280	1	COUNSELING THEORIES AND METHODS	123456	--T-R--	1400	1550	31	group	n	y	n	y	n	y	n	y	n	n	n	y	n	n	n	n
+PHYC301	3	PSYCHOLOGICAL STATISTICS	123456	--T-R--	1200	1350	43	group	n	n	n	n	n	n	n	y	n	y	y	n	y	y	y	y
+PHYC301	1	PSYCHOLOGICAL STATISTICS	123456	--T-R--	800	950	43	individual	n	y	n	n	y	y	n	n	y	y	n	y	y	y	y	y
+PHYC301	2	PSYCHOLOGICAL STATISTICS	123456	--T-R--	1000	1150	43	individual	n	y	n	n	y	y	n	n	y	y	n	y	y	y	y	y
+PHYC303	1	WRITING & RESEARCH METHODS	123456	-M-W---	1440	1630	43	group	n	n	n	n	n	n	n	y	n	y	y	n	y	y	y	y
+PHYC303	2	WRITING & RESEARCH METHODS	123456	--T-R--	1800	1950	43	group	n	n	n	n	n	n	n	y	n	y	y	n	y	y	y	y
+PHYC303	3	WRITING & RESEARCH METHODS	123456	-M-W-F-	1320	1430	43	group	n	n	n	n	n	n	n	y	n	y	y	n	y	y	y	y
+PHYC303	2	WRITING & RESEARCH METHODS	123456	--T-R--	1800	1950	31	group	n	y	n	y	n	y	n	y	n	n	n	y	n	n	n	n
+PHYC303	1	WRITING & RESEARCH METHODS	123456	-M-W---	1440	1630	17	group	y	y	y	n	n	n	y	n	y	n	y	n	y	n	n	n
+PHYC303	3	WRITING & RESEARCH METHODS	123456	-M-W-F-	1320	1430	30	individual	y	y	y	n	y	n	n	y	y	n	n	y	y	y	n	y
+PHYC314	1	"DRUGS, BRAINS AND BEHAVIOR"	123456	-M-W---	1800	1950	29	individual	y	n	y	y	n	y	n	n	n	n	y	n	n	y	y	y
+PHYC322	1	BIOLOGICAL PSYCHOLOGY W/LAB	123456	-M-W-F-	920	1030	31	group	n	y	n	y	n	y	n	y	n	n	n	y	n	n	n	n
+PHYC322L	1	BIOLOGICAL PSYCHOLOGY LABORATORY	123456	---W---	1440	1630	15	group	n	n	n	y	y	y	y	y	y	n	n	y	n	n	n	n
+PHYC322L	2	BIOLOGICAL PSYCHOLOGY LABORATORY	123456	----R--	1400	1550	15	group	n	n	n	y	y	y	y	y	y	n	n	y	n	n	n	n
+PHYC324	1	COGNITIVE PSYCHOLOGY W/LAB	123456	-M-W-F-	1200	1310	30	individual	y	y	y	n	y	n	n	y	y	n	n	y	y	y	n	y
+PHYC324L	1	COGNITIVE PSYCHOLOGY LABORATORY	123456	-M-----	1440	1630	13	individual	n	n	y	n	y	y	y	n	n	n	y	n	n	y	n	n
+PHYC324L	2	COGNITIVE PSYCHOLOGY LABORATORY	123456	--T----	1400	1550	13	individual	n	n	y	n	y	y	y	n	n	n	y	n	n	y	n	n
+PHYC330	1	DEVELOPMENTAL PSYCHOLOGY W/LAB	123456	--T-R--	1000	1150	30	group	n	y	y	y	n	n	n	n	n	n	y	y	y	y	n	n
+PHYC330L	1	DEVELOPMENTAL PSYCH LABORATORY	123456	--T----	1400	1550	43	group	n	n	n	n	n	n	n	y	n	y	y	n	y	y	y	y
+PHYC330L	2	DEVELOPMENTAL PSYCH LABORATORY	123456	----R--	1400	1550	43	group	n	n	n	n	n	n	n	y	n	y	y	n	y	y	y	y
+PHYC333	1	ADOLESCENCE	123456	-M-W---	1440	1630	30	group	n	y	y	y	n	n	n	n	n	n	y	y	y	y	n	n
+PHYC368	1	EDUCATIONAL PSYCHOLOGY	123456	--T-R--	1000	1150	37	individual	n	n	n	y	n	y	n	n	n	n	y	y	n	y	n	y
+PHYC368	2	EDUCATIONAL PSYCHOLOGY	123456	--T-R--	1200	1350	37	individual	n	n	n	y	n	y	n	n	n	n	y	y	n	y	n	y
+PHYC375	1	ABNORMAL PSYCHOLOGY	123456	--T-R--	1000	1150	31	group	n	y	n	y	n	y	n	y	n	n	n	y	n	n	n	n
+PHYC405	1	HISTORY & SYSTEMS OF PSYCHOLOGY	123456	-M-W---	1800	1950	30	individual	y	y	y	n	y	n	n	y	y	n	n	y	y	y	n	y
+PHYC424	1	COGNITIVE PSYCHOLOGY	123456	-------	0	0	46	individual	n	n	y	y	y	n	y	y	n	n	n	y	n	n	n	y
+PHYC424L	1	COGNITIVE PSYC LAB	123456	-------	0	0	46	individual	n	n	y	y	y	n	y	y	n	n	n	y	n	n	n	y
+PHYC430	1	DEVELOPMENTAL PSYC W/LAB	123456	-------	0	0	46	individual	n	n	y	y	y	n	y	y	n	n	n	y	n	n	n	y
+PHYC430L	1	DEVELOPMENTAL PSYC LAB	123456	-------	0	0	46	individual	n	n	y	y	y	n	y	y	n	n	n	y	n	n	n	y
+PHYC474	1	PSYCHOLOGICAL ASSESSMENT	123456	--T-R--	1400	1550	48	individual	y	y	y	y	y	n	y	n	n	y	n	y	n	n	n	y
+PHYC490	1	SENIOR SEMINAR	123456	-M-W---	1440	1630	30	individual	y	y	y	n	y	n	n	y	y	n	n	y	y	y	n	y
+PHYS121	1	COLLEGE PHYSICS I	123456	--T-R--	1000	1150	18	individual	y	n	n	y	y	y	n	y	n	n	n	n	y	y	y	y
+PHYS121L	1	COLLEGE PHYSICS I LAB	123456	-M-----	1320	1610	17	individual	n	y	y	n	y	y	n	y	y	n	n	n	n	n	y	n
+PHYS121L	2	COLLEGE PHYSICS I LAB	123456	--T----	1300	1550	17	individual	n	y	y	n	y	y	n	y	y	n	n	n	n	n	y	n
+PHYS141	1	GENERAL PHYSICS I	123456	-M-W-F-	1040	1150	18	individual	y	n	n	y	y	y	n	y	n	n	n	n	y	y	y	y
+PHYS141L	1	GENERAL PHYSICS LAB	123456	---W---	1320	1610	17	individual	n	y	y	n	y	y	n	y	y	n	n	n	n	n	y	n
+PHYS141L	2	GENERAL PHYSICS LAB	123456	----R--	1300	1550	17	individual	n	y	y	n	y	y	n	y	y	n	n	n	n	n	y	n
+PHYS149	1	CALCULUS FOR PHYSICS	123456	-----F-	1320	1510	50	group	n	y	n	y	n	y	n	y	y	n	y	y	n	n	y	y
+PHYS151	1	FUNDAMENTALS OF PHYSICS I	123456	-M-W-F-	1040	1150	31	group	y	n	y	n	n	n	y	n	y	y	y	n	y	y	n	y
+PHYS151L	1	FUNDAMENTALS OF PHYSICS I lAB	123456	--T-R--	1000	1150	31	group	y	n	y	n	n	n	y	n	y	y	y	n	y	y	n	y
+PHYS182	1	EMERGING SCHOLARS PROGRAM	123456	-M-----	1800	2050	17	individual	n	y	y	n	y	y	n	y	y	n	n	n	n	n	y	n
+PHYS251	1	FUNDAMENTALS OF PHYSICS III	123456	-M-W-F-	1040	1150	11	individual	y	n	n	y	y	n	n	n	y	y	n	n	n	n	y	y
+PHYS251L	1	Fundamentals of Physics III LAB	123456	----R--	1300	1550	35	group	y	y	n	y	y	n	y	y	n	n	y	y	n	n	n	n
+PHYS462	1	QUANTUM MECHANICS	123456	--T-R--	1400	1550	20	group	y	n	y	y	n	n	y	n	y	y	n	y	n	n	y	y
+PHYS473	1	STATISTICAL MECHANICS:Statistical Mechanics	123456	--T-R--	1000	1150	21	individual	n	y	y	n	n	y	y	n	n	n	n	y	y	n	n	y
+PHYS475	1	TOPICS IN APPLIED PHYSICS I:Atomic Physics	123456	-M-W-F-	1320	1430	31	group	y	n	y	n	n	n	y	n	y	y	y	n	y	y	n	y
+PHYS490	1	Senior Seminar in Physics:Particle Physics	123456	-M-W---	1440	1630	20	group	y	n	y	y	n	n	y	n	y	y	n	y	n	n	y	y
+POSC100	1	INTRO TO POLITICS	123456	-M-W-F-	1040	1150	12	individual	n	n	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+POSC100	2	INTRO TO POLITICS	123456	--T-R--	800	950	11	individual	y	y	y	n	y	n	y	y	y	y	y	y	y	y	y	n
+POSC100	3	INTRO TO POLITICS	123456	--T-R--	1000	1150	11	individual	y	y	y	n	y	n	y	y	y	y	y	y	y	y	y	n
+POSC200	1	SCOPE AND METHODS OF POLITICAL	123456	-M-W-F-	920	1030	47	group	n	y	y	y	y	n	n	n	n	n	n	y	y	n	n	y
+POSC200	2	SCOPE AND METHODS OF POLITICAL	123456	-M-W-F-	1040	1150	47	group	n	y	y	y	y	n	n	n	n	n	n	y	y	n	n	y
+POSC201	1	AMERICAN POLITICS	123456	-M-W---	1440	1630	29	group	y	n	n	n	y	n	y	n	n	n	y	y	n	y	n	n
+POSC252	1	COMPARATIVE POLITICS	123456	--T-R--	1400	1550	29	group	y	n	y	y	y	y	n	y	n	y	n	n	n	n	y	y
+POSC262	1	DEMOCRATIC POLITICAL THOUGHT	123456	--T-R--	1000	1150	29	group	y	n	y	y	y	y	n	y	n	y	n	n	n	n	y	y
+POSC269	1	INTERNATIONAL POLITICS	123456	--T-R--	1400	1550	11	individual	y	y	y	n	y	n	y	y	y	y	y	y	y	y	y	n
+POSC315	1	POLICY EVALUATION	123456	--T-R--	1000	1150	29	group	y	n	n	n	y	n	y	n	n	n	y	y	n	y	n	n
+POSC317	1	POLITICS OF PEACE AND CONFLICT	123456	-M-W-F-	1200	1310	29	group	y	n	n	n	y	n	y	n	n	n	y	y	n	y	n	n
+POSC333	1	ASIAN POLITICS	123456	--T-R--	1800	1950	29	group	y	n	n	n	y	n	y	n	n	n	y	y	n	y	n	n
+POSC348	1	PARTIES & ELECTIONS	123456	--T-R--	1400	1550	29	group	y	n	n	n	y	n	y	n	n	n	y	y	n	y	n	n
+POSC353	1	CAPITAL PUNISHMENT	123456	--T-R--	800	950	42	individual	n	n	n	n	n	n	n	y	y	y	y	n	y	y	n	y
+POSC366	1	LAW AND SOCIETY	123456	---W---	1635	1825	11	individual	y	y	y	n	y	n	y	y	y	y	y	y	y	y	y	n
+POSC385	3	TOPICS IN POL SCI or PUB POLICY:Politics of Protest	123456	--T-R--	1200	1350	29	group	y	n	n	n	y	n	y	n	n	n	y	y	n	y	n	n
+POSC385	2	TOPICS IN POL SCI or PUB POLICY:Welfare Politics	123456	--T-R--	1200	1350	36	group	n	n	y	y	n	y	y	n	y	n	y	n	y	n	n	n
+POSC385	1	TOPICS IN POL SCI or PUB POLICY:Free & Fair Elections	123456	-M-W-F-	1200	1310	11	individual	y	y	y	n	y	n	y	y	y	y	y	y	y	y	y	n
+POSC385	5	TOPICS IN POL SCI or PUB POLICY:The Political Theory of Art	123456	--T-R--	1200	1350	11	individual	y	y	y	n	y	n	y	y	y	y	y	y	y	y	y	n
+POSC385	4	TOPICS IN POL SCI or PUB POLICY:Urban Politics in Comparative Pe	123456	--T-R--	1800	1950	9	individual	n	y	n	y	n	n	n	y	y	n	n	y	y	y	y	n
+POSC419	1	AFRICAN-AMERICAN HISTORY IN US	123456	-M-W-F-	1040	1150	28	individual	n	y	n	y	n	y	n	y	n	y	y	y	y	n	y	y
+POSC461	1	STUDIES IN AMERICAN POLITICS:Media & Public Opinion	123456	--T-R--	1000	1150	28	individual	n	y	n	y	n	y	n	y	n	y	y	y	y	n	y	y
+POSC468	1	STUDIES:INTERNATIONAL RELATIONS	123456	--T-R--	1800	1950	11	individual	y	y	y	n	y	n	y	y	y	y	y	y	y	y	y	n
+RELG110	1	INTRO TO THE STUDY OF RELIGIONS	123456	-M-W-F-	800	910	30	group	y	n	y	y	y	n	n	n	y	y	n	y	y	n	y	n
+RELG110	2	INTRO TO THE STUDY OF RELIGIONS	123456	-M-W-F-	920	1030	30	group	y	n	y	y	y	n	n	n	y	y	n	y	y	n	y	n
+RELG210	1	BIBLICAL FOUNDATIONS	123456	--T-R--	1200	1350	21	individual	y	n	n	n	y	n	n	n	y	n	y	n	y	n	n	n
+RELG211	1	SPEAKING OF GOD: INTRO TO THEOLO	123456	-M-W-F-	1040	1150	17	individual	n	y	n	y	y	y	y	y	n	n	y	y	n	n	y	n
+RELG221	1	INTRO TO ISLAMIC CIVILIZATION	123456	-M-W-F-	920	1030	21	individual	y	n	n	n	y	n	n	n	y	n	y	n	y	n	n	n
+RELG301	1	DEATH AND DYING	123456	--T-R--	1400	1550	5	individual	y	n	y	n	y	y	n	y	y	y	n	y	y	n	n	y
+RELG328	1	TOPICS IN RELIG AND PSYCH:Imagination/Memory/the Sacred	123456	--T-R--	1000	1150	21	group	y	n	n	y	y	y	y	y	y	n	n	n	y	n	n	n
+RELG350	1	"RELIGION, POLITICS, AND MODERNIT"	123456	-M-W-F-	1320	1430	21	group	y	n	n	y	y	y	y	y	y	n	n	n	y	n	n	n
+RELG352	1	SOUTH ASIAN PHIL & RELIGION	123456	--T-R--	1200	1350	29	group	y	n	y	y	y	y	n	y	n	y	n	n	n	n	y	y
+RELG380	1	TOPICS IN RELIGIOUS STUDIES:Perpetrators/Victims/Bystanders	123456	--T-R--	1800	1950	21	group	y	n	n	y	y	y	y	y	y	n	n	n	y	n	n	n
+RELG380	2	TOPICS IN RELIGIOUS STUDIES:Perpetrators/Victims/Bystanders	123456	--T-R--	1800	1950	21	group	y	n	n	y	y	y	y	y	y	n	n	n	y	n	n	n
+RELG402	1	PHIL OF RELIGION	123456	--T-R--	1800	1950	21	individual	y	n	n	n	y	n	n	n	y	n	y	n	y	n	n	n
+SOCI101	1	INTRO TO SOCIOLOGY	123456	-M-W-F-	920	1030	16	individual	n	n	n	y	y	y	n	y	y	y	y	n	n	n	n	y
+SOCI101	2	INTRO TO SOCIOLOGY	123456	-M-W-F-	1040	1150	16	individual	n	n	n	y	y	y	n	y	y	y	y	n	n	n	n	y
+SOCI201	1	SOCIAL STATISTICS	123456	-M-W-F-	1200	1310	47	group	n	y	y	y	y	n	n	n	n	n	n	y	y	n	n	y
+SOCI312	1	ECONOMIC SOCIOLOGY	123456	-M-W---	1440	1630	25	group	n	y	y	y	n	y	n	n	y	y	n	y	n	n	y	y
+SOCI316	1	SOCI OF CHILDREN AND CHILDHOOD	123456	--T-R--	1400	1550	25	group	n	y	y	y	n	y	n	n	y	y	n	y	n	n	y	y
+SOCI323	1	ENTREPRENEURSHIP	123456	--T-R--	1000	1150	25	group	n	y	y	y	n	y	n	n	y	y	n	y	n	n	y	y
+SOCI350	1	SOCIOLOGICAL THEORY	123456	-M-W-F-	1320	1430	25	group	n	y	y	y	n	y	n	n	y	y	n	y	n	n	y	y
+SOCI351	1	SOCIOLOGY OF DEVIANCE	123456	--T-R--	1800	1950	12	individual	n	n	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+SOCI355	1	DEMOGRAPHY	123456	--T-R--	1200	1350	25	group	n	y	y	y	n	y	n	n	y	y	n	y	n	n	y	y
+SOCI385	1	RESEARCH METHODS	123456	--T-R--	1000	1150	47	group	n	y	y	y	y	n	n	n	n	n	n	y	y	n	n	y
+THMS130	1	IDEA INTO PERFORMANCE	123456	--T-R--	1000	1150	7	individual	y	n	y	y	y	y	n	n	n	y	y	y	y	y	y	n
+THMS170	1	STAGECRAFT	123456	--T-R--	1200	1350	21	group	n	y	n	n	y	y	n	y	n	n	y	n	n	n	y	y
+THMS220	1	INTRO FILM AND MEDIA STUDIES	123456	--T-R--	1400	1550	6	individual	y	n	y	y	y	y	n	y	n	n	y	n	n	n	n	y
+THMS221	1	FILM/MEDIA PRODUCTION MODES	123456	-M-W---	1800	1950	6	individual	y	n	y	y	y	y	n	y	n	n	y	n	n	n	n	y
+THMS228	1	MEDIA PRODUCTION I	123456	-M-W---	1440	1630	17	individual	n	n	n	y	y	y	n	n	y	n	y	n	y	y	y	n
+THMS230	1	ACTING I	123456	--T-R--	1200	1350	7	individual	y	n	y	y	y	y	n	n	n	y	y	y	y	y	y	n
+THMS250	1	MOVEMENT I	123456	--T-R--	1000	1150	42	group	n	n	y	y	y	y	y	n	y	y	y	y	n	y	y	y
+THMS251	1	INTRO TRAD AFRICAN DANCE	123456	-M-W---	1440	1630	42	group	n	n	y	y	y	y	y	n	y	y	y	y	n	y	y	y
+THMS255	1	MODERN DANCE I	123456	-M-W-F-	1040	1150	42	group	n	n	y	y	y	y	y	n	y	y	y	y	n	y	y	y
+THMS260	1	TOPICS IN DANCE/MOVEMENT:Occupied Bodies:Perform Impo Mov	123456	--T-R--	1400	1550	42	group	n	n	y	y	y	y	y	n	y	y	y	y	n	y	y	y
+THMS325	1	DOCUMENTARY PRACTICES	124365	--T-R--	1000	1150	6	individual	y	n	y	y	y	y	n	y	n	n	y	n	n	n	n	y
+THMS340	1	DIRECTING FOR THE STAGE	132456	-M-W---	1440	1630	7	individual	y	n	y	y	y	y	n	n	n	y	y	y	y	y	y	n
+THMS346	1	SCREENWRITING	132465	--T-R--	1200	1350	6	individual	y	n	y	y	y	y	n	y	n	n	y	n	n	n	n	y
+THMS422	1	HORROR FILM	162534	-M-W---	1440	1630	6	individual	y	n	y	y	y	y	n	y	n	n	y	n	n	n	n	y
+THMS460	1	ADV TOPICS IN DANCE/MOVEMENT:Occupied Bodies:Perform Impo Mov	162534	--T-R--	1400	1550	42	group	n	n	y	y	y	y	y	n	y	y	y	y	n	y	y	y
+THMS480	1	"ADVANCED TOPICS IN PRODUCTION:Fashion, History, and Feminism"	132456	--T-R--	1400	1550	40	individual	y	n	n	n	n	n	n	y	y	y	y	y	n	n	n	n
+WGSX220	1	WOMEN GENDER & SEXUALITY STUDIES	132465	--T-R--	1800	1950	46	group	y	y	n	n	y	n	y	y	y	n	n	n	n	y	y	n

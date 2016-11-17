@@ -7,6 +7,7 @@ import org.apache.commons.io.IOUtils;
 
 import OIT_Dev.Class;
 import OIT_Dev.Parser;
+import OIT_Dev.Population;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -65,6 +66,9 @@ public class MultipleServlet extends HttpServlet {
         Resource res = new Resource();
         res.classList.setClassList(parse.parseClass());
        
+        //call methods
+        Population testPop = new Population(10, true);
+        testPop.evolve(100, testPop);
        
         try {
 			response.sendRedirect("http://localhost:8080/ClassAllocation/exportCSV.jsp");

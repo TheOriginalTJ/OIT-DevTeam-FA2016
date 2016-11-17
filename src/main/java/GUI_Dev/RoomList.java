@@ -2,20 +2,20 @@ package GUI_Dev;
 
 import java.util.List;
 
-import OIT_Dev.Class;
+import OIT_Dev.Classroom;
 
 public class RoomList {
-private List<Class> roomList;
+private List<Classroom> roomList;
 	
 	public RoomList(){
 		
 	}
 
-	public List<Class> getClassList() {
+	public List<Classroom> getRoomList() {
 		return roomList;
 	}
 
-	public void setClassList(List<Class> list) {
+	public void setRoomList(List<Classroom> list) {
 		this.roomList = list;
 	}
 	

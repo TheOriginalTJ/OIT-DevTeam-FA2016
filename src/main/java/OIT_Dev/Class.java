@@ -516,4 +516,10 @@ public class Class {
 		else
 			return false;
 	}
+	
+	public String toString(){
+		return getClassnum() + "-" + getSectionnum();
+		
+	}
+	
 }

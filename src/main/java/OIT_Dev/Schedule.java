@@ -44,11 +44,16 @@ public class Schedule {
 		}
 	}
 	
-	public void loadSchedule(String fileName, ArrayList<Classroom> roomList){
-		Parser myParser = new Parser(fileName);
-		genes = new ArrayList<Class>(myParser.parse());
+	
+	//Need this resources object to reference throughout code
+	private GUI_Dev.Resource res = new GUI_Dev.Resource();
+
+	//This is in place of the current loadSchedule()
+
+	public void loadSchedule(){
+		genes = new ArrayList<Class>(res.classList.getClassList());
 		genecount = genes.size();
-		rooms = new ArrayList<Classroom>(roomList);
+		rooms = new ArrayList<Classroom>(res.roomList.getRoomList());
 		roomlength = rooms.size();
 	}
 
@@ -116,7 +121,7 @@ public class Schedule {
 	public String toString() {
 		String geneString = "";
 		for (int i = 0; i < genes.size(); i++) {
-			geneString += getGene(i);
+			geneString += getGene(i).toString();
 		}
 		return geneString;
 	}
@@ -128,8 +133,7 @@ public class Schedule {
 		else{
 			for(int i = 0; i < genes.size(); i++){
 				for(int j = 0; j < sched.size(); j++){
-					if((this.getGene(i).getDisc().equals(sched.getGene(j).getDisc()))
-							&&(this.getGene(i).getClassnum().equals(sched.getGene(j).getClassnum()))
+					if((this.getGene(i).getClassnum().equals(sched.getGene(j).getClassnum()))
 									&&(this.getGene(i).getSectionnum().equals(sched.getGene(j).getSectionnum()))){
 						if(this.getGene(i).getRoomchoice().equals(sched.getGene(j).getRoomchoice())){
 							//Do nothing, this just means that at least one class is in the same room.

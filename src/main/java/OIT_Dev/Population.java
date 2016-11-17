@@ -6,8 +6,6 @@ public class Population {
 
 	Schedule[] schedules;
 	ArrayList<Classroom> rooms = new ArrayList<Classroom>();
-	
-	
 
 	/*
 	 * Constructors
@@ -59,7 +57,7 @@ public class Population {
             myPop = Algorithm.evolvePopulation(myPop);
         }
 		
-		System.out.println("Fittest: " + myPop.getFittest() 
-			+ "Fitness: " + myPop.getFittest().getFitness());
+		System.out.println("Fitness: " + myPop.getFittest().getFitness()
+			+ "\nSchedule: " + myPop.getFittest().toString());
 	}
 }

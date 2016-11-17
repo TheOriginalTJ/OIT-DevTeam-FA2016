@@ -14,9 +14,13 @@ public class FitnessCalc {
 
 	// Calculate schedules fitness by checking which classroom attributes match the class requirements.
 	static double getFitness(Schedule sched) {
-		for (int i = 0; i < sched.size(); i++)
+		for (int i = 0; i < sched.size(); i++){
+			
 		//Make sure each gene HAS a score to work with.
 			sched.getGene(i).calcScore();
+			
+		}
+		
 		double total = 0;
 		double count = 0;
 		double fitness = 0;

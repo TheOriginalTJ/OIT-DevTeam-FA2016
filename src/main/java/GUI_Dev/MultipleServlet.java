@@ -6,6 +6,7 @@ import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.apache.commons.io.IOUtils;
 
 import OIT_Dev.Class;
+import OIT_Dev.Classroom;
 import OIT_Dev.Parser;
 import OIT_Dev.Population;
 
@@ -65,7 +66,12 @@ public class MultipleServlet extends HttpServlet {
         Parser parse = new Parser(file.getAbsolutePath());
         Resource res = new Resource();
         res.classList.setClassList(parse.parseClass());
-       
+        
+        File rooms = new File("src/main/resources/webroot/rooms.txt");
+        Parser roomParse = new Parser(rooms.getAbsolutePath());
+        res.roomList.setRoomList(roomParse.parseClassroom());
+        
+      
         //call methods
         Population testPop = new Population(10, true);
         testPop.evolve(100, testPop);

@@ -518,7 +518,7 @@ public class Class {
 	}
 	
 	public String toString(){
-		return getClassnum() + "-" + getSectionnum();
+		return getClassnum() + "-0" + getSectionnum() + "\t" + getRoomchoice().toString() + "\n";
 		
 	}
 	

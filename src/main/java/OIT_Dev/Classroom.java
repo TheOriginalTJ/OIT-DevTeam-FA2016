@@ -290,4 +290,8 @@ public class Classroom {
 			return false;
 	}
 	
+	public String toString(){
+		return getBuilding() + " " + getRoomnum();
+	}
+	
 }

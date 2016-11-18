@@ -58,6 +58,6 @@ public class Population {
         }
 		
 		System.out.println("Fitness: " + myPop.getFittest().getFitness()
-			+ "\nSchedule: " + myPop.getFittest().toString());
+			+ "\nSchedule:\n" + myPop.getFittest().toString());
 	}
 }

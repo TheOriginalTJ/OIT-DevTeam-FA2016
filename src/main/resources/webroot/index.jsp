@@ -47,7 +47,7 @@
         <a class="nav-link" data-toggle="tab" href="#single" role="tab">Add Single Class</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#delete" role="tab">Delete Class</a>
+        <a class="nav-link" data-toggle="tab" href="#delete" role="tab">Edit Class</a>
     </li>
     <li class="nav-item">
         <a class="nav-link" data-toggle="tab" href="#classrooms" role="tab">Classrooms</a>

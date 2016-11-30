@@ -1,5 +1,5 @@
-package OIT_Dev;
 
+import java.io.PrintWriter;
 import java.util.ArrayList;
 
 public class Schedule {
@@ -14,7 +14,7 @@ public class Schedule {
 	public int genecount;
 	
 	public Schedule(){
-		loadSchedule();
+		
 	}
 	
 	public void mutateRoom(int index){
@@ -44,16 +44,11 @@ public class Schedule {
 		}
 	}
 	
-	
-	//Need this resources object to reference throughout code
-	private GUI_Dev.Resource res = new GUI_Dev.Resource();
-
-	//This is in place of the current loadSchedule()
-
-	public void loadSchedule(){
-		genes = new ArrayList<Class>(res.classList.getClassList());
+	public void loadSchedule(String fileName, ArrayList<Classroom> roomList){
+		Parser myParser = new Parser(fileName);
+		genes = new ArrayList<Class>(myParser.parseClass());
 		genecount = genes.size();
-		rooms = new ArrayList<Classroom>(res.roomList.getRoomList());
+		rooms = new ArrayList<Classroom>(roomList);
 		roomlength = rooms.size();
 	}
 
@@ -121,7 +116,7 @@ public class Schedule {
 	public String toString() {
 		String geneString = "";
 		for (int i = 0; i < genes.size(); i++) {
-			geneString += getGene(i).toString();
+			geneString += getGene(i);
 		}
 		return geneString;
 	}
@@ -148,6 +143,57 @@ public class Schedule {
 		return true;
 	}
 	
+	public void exportFile() {
+		PrintWriter writer;
+		//Attempt to create output file (***WILL OVERWRITE PREVIOUS RESULT.TXT FILES***)
+		try {
+			writer = new PrintWriter("result.txt", "UTF-8");
+			//Write first line - template of format
+			writer.println("Course Number\tCourse Name\tBuilding\tRoom Number\tInstructor ID\tMeeting Days\t"
+					+ "Start Time\tEnd Time\tOccupied Seats\tSeating Type\twhiteboard\tchalkboard\t"
+					+ "computer\tsound system\tcd player\tdvd player\thearing assisted\tvisual optimizer\t"
+					+ "laptop connectivity\tnetwork connections\toverhead\tpodium\tprojector screen\t"
+					+ "monitors\tpiano");
+			//Take info from 'rooms' and print onto each line
+			for(int i = 0; i < rooms.size(); i++) {
+				Classroom currentClassroom = rooms.get(i);
+				writer.println(currentClassroom.getCurrentclass().getClassnum() + "\t" +
+				currentClassroom.getCurrentclass().getCourseName() + "\t" +
+				currentClassroom.getBuilding() + "\t" +
+				currentClassroom.getRoomnum() + "\t" +
+				currentClassroom.getCurrentclass().getInstructorID() + "\t" +
+				currentClassroom.getCurrentclass().getMeetingDays() + "\t" +
+				currentClassroom.getCurrentclass().getStartTime() + "\t" +
+				currentClassroom.getCurrentclass().getEndTime() + "\t" +
+				currentClassroom.getCurrentclass().getNumseats() + "/" + currentClassroom.getSeats() + "\t" +
+				currentClassroom.getCurrentclass().getSeatingType() + "\t" +
+				currentClassroom.isWhiteboard() + "\t" +
+				currentClassroom.isChalkboard() + "\t" +
+				currentClassroom.isComputer() + "\t" +
+				currentClassroom.isSoundsystem() + "\t" +
+				currentClassroom.isCdplayer() + "\t" +
+				currentClassroom.isDvdplayer() + "\t" +
+				currentClassroom.isHearingassisted() + "\t" +
+				currentClassroom.isVisualoptimizer() + "\t" +
+				currentClassroom.isLaptopconnectivity() + "\t" +
+				currentClassroom.isNetworkconnections() + "\t" +
+				currentClassroom.isOverheadprojector() + "\t" +
+				currentClassroom.isPodium() + "\t" +
+				currentClassroom.isProjectorscreen() + "\t" +
+				currentClassroom.isMonitors() + "\t" +
+				currentClassroom.isPiano() + "\t");
+			}
+		} catch(Exception e) {
+			System.out.println("Error while outputting schedule file");
+			return;
+		}
+		try {
+			writer.close();
+		} catch(Exception e) {
+			System.out.println("Error while closing PrintWriter");
+			return;
+		}
+	}
 	
 	/*
 	public boolean sameAs(Schedule sched)
@@ -167,3 +213,5 @@ public class Schedule {
 	}
 	*/
 }
+
+

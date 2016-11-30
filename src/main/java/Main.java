@@ -1,10 +1,15 @@
 
 import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.*;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.eclipse.jetty.jsp.JettyJspServlet;
+import org.apache.commons.io.IOUtils;
 import org.apache.tomcat.InstanceManager;
 import org.apache.tomcat.SimpleInstanceManager;
 import org.eclipse.jetty.annotations.ServletContainerInitializersStarter;
@@ -16,13 +21,16 @@ import org.eclipse.jetty.server.ServerConnector;
 import org.eclipse.jetty.servlet.DefaultServlet;
 import org.eclipse.jetty.servlet.ServletHolder;
 import org.eclipse.jetty.webapp.WebAppContext;
+
 import GUI_Dev.AddClassroomServlet;
 import GUI_Dev.ClassList;
 import GUI_Dev.DeleteServlet;
 import GUI_Dev.EditClassroomServlet;
 import GUI_Dev.MultipleServlet;
+import GUI_Dev.Resource;
 import GUI_Dev.ScheduleServlet;
 import GUI_Dev.SingleServlet;
+import OIT_Dev.Parser;
 
 
 /**
@@ -35,6 +43,25 @@ public class Main {
 
     public static void main(String[] args) {
 
+    	Resource res = new Resource();
+    	ClassLoader classloader = Thread.currentThread().getContextClassLoader();
+        InputStream is = classloader.getResourceAsStream("webroot/rooms.txt");
+        File rooms = new File("rooms.txt");
+         
+        try {
+        	OutputStream output = new FileOutputStream(rooms);
+ 			IOUtils.copy(is, output);
+ 			output.close();
+ 		} catch (IOException e) {
+ 			// TODO Auto-generated catch block
+ 			e.printStackTrace();
+ 		}
+         
+    
+         Parser roomParse = new Parser(rooms.getAbsolutePath());
+         res.roomList.setRoomList(roomParse.parseClassroom());
+    	
+    	
             int port = 8080;
             String context_path = "/ClassAllocation";
             Main main = new Main(port,context_path);

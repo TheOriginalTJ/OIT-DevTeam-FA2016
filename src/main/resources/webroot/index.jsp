@@ -329,7 +329,7 @@
                             <div class="form-group">
                                 <label for="building">Building</label>
                                 <input type="text" id="building" name="building" class="form-control"
-                                       placeholder="Ex: Schaefer"
+                                       placeholder="Ex: SB"
                                        required>
                             </div>
                         </div>
@@ -473,7 +473,7 @@
                             <div class="form-group">
                                  <label for="building_edit">Building</label>
                                 <input type="text" id="building_edit" name="building_edit" class="form-control"
-                                       placeholder="Ex: Schaefer">
+                                       placeholder="Ex: SB">
                             </div>
                         </div>
                         <div class="col-md-2 col-md-offset-2">

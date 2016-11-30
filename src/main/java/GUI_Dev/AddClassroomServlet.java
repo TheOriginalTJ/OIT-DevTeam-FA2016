@@ -1,4 +1,7 @@
 package GUI_Dev;
+import java.io.IOException;
+import java.util.List;
+
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -9,11 +12,11 @@ public class AddClassroomServlet extends HttpServlet {
         response.setContentType("text/html");
         response.setStatus(HttpServletResponse.SC_OK);
 
-        String classroom_number = request.getParameter("classroom_number");
         String building = request.getParameter("building");
-        String chairs = request.getParameter("chairs_add");
-        String desks = request.getParameter("desks_add");
-
+        String classroom_number = request.getParameter("classroom_number");
+        String number_of_slots = request.getParameter("number_of_slots_classroom");
+        String chairs = request.getParameter("chairs_classroom");
+     
         String[] checkbox = {"whiteboard", "chalkBoard", "computerLaptop", "soundSystem", "cd", "dvd", "dataVideoProjector",
                 "hearingAssisted", "visualOptimizer", "laptopConnectivity", "networkConnection", "overhearProjector", "podium",
                 "projectorScreen", "tvMonitors", "piano"};
@@ -150,5 +153,25 @@ public class AddClassroomServlet extends HttpServlet {
                cb_hearingAssisted + cb_visualOptimizer + cb_laptopConnectivity + cb_networkConnection + cb_overhearProjector + cb_podium +
                 cb_projectorScreen + cb_tvMonitors + cb_piano);
                 */
+        
+        
+        OIT_Dev.Classroom newClassroom = new OIT_Dev.Classroom(building, classroom_number, number_of_slots, 
+        		chairs, cb_whiteboard, cb_chalkBoard, cb_computerLaptop, cb_soundSystem, cb_cd, cb_dvd, 
+        		cb_dataVideoProjector, cb_hearingAssisted, cb_visualOptimizer, 
+        		cb_laptopConnectivity, cb_networkConnection, cb_overhearProjector, cb_podium, 
+        		cb_projectorScreen, cb_tvMonitors, cb_piano);
+        
+        Resource res = new Resource();
+        List<OIT_Dev.Classroom> classroomList = res.roomList.getRoomList();
+        
+        classroomList.add(newClassroom);
+        res.roomList.setRoomList(classroomList);
+        
+        try {
+			response.sendRedirect("http://localhost:8080/ClassAllocation/exportCSV.jsp");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
     }
 }

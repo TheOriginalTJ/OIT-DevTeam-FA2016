@@ -325,7 +325,7 @@
                         <h1></h1>
                     </div>
                     <div class="row">
-                        <div class="col-md-2 col-md-offset-3">
+                        <div class="col-md-2 col-md-offset-1">
                             <div class="form-group">
                                 <label for="building">Building</label>
                                 <input type="text" id="building" name="building" class="form-control"
@@ -340,28 +340,30 @@
                                        placeholder="Ex: 165" required>
                             </div>
                         </div>
+                         <div class="col-md-2 col-md-offset-2">
+                   		 	<div class="form-group">
+                        		<label for="number_of_slots_classroom">Number of Available Seats</label>
+                        		<input type="text" id="number_of_slots_classroom" name="number_of_slots_classroom" class="form-control"
+                               	placeholder="Ex: 32" required>
+                    		</div>
+                		</div>
                     </div>
                     <div class="row">
                         <center><h3>Classroom Features</h3></center>
                     </div>
-                    <div class="row">
-                        <div class="col-md-2 col-md-offset-3">
-                            <div class="form-group form-group-sm">
-                                <div class="col-md-5">
-                                    <input class="form-control" type="text" id="chairs_add" name="chairs_add" placeholder="Ex: 30">
-                                </div>
-                                <label class="control-label" for="chairs_add">Number of Chairs</label>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-md-offset-2">
-                            <div class="form-group form-group-sm">
-                                <div class="col-md-5">
-                                    <input class="form-control" type="text" id="desks_add" name="desks_add" placeholder="Ex: 30">
-                                </div>
-                                <label class="control-label" for="desks_add">Number of Desks</label>
-                            </div>
-                        </div>
-                    </div>
+                   <div class="row">
+                		<div class="col-md-4 col-md-offset-5">
+                    		<div class="form-group form-group-sm">
+                        		<div class="col-md-5">
+                            		<select class="form-control" id="chairs_classroom" name="chairs_classroom">
+                               			<option>Individual Seating</option>
+                                		<option>Group Seating</option>
+                           			</select>
+                        		</div>
+                        		<label class="control-label" for="chairs_classroom">Seating Type</label>
+                    		</div>
+               			</div>
+            		</div>
                     <div class="row">
                         <div class="col-md-2 col-md-offset-1">
                             <div class="checkbox">

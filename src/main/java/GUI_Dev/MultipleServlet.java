@@ -67,24 +67,6 @@ public class MultipleServlet extends HttpServlet {
         Resource res = new Resource();
         res.classList.setClassList(parse.parseClass());
         
-        
-        ClassLoader classloader = Thread.currentThread().getContextClassLoader();
-        InputStream is = classloader.getResourceAsStream("webroot/rooms.txt");
-        File rooms = new File("rooms.txt");
-        
-        try {
-        	OutputStream output = new FileOutputStream(rooms);
-			IOUtils.copy(is, output);
-			output.close();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-        
-   
-        Parser roomParse = new Parser(rooms.getAbsolutePath());
-        res.roomList.setRoomList(roomParse.parseClassroom());
-        
       
         //call methods
         Population testPop = new Population(10, true);

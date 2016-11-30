@@ -1,4 +1,7 @@
 package GUI_Dev;
+import java.io.IOException;
+import java.util.List;
+
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -154,6 +157,26 @@ public class SingleServlet extends HttpServlet {
         System.out.println(cb_whiteboard + cb_chalkBoard + cb_computerLaptop + cb_soundSystem + cb_cd + cb_dvd + cb_dataVideoProjector +
                 cb_hearingAssisted + cb_visualOptimizer + cb_laptopConnectivity + cb_networkConnection + cb_overhearProjector + cb_podium +
                 cb_projectorScreen + cb_tvMonitors + cb_piano);*/
+        
+        OIT_Dev.Class newClass = new OIT_Dev.Class(course_number, course_section, course_name, instructor, 
+        		course_days, start_time, end_time, chairs, number_of_slots, cb_whiteboard, 
+        		cb_chalkBoard, cb_computerLaptop, cb_soundSystem, cb_cd, cb_dvd, 
+        		cb_dataVideoProjector, cb_hearingAssisted, cb_visualOptimizer, 
+        		cb_laptopConnectivity, cb_networkConnection, cb_overhearProjector, cb_podium, 
+        		cb_projectorScreen, cb_tvMonitors, cb_piano);
+        
+        Resource res = new Resource();
+        List<OIT_Dev.Class> classList = res.classList.getClassList();
+        
+        classList.add(newClass);
+        res.classList.setClassList(classList);
+        
+        try {
+			response.sendRedirect("http://localhost:8080/ClassAllocation/exportCSV.jsp");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
                 
     }
 }

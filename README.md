@@ -4,3 +4,6 @@ This group exists in order to develop a program for OIT and the School Registrar
 In the command prompt, go to the directory that contains OIT.jar  
 Run java -jar OIT.jar  
 Once executed, go to http://localhost:8080/ClassAllocation
+
+Directions to kill process again.
+http://therealdanvega.com/blog/2015/04/16/windows-kill-process-by-port-number

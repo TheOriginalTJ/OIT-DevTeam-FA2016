@@ -69,6 +69,37 @@ public class Class {
 	} // end constructor
 	
 	//abridged constructor
+	public Class(Class oldClass) {
+		this.classnum = oldClass.classnum;
+		this.sectionnum = oldClass.sectionnum;
+		this.courseName = oldClass.courseName;
+		this.instructorID = oldClass.instructorID;
+		this.meetingDays = oldClass.meetingDays;
+		this.startTime = oldClass.startTime;
+		this.endTime = oldClass.endTime;
+		this.seatingType = oldClass.seatingType;
+		this.numseats = oldClass.numseats;
+		this.cb_whiteboard = oldClass.cb_whiteboard;
+		this.cb_chalkboard = oldClass.cb_chalkboard;
+		this.cb_computer = oldClass.cb_computer;
+		this.cb_soundsystem = oldClass.cb_soundsystem;
+		this.cb_cdplayer = oldClass.cb_cdplayer;
+		this.cb_dvdplayer = oldClass.cb_dvdplayer;
+		this.cb_videoprojector = oldClass.cb_videoprojector;
+		this.cb_hearingassisted = oldClass.cb_hearingassisted;
+		this.cb_visualoptimizer = oldClass.cb_visualoptimizer;
+		this.cb_laptopconnectivity = oldClass.cb_laptopconnectivity;
+		this.cb_networkconnections = oldClass.cb_networkconnections;
+		this.cb_overheadprojector = oldClass.cb_overheadprojector;
+		this.cb_podium = oldClass.cb_podium;
+		this.cb_projectorscreen = oldClass.cb_projectorscreen;
+		this.cb_monitors = oldClass.cb_monitors;
+		this.cb_piano = oldClass.cb_piano;
+		this.score = 0;
+		this.roomchoice = new Classroom(oldClass.getRoomchoice());
+	}
+	
+	//abridged constructor
 	public Class(String classnum, String sectionnum, String courseName, 
 			String instructorID, String meetingDays, String startTime, String endTime, String seatingType, 
 			String numseats) {
@@ -98,36 +129,6 @@ public class Class {
 		this.cb_monitors = "n";
 		this.cb_piano = "n";
 	}
-	
-	//abridged constructor
-		public Class(Class oldClass) {
-			this.classnum = oldClass.classnum;
-			this.sectionnum = oldClass.sectionnum;
-			this.courseName = oldClass.courseName;
-			this.instructorID = oldClass.instructorID;
-			this.meetingDays = oldClass.meetingDays;
-			this.startTime = oldClass.startTime;
-			this.endTime = oldClass.endTime;
-			this.seatingType = oldClass.seatingType;
-			this.numseats = oldClass.numseats;
-			this.cb_whiteboard = oldClass.cb_whiteboard;
-			this.cb_chalkboard = oldClass.cb_chalkboard;
-			this.cb_computer = oldClass.cb_computer;
-			this.cb_soundsystem = oldClass.cb_soundsystem;
-			this.cb_cdplayer = oldClass.cb_cdplayer;
-			this.cb_dvdplayer = oldClass.cb_dvdplayer;
-			this.cb_videoprojector = oldClass.cb_videoprojector;
-			this.cb_hearingassisted = oldClass.cb_hearingassisted;
-			this.cb_visualoptimizer = oldClass.cb_visualoptimizer;
-			this.cb_laptopconnectivity = oldClass.cb_laptopconnectivity;
-			this.cb_networkconnections = oldClass.cb_networkconnections;
-			this.cb_overheadprojector = oldClass.cb_overheadprojector;
-			this.cb_podium = oldClass.cb_podium;
-			this.cb_projectorscreen = oldClass.cb_projectorscreen;
-			this.cb_monitors = oldClass.cb_monitors;
-			this.cb_piano = oldClass.cb_piano;
-			this.score = 0;
-		}
 
 	public void calcScore(){
 		double actual = 0;

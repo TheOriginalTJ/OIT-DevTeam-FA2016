@@ -57,6 +57,96 @@ public class Classroom {
 		this.monitors = m;
 		this.piano = p;
 	}
+	
+	
+	public Classroom(Classroom oldClassroom){
+		this.building = oldClassroom.getBuilding();
+		this.roomnum = oldClassroom.getRoomnum();
+		this.seats = "" + oldClassroom.getSeats();
+		this.seatingtype = oldClassroom.getSeatingtype();
+		if(oldClassroom.isWhiteboard()){
+			this.whiteboard = "y";
+		}else{
+			this.whiteboard = "n";
+		}
+		if(oldClassroom.isChalkboard()){
+			this.chalkboard = "y";
+		}else{
+			this.chalkboard = "n";
+		}
+		if(oldClassroom.isComputer()){
+			this.computer = "y";
+		}else{
+			this.computer = "n";
+		}
+		if(oldClassroom.isSoundsystem()){
+			this.soundsystem = "y";
+		}else{
+			this.soundsystem = "n";
+		}
+		if(oldClassroom.isCdplayer()){
+			this.cdplayer = "y";
+		}else{
+			this.cdplayer = "n";
+		}
+		if(oldClassroom.isDvdplayer()){
+			this.dvdplayer = "y";
+		}else{
+			this.dvdplayer = "n";
+		}
+		if(oldClassroom.isVideoprojector()){
+			this.videoprojector = "y";
+		}else{
+			this.videoprojector = "n";
+		}
+		if(oldClassroom.isHearingassisted()){
+			this.hearingassisted = "y";
+		}else{
+			this.hearingassisted = "n";
+		}
+		if(oldClassroom.isVisualoptimizer()){
+			this.visualoptimizer = "y";
+		}else{
+			this.visualoptimizer = "n";
+		}
+		if(oldClassroom.isLaptopconnectivity()){
+			this.laptopconnectivity = "y";
+		}else{
+			this.laptopconnectivity = "n";
+		}
+		if(oldClassroom.isNetworkconnections()){
+			this.networkconnections = "y";
+		}else{
+			this.networkconnections = "n";
+		}
+		if(oldClassroom.isOverheadprojector()){
+			this.overheadprojector = "y";
+		}else{
+			this.overheadprojector = "n";
+		}
+		if(oldClassroom.isPodium()){
+			this.podium = "y";
+		}else{
+			this.podium = "n";
+		}
+		if(oldClassroom.isProjectorscreen()){
+			this.projectorscreen = "y";
+		}else{
+			this.projectorscreen = "n";
+		}
+		if(oldClassroom.isMonitors()){
+			this.monitors = "y";
+		}else{
+			this.monitors = "n";
+		}
+		if(oldClassroom.isPiano()){
+			this.piano = "y";
+		}else{
+			this.piano = "n";
+		}
+		this.currentclass = new Class(oldClassroom.getCurrentclass());
+	}
+	
 
 	public String getBuilding() {
 		return building;

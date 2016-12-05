@@ -13,7 +13,7 @@ public class Schedule {
 			this.rooms.add(Sched.getRoom(i));
 		}
 	}
-
+	
 	//static int defaultGeneLength = 64;
 	private ArrayList<Class> genes = new ArrayList<Class>();
 	private ArrayList<Classroom> rooms = new ArrayList<Classroom>();
@@ -77,7 +77,7 @@ public class Schedule {
 			
 			
 			
-			/*while(rooms.get(j).isTaken()){
+			while(rooms.get(j).isTaken()){
 				if(j < rooms.size()-1){
 					j++;
 				}else{
@@ -90,7 +90,7 @@ public class Schedule {
 			}
 			genes.get(i).setRoomchoice(rooms.get(j));
 			rooms.get(j).setCurrentclass(genes.get(i));
-			*/
+			
 			
 		}
 	}

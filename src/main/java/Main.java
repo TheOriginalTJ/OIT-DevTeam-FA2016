@@ -30,6 +30,8 @@ import GUI_Dev.MultipleServlet;
 import GUI_Dev.Resource;
 import GUI_Dev.ScheduleServlet;
 import GUI_Dev.SingleServlet;
+import GUI_Dev.editClass;
+import GUI_Dev.editClassroom;
 import OIT_Dev.Parser;
 
 
@@ -159,6 +161,8 @@ public class Main {
         context.addServlet(defaultServletHolder(baseUri), context_path);
         context.addServlet(MultipleServlet.class, "/multiple");
         context.addServlet(DeleteServlet.class, "/delete");
+        context.addServlet(editClass.class, "/editClass");
+        context.addServlet(editClassroom.class, "/edit");
         context.addServlet(AddClassroomServlet.class, "/addClassroom");
         context.addServlet(EditClassroomServlet.class, "/editClassroom");
         context.addServlet(SingleServlet.class, "/single");

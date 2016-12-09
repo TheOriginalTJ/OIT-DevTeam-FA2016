@@ -23,6 +23,7 @@ public class Classroom {
 	private String monitors;
 	private String piano;
 	private Class currentclass;
+	Time times;
 	
 	//abridged constructor
 	public Classroom(String building, String roomnum, String seats, String seatingtype){

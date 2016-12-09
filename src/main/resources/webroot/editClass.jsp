@@ -38,8 +38,13 @@ var table;
                 <thead>
                 						
                 <tr>
-                    <th>Building:</th>
-                    <th>Room Number:</th>
+                    <th>Course #:</th>
+                    <th>Section #:</th>
+                    <th>Course Name:</th>
+                    <th>Instructor ID:</th>
+                    <th>Meeting Days:</th>
+                    <th>Start Time:</th>
+                    <th>End Time:</th>
                     <th>Edit:</th>
                     <th>Slots:</th>
                     <th>getSeatingType:</th>
@@ -67,52 +72,62 @@ var table;
 
                 <%
                 	GUI_Dev.Resource res = new GUI_Dev.Resource();
- 					List<OIT_Dev.Classroom> filtered = res.filteredRoom.getFilteredList();
+ 					List<OIT_Dev.Class> filtered = res.filtered.getFilteredList();
  					
                     for(int i=0; i<filtered.size(); i++){
                 %>
 
                 <tr id="<%=i%>">
-                    <td><%=filtered.get(i).getBuilding()%>
+                    <td><%=filtered.get(i).getClassnum()%>
                     </td>
-                    <td><%=filtered.get(i).getRoomnum()%>
+                    <td><%=filtered.get(i).getSectionnum()%>
+                    </td>
+                    <td><%=filtered.get(i).getCourseName()%>
+                    </td>
+                    <td><%= filtered.get(i).getInstructorID()%>
+                    </td>
+                    <td><%= filtered.get(i).getMeetingDays()%>
+                    </td>
+                    <td><%= filtered.get(i).getStartTime()%>
+                    </td>
+                    <td><%= filtered.get(i).getEndTime()%>
                     </td>
                     <td><a onclick="edit(<%=i%>);">Edit</a></td>
-                    <td><%= filtered.get(i).getSeats()%>
+                    <td><%= filtered.get(i).getNumseats()%>
                     </td>
-                    <td><%= filtered.get(i).getSeatingtype()%>
+                    <td><%= filtered.get(i).getSeatingType()%>
                     </td>
-                    <td><%= filtered.get(i).isWhiteboard()%>
+                    <td><%= filtered.get(i).getCb_whiteboard()%>
                     </td>
-                    <td><%= filtered.get(i).isChalkboard()%>
+                    <td><%= filtered.get(i).getCb_chalkboard()%>
                     </td>
-                    <td><%= filtered.get(i).isComputer()%>
+                    <td><%= filtered.get(i).getCb_computer()%>
                     </td>
-                    <td><%= filtered.get(i).isSoundsystem()%>
+                    <td><%= filtered.get(i).getCb_soundsystem()%>
                     </td>
-                    <td><%= filtered.get(i).isCdplayer()%>
+                    <td><%= filtered.get(i).getCb_cdplayer()%>
                     </td>
-                    <td><%= filtered.get(i).isDvdplayer()%>
+                    <td><%= filtered.get(i).getCb_dvdplayer()%>
                     </td>
-                    <td><%= filtered.get(i).isVideoprojector()%>
+                    <td><%= filtered.get(i).getCb_videoprojector()%>
                     </td>
-                    <td><%= filtered.get(i).isHearingassisted()%>
+                    <td><%= filtered.get(i).getCb_hearingassisted()%>
                     </td>
-                    <td><%= filtered.get(i).isVisualoptimizer()%>
+                    <td><%= filtered.get(i).getCb_visualoptimizer()%>
                     </td>
-                    <td><%= filtered.get(i).isLaptopconnectivity()%>
+                    <td><%= filtered.get(i).getCb_laptopconnectivity()%>
                     </td>
-                    <td><%= filtered.get(i).isNetworkconnections()%>
+                    <td><%= filtered.get(i).getCb_networkconnections()%>
                     </td>
-                    <td><%= filtered.get(i).isOverheadprojector()%>
+                    <td><%= filtered.get(i).getCb_overheadprojector()%>
                     </td>
-                    <td><%= filtered.get(i).isPodium()%>
+                    <td><%= filtered.get(i).getCb_podium()%>
                     </td>
-                    <td><%= filtered.get(i).isProjectorscreen()%>
+                    <td><%= filtered.get(i).getCb_projectorscreen()%>
                     </td>
-                    <td><%= filtered.get(i).isMonitors()%>
+                    <td><%= filtered.get(i).getCb_monitors()%>
                     </td>
-                    <td><%= filtered.get(i).isPiano()%>
+                    <td><%= filtered.get(i).getCb_piano()%>
                     </td>
                     
                 </tr>
@@ -130,62 +145,67 @@ var table;
             		document.getElementById("oldName").value = table.row(id).data()[0];
             		document.getElementById("oldNum").value = table.row(id).data()[1];
             		
-            		document.getElementById("building").value = table.row(id).data()[0];
-            		document.getElementById("classroom_number").value = table.row(id).data()[1];
-            		document.getElementById("number_of_slots_classroom").value = table.row(id).data()[3];
+            		document.getElementById("course_number").value = table.row(id).data()[0];
+            		document.getElementById("course_section").value = table.row(id).data()[1];
+            		document.getElementById("course_name").value = table.row(id).data()[2];
+            		document.getElementById("instructor").value = table.row(id).data()[3];
+            		document.getElementById("course_days").value = table.row(id).data()[4];
+            		document.getElementById("start_time").value = table.row(id).data()[5];
+            		document.getElementById("end_time").value = table.row(id).data()[6];
+            		document.getElementById("number_of_slots").value = table.row(id).data()[8];
             		
-            		if(table.row(id).data()[4]=="group" || table.row(id).data()[4]=="Group Seating"){
+            		if(table.row(id).data()[9]=="group" || table.row(id).data()[9]=="Group Seating"){
             			 $("#chairs").val("Group Seating");
             		}
-            		if(table.row(id).data()[4]=="individual" || table.row(id).data()[4]=="Individual Seating"){
+            		if(table.row(id).data()[9]=="individual" || table.row(id).data()[9]=="Individual Seating"){
             			 $("#chairs").val("Individual Seating");
             		}
-            		if(table.row(id).data()[5]=="true"){
+            		if(table.row(id).data()[10]=="y"){
             			document.getElementById("whiteboard").checked = true;	
             		}
-            		if(table.row(id).data()[6]=="true"){
+            		if(table.row(id).data()[11]=="y"){
             			document.getElementById("chalkBoard").checked = true;	
             		}
-            		if(table.row(id).data()[7]=="true"){
+            		if(table.row(id).data()[12]=="y"){
             			document.getElementById("computerLaptop").checked = true;	
             		}
-            		if(table.row(id).data()[8]=="true"){
+            		if(table.row(id).data()[13]=="y"){
             			document.getElementById("soundSystem").checked = true;	
             		}
-            		if(table.row(id).data()[9]=="true"){
+            		if(table.row(id).data()[14]=="y"){
             			document.getElementById("cd").checked = true;	
             		}
-            		if(table.row(id).data()[10]=="true"){
+            		if(table.row(id).data()[15]=="y"){
             			document.getElementById("dvd").checked = true;	
             		}
-            		if(table.row(id).data()[11]=="true"){
+            		if(table.row(id).data()[16]=="y"){
             			document.getElementById("dataVideoProjector").checked = true;	
             		}
-            		if(table.row(id).data()[12]=="true"){
+            		if(table.row(id).data()[17]=="y"){
             			document.getElementById("hearingAssisted").checked = true;	
             		}
-            		if(table.row(id).data()[13]=="true"){
+            		if(table.row(id).data()[18]=="y"){
             			document.getElementById("visualOptimizer").checked = true;	
             		}
-            		if(table.row(id).data()[14]=="true"){
+            		if(table.row(id).data()[19]=="y"){
             			document.getElementById("laptopConnectivity").checked = true;	
             		}
-            		if(table.row(id).data()[15]=="true"){
+            		if(table.row(id).data()[20]=="y"){
             			document.getElementById("networkConnection").checked = true;	
             		}
-            		if(table.row(id).data()[16]=="true"){
+            		if(table.row(id).data()[21]=="y"){
             			document.getElementById("overhearProjector").checked = true;	
             		}
-            		if(table.row(id).data()[17]=="true"){
+            		if(table.row(id).data()[22]=="y"){
             			document.getElementById("podium").checked = true;	
             		}
-            		if(table.row(id).data()[18]=="true"){
+            		if(table.row(id).data()[23]=="y"){
             			document.getElementById("projectorScreen").checked = true;	
             		}
-            		if(table.row(id).data()[19]=="true"){
+            		if(table.row(id).data()[24]=="y"){
             			document.getElementById("tvMonitors").checked = true;	
             		}
-            		if(table.row(id).data()[10]=="true"){
+            		if(table.row(id).data()[25]=="y"){
             			document.getElementById("piano").checked = true;	
             		}
             		
@@ -212,7 +232,7 @@ var table;
         				]
    					 });
    					 
-   					 for(var i=3; i<=20; i++){
+   					 for(var i=8; i<=25; i++){
    					 	table.column( i ).visible(false,false);
    					 }
                });
@@ -224,37 +244,74 @@ var table;
             
             
          <div id="single">
-        <form class="form-horizontal" role="form" method="POST" action="http://localhost:8080/ClassAllocation/edit">
+        <form class="form-horizontal" role="form" method="POST" action="http://localhost:8080/ClassAllocation/editClass">
             <div class="row">
                 <h1></h1>
             </div>
             <div class="row">
-                        <div class="col-md-2 col-md-offset-1">
-                            <div class="form-group">
-                                <label for="building">Building</label>
-                                <input type="text" id="building" name="building" class="form-control"
-                                       placeholder="Ex: SB"
-                                       required>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-md-offset-2">
-                            <div class="form-group">
-                                <label for="classroom_number">Classroom Number</label>
-                                <input type="text" id="classroom_number" name="classroom_number" class="form-control"
-                                       placeholder="Ex: 165" required>
-                            </div>
-                        </div>
-                         <div class="col-md-2 col-md-offset-2">
-                   		 	<div class="form-group">
-                        		<label for="number_of_slots_classroom">Number of Available Seats</label>
-                        		<input type="text" id="number_of_slots_classroom" name="number_of_slots_classroom" class="form-control"
-                               	placeholder="Ex: 32" required>
-                    		</div>
-                		</div>
+                <div class="col-md-2 col-md-offset-1">
+                    <div class="form-group">
+                       <label for="course_number">Course Number</label>
+                        <input type="text" id="course_number" name="course_number" class="form-control" placeholder="Ex: COSC120" value="<a id=course_number></a>"
+                               required>
                     </div>
-                    <div class="row">
-                        <center><h3>Classroom Features</h3></center>
+                </div>
+                <div class="col-md-2 col-md-offset-2">
+                    <div class="form-group">
+                        <label for="course_section">Course Section</label>
+                        <input type="text" id="course_section" name="course_section" class="form-control" placeholder="Ex: 01" value="<a id=course_section></a>"
+                               required>
                     </div>
+                </div>
+                <div class="col-md-2 col-md-offset-2">
+                    <div class="form-group">
+                        <label for="course_name">Course Name</label>
+                        <input type="text" id="course_name" name="course_name" class="form-control" placeholder="Ex: Computer Science 1" value="<a id=course_name></a>"
+                               required>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-md-offset-1">
+                    <div class="form-group">
+                        <label for="instructor">Instructor ID</label>
+                        <input type="text" id="instructor" name="instructor" class="form-control" placeholder="Ex: 123456" value="<a id=instructor></a>" required>
+                    </div>
+                </div>
+                <div class="col-md-2 col-md-offset-2">
+                    <div class="form-group">
+                        <label for="course_days">Course Meeting Days</label>
+                        <input type="text" id="course_days" name="course_days" class="form-control" placeholder="Ex: -M-W-F-" value="<a id=course_days></a>"
+                               required>
+                    </div>
+                </div>
+                <div class="col-md-2 col-md-offset-2">
+                    <div class="form-group">
+                        <label for="number_of_slots">Number of Available Slots</label>
+                        <input type="text" id="number_of_slots" name="number_of_slots" class="form-control"
+                               placeholder="Ex: 32" value="<a id=number_of_slots></a>" required>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-md-offset-1">
+                    <div class="form-group">
+                    <label for="start_time">Start Time</label>
+                        <input type="text" id="start_time" name="start_time" class="form-control" placeholder="Ex: 920" value="<a id=start_time></a>"
+                               required>
+                    </div>
+                </div>
+                <div class="col-md-2 col-md-offset-2">
+                    <div class="form-group">
+                        <label for="end_time">End Time</label>
+                        <input type="text" id="end_time" name="end_time" class="form-control" placeholder="Ex: 1030" value="<a id=end_time></a>"
+                               required>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <center><h3>Required Features</h3></center>
+            </div>
             <div class="row">
                 <div class="col-md-4 col-md-offset-5">
                     <div class="form-group form-group-sm">
@@ -414,4 +471,3 @@ var table;
 
 </body>
 </html>
-        

@@ -25,6 +25,7 @@ import org.eclipse.jetty.webapp.WebAppContext;
 import GUI_Dev.AddClassroomServlet;
 import GUI_Dev.ClassList;
 import GUI_Dev.DeleteServlet;
+import GUI_Dev.Download;
 import GUI_Dev.EditClassroomServlet;
 import GUI_Dev.MultipleServlet;
 import GUI_Dev.Resource;
@@ -167,6 +168,7 @@ public class Main {
         context.addServlet(EditClassroomServlet.class, "/editClassroom");
         context.addServlet(SingleServlet.class, "/single");
         context.addServlet(ScheduleServlet.class, "/schedule");
+        context.addServlet(Download.class, "/download");
 
         context.addServlet(defaultServletHolder(baseUri), "/");
         return context;

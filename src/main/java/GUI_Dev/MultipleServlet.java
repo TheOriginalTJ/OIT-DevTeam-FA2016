@@ -73,7 +73,7 @@ public class MultipleServlet extends HttpServlet {
         testPop.evolve(100, testPop);
        
         try {
-			response.sendRedirect("http://localhost:8080/ClassAllocation/exportCSV.jsp");
+			response.sendRedirect("http://localhost:8080/ClassAllocation/multipleResult.jsp");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -51,7 +51,7 @@ public class DeleteServlet extends HttpServlet {
         
         
         try {
-			response.sendRedirect("http://localhost:8080/ClassAllocation/delete.jsp");
+			response.sendRedirect("http://localhost:8080/ClassAllocation/editClass.jsp");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

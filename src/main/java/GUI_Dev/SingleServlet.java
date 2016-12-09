@@ -50,113 +50,107 @@ public class SingleServlet extends HttpServlet {
             if(isnull){
                 switch (i){
                     case 0:
-                        cb_whiteboard = "no";
+                        cb_whiteboard = "n";
                         break;
                     case 1:
-                        cb_chalkBoard = "no";
+                        cb_chalkBoard = "n";
                         break;
                     case 2:
-                        cb_computerLaptop = "no";
+                        cb_computerLaptop = "n";
                         break;
                     case 3:
-                        cb_soundSystem = "no";
+                        cb_soundSystem = "n";
                         break;
                     case 4:
-                        cb_cd = "no";
+                        cb_cd = "n";
                         break;
                     case 5:
-                        cb_dvd = "no";
+                        cb_dvd = "n";
                         break;
                     case 6:
-                        cb_dataVideoProjector = "no";
+                        cb_dataVideoProjector = "n";
                         break;
                     case 7:
-                        cb_hearingAssisted = "no";
+                        cb_hearingAssisted = "n";
                         break;
                     case 8:
-                        cb_visualOptimizer = "no";
+                        cb_visualOptimizer = "n";
                         break;
                     case 9:
-                        cb_laptopConnectivity = "no";
+                        cb_laptopConnectivity = "n";
                         break;
                     case 10:
-                        cb_networkConnection = "no";
+                        cb_networkConnection = "n";
                         break;
                     case 11:
-                        cb_overhearProjector = "no";
+                        cb_overhearProjector = "n";
                         break;
                     case 12:
-                        cb_podium = "no";
+                        cb_podium = "n";
                         break;
                     case 13:
-                        cb_projectorScreen = "no";
+                        cb_projectorScreen = "n";
                         break;
                     case 14:
-                        cb_tvMonitors = "no";
+                        cb_tvMonitors = "n";
                         break;
                     case 15:
-                        cb_piano = "no";
+                        cb_piano = "n";
                         break;
                 }
             }else{
                 switch (i){
                     case 0:
-                        cb_whiteboard = "yes";
+                        cb_whiteboard = "y";
                         break;
                     case 1:
-                        cb_chalkBoard = "yes";
+                        cb_chalkBoard = "y";
                         break;
                     case 2:
-                        cb_computerLaptop = "yes";
+                        cb_computerLaptop = "y";
                         break;
                     case 3:
-                        cb_soundSystem = "yes";
+                        cb_soundSystem = "y";
                         break;
                     case 4:
-                        cb_cd = "yes";
+                        cb_cd = "y";
                         break;
                     case 5:
-                        cb_dvd = "yes";
+                        cb_dvd = "y";
                         break;
                     case 6:
-                        cb_dataVideoProjector = "yes";
+                        cb_dataVideoProjector = "y";
                         break;
                     case 7:
-                        cb_hearingAssisted = "yes";
+                        cb_hearingAssisted = "y";
                         break;
                     case 8:
-                        cb_visualOptimizer = "yes";
+                        cb_visualOptimizer = "y";
                         break;
                     case 9:
-                        cb_laptopConnectivity = "yes";
+                        cb_laptopConnectivity = "y";
                         break;
                     case 10:
-                        cb_networkConnection = "yes";
+                        cb_networkConnection = "y";
                         break;
                     case 11:
-                        cb_overhearProjector = "yes";
+                        cb_overhearProjector = "y";
                         break;
                     case 12:
-                        cb_podium = "yes";
+                        cb_podium = "y";
                         break;
                     case 13:
-                        cb_projectorScreen = "yes";
+                        cb_projectorScreen = "y";
                         break;
                     case 14:
-                        cb_tvMonitors = "yes";
+                        cb_tvMonitors = "y";
                         break;
                     case 15:
-                        cb_piano = "yes";
+                        cb_piano = "y";
                         break;
                 }
             }
         }
-
-        /*System.out.println(course_number + course_section + course_name + instructor + course_days + start_time + end_time + number_of_slots);
-        System.out.println(chairs);
-        System.out.println(cb_whiteboard + cb_chalkBoard + cb_computerLaptop + cb_soundSystem + cb_cd + cb_dvd + cb_dataVideoProjector +
-                cb_hearingAssisted + cb_visualOptimizer + cb_laptopConnectivity + cb_networkConnection + cb_overhearProjector + cb_podium +
-                cb_projectorScreen + cb_tvMonitors + cb_piano);*/
         
         OIT_Dev.Class newClass = new OIT_Dev.Class(course_number, course_section, course_name, instructor, 
         		course_days, start_time, end_time, chairs, number_of_slots, cb_whiteboard, 
@@ -172,7 +166,7 @@ public class SingleServlet extends HttpServlet {
         res.classList.setClassList(classList);
         
         try {
-			response.sendRedirect("http://localhost:8080/ClassAllocation/exportCSV.jsp");
+			response.sendRedirect("http://localhost:8080/ClassAllocation/recalculate.jsp");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -1,19 +1,9 @@
-package OIT_Dev;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
 public class Schedule {
-	
-	public Schedule(Schedule Sched){
-		for(int i = 0; i < Sched.genecount; i++){
-			this.genes.add(Sched.getGene(i));
-		}
-		for(int i = 0; i < Sched.roomlength; i++){
-			this.rooms.add(Sched.getRoom(i));
-		}
-	}
-	
+
 	//static int defaultGeneLength = 64;
 	private ArrayList<Class> genes = new ArrayList<Class>();
 	private ArrayList<Classroom> rooms = new ArrayList<Classroom>();
@@ -24,7 +14,7 @@ public class Schedule {
 	public int genecount;
 	
 	public Schedule(){
-		loadSchedule();
+		
 	}
 	
 	public void mutateRoom(int index){
@@ -54,16 +44,11 @@ public class Schedule {
 		}
 	}
 	
-	
-	//Need this resources object to reference throughout code
-	private GUI_Dev.Resource res = new GUI_Dev.Resource();
-
-	//This is in place of the current loadSchedule()
-
-	public void loadSchedule(){
-		genes = new ArrayList<Class>(res.classList.getClassList());
+	public void loadSchedule(String fileName, ArrayList<Classroom> roomList){
+		Parser myParser = new Parser(fileName);
+		genes = new ArrayList<Class>(myParser.parseClass());
 		genecount = genes.size();
-		rooms = new ArrayList<Classroom>(res.roomList.getRoomList());
+		rooms = new ArrayList<Classroom>(roomList);
 		roomlength = rooms.size();
 	}
 
@@ -72,11 +57,6 @@ public class Schedule {
 		for(int i = 0; i < size(); i++){
 			int j = (int) (Math.random()*100)%rooms.size();
 			int count = 0;
-			
-			
-			
-			
-			
 			while(rooms.get(j).isTaken()){
 				if(j < rooms.size()-1){
 					j++;
@@ -90,8 +70,6 @@ public class Schedule {
 			}
 			genes.get(i).setRoomchoice(rooms.get(j));
 			rooms.get(j).setCurrentclass(genes.get(i));
-			
-			
 		}
 	}
 
@@ -138,7 +116,7 @@ public class Schedule {
 	public String toString() {
 		String geneString = "";
 		for (int i = 0; i < genes.size(); i++) {
-			geneString += getGene(i).toString();
+			geneString += getGene(i);
 		}
 		return geneString;
 	}
@@ -164,7 +142,6 @@ public class Schedule {
 		}
 		return true;
 	}
-	
 	
 	public void exportFile() {
 		PrintWriter writer;
@@ -218,7 +195,6 @@ public class Schedule {
 		}
 	}
 	
-	
 	/*
 	public boolean sameAs(Schedule sched)
 	{
@@ -237,3 +213,5 @@ public class Schedule {
 	}
 	*/
 }
+
+

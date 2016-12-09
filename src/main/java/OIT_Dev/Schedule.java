@@ -1,5 +1,6 @@
 package OIT_Dev;
 
+import java.io.File;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
@@ -13,7 +14,7 @@ public class Schedule {
 			this.rooms.add(Sched.getRoom(i));
 		}
 	}
-	
+
 	//static int defaultGeneLength = 64;
 	private ArrayList<Class> genes = new ArrayList<Class>();
 	private ArrayList<Classroom> rooms = new ArrayList<Classroom>();
@@ -165,28 +166,13 @@ public class Schedule {
 		return true;
 	}
 	
-	//SOURCE: http://stackoverflow.com/questions/4858497/java-select-a-file-location
-	//Simple method for prompting user for file directory
-	public void promptForFolder( Component parent )
-	{
-		String dir = "";
-	    JFileChooser fc = new JFileChooser();
-	    fc.setFileSelectionMode( JFileChooser.DIRECTORIES_ONLY );
-
-	    if( fc.showOpenDialog( parent ) == JFileChooser.APPROVE_OPTION )
-	    {
-	        dir = fc.getSelectedFile().getAbsolutePath();
-	    }
-
-	    exportFile(dir);
-	}
-	
 	
 	public void exportFile(String directory) {
 		PrintWriter writer;
 		//Attempt to create output file (***WILL OVERWRITE PREVIOUS RESULT.TXT FILES***)
 		try {
-			writer = new PrintWriter(directory, "UTF-8");
+			File outputFile = new File(directory + File.separator + "result.txt");
+			writer = new PrintWriter(outputFile, "UTF-8");
 			//Write first line - template of format
 			writer.println("Course Number\tCourse Name\tBuilding\tRoom Number\tInstructor ID\tMeeting Days\t"
 					+ "Start Time\tEnd Time\tOccupied Seats\tSeating Type\twhiteboard\tchalkboard\t"

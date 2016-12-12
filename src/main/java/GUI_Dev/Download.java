@@ -1,5 +1,7 @@
 package GUI_Dev;
 
+import java.io.IOException;
+
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -16,6 +18,13 @@ public class Download extends HttpServlet {
         
         Schedule sch = new Schedule();
         sch.exportFile(dir);
+        
+        try {
+			response.sendRedirect("http://localhost:8080/ClassAllocation/index.jsp");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
     }
 
 }

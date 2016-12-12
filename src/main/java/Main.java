@@ -29,7 +29,6 @@ import GUI_Dev.Download;
 import GUI_Dev.EditClassroomServlet;
 import GUI_Dev.MultipleServlet;
 import GUI_Dev.Resource;
-import GUI_Dev.ScheduleServlet;
 import GUI_Dev.SingleServlet;
 import GUI_Dev.editClass;
 import GUI_Dev.editClassroom;
@@ -167,8 +166,8 @@ public class Main {
         context.addServlet(AddClassroomServlet.class, "/addClassroom");
         context.addServlet(EditClassroomServlet.class, "/editClassroom");
         context.addServlet(SingleServlet.class, "/single");
-        context.addServlet(ScheduleServlet.class, "/schedule");
         context.addServlet(Download.class, "/download");
+        context.addServlet(Resource.class, "/exit");
 
         context.addServlet(defaultServletHolder(baseUri), "/");
         return context;

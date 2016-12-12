@@ -1,8 +1,16 @@
 package OIT_Dev;
 
+import java.awt.Component;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.PrintWriter;
+import java.io.Writer;
 import java.util.ArrayList;
+
+import javax.swing.JFileChooser;
 
 public class Schedule {
 	
@@ -14,7 +22,7 @@ public class Schedule {
 			this.rooms.add(Sched.getRoom(i));
 		}
 	}
-
+	
 	//static int defaultGeneLength = 64;
 	private ArrayList<Class> genes = new ArrayList<Class>();
 	private ArrayList<Classroom> rooms = new ArrayList<Classroom>();
@@ -166,13 +174,89 @@ public class Schedule {
 		return true;
 	}
 	
+	//SOURCE: http://stackoverflow.com/questions/4858497/java-select-a-file-location
+	//Simple method for prompting user for file directory
+	public void promptForFolder( Component parent )
+	{
+		String dir = "";
+	    JFileChooser fc = new JFileChooser();
+	    fc.setFileSelectionMode( JFileChooser.DIRECTORIES_ONLY );
+
+	    if( fc.showOpenDialog( parent ) == JFileChooser.APPROVE_OPTION )
+	    {
+	        dir = fc.getSelectedFile().getAbsolutePath();
+	    }
+
+	    exportFile(dir);
+	}
+	
+	public void addRoom(Classroom room) {
+		//Check if file exists
+		File roomTxt = new File("resources/rooms.txt");
+		if(!roomTxt.exists()) {
+			System.out.println("resources/rooms.txt does not exist; unable to add room to file.");
+			return;
+		}
+		try {
+			Writer edit;
+			BufferedReader reader = new BufferedReader(new FileReader("resources/rooms.txt"));
+			edit = new BufferedWriter(new FileWriter("resources/rooms.txt", true));
+			edit.append(room.toString());
+			edit.close();
+			reader.close();
+		} catch(Exception e) {
+			System.out.println("Error while reading resources/rooms.txt");
+			return;
+		}
+		
+	}
+	
+	public void deleteRoom(Classroom room) {
+		//Check if file exists
+		File roomTxt = new File("resources/rooms.txt");
+		File tempTxt = new File("resources/temp.txt");
+		if(!roomTxt.exists()) {
+			System.out.println("resources/rooms.txt does not exist; unable to delete room from file.");
+			return;
+		}
+		try {
+			BufferedReader reader = new BufferedReader(new FileReader("resources/rooms.txt"));
+			BufferedWriter writer = new BufferedWriter(new FileWriter("resources/temp.txt"));
+			String currentLine = "";
+			//Skip first line
+			reader.readLine();
+			//Write template line to temp file
+			writer.write("Bldg\tRoom\tNumber of Slots\tSeating type\tWhiteboard\tChalkboard\tComputer/Laptop\tSound System\tCD Player\tDVD Player\tVideo Projector\tHearing Assisted System\tVisual Optimizer\tLaptop Connectivity\tNetwork Connections\tOverhead Projector\tPodium\tProjector Screen\tTV/Monitors\tPiano");
+			//Retrieve building code
+			String currentBuilding = room.getBuilding();
+			//Read through rooms.txt
+			while((currentLine = reader.readLine()) != null) {
+				//Compare each line to room
+				String[] lineSplit = currentLine.split("\t");
+				//Skip writing line if equal to room
+				if(currentBuilding.equals(lineSplit[0])) {
+					String currentRoom = room.getRoomnum();
+					if(currentRoom.equals(lineSplit[1])) {
+						continue;
+					}
+				}
+				writer.write(currentLine + System.getProperty("line.separator"));
+			}
+			writer.close();
+			reader.close();
+			tempTxt.renameTo(roomTxt);
+		} catch(Exception e) {
+			System.out.println("Error while reading resources/rooms.txt");
+			return;
+		}
+	}
 	
 	public void exportFile(String directory) {
 		PrintWriter writer;
+		File outputfile = new File(directory);
 		//Attempt to create output file (***WILL OVERWRITE PREVIOUS RESULT.TXT FILES***)
 		try {
-			File outputFile = new File(directory + File.separator + "result.txt");
-			writer = new PrintWriter(outputFile, "UTF-8");
+			writer = new PrintWriter(outputfile, "UTF-8");
 			//Write first line - template of format
 			writer.println("Course Number\tCourse Name\tBuilding\tRoom Number\tInstructor ID\tMeeting Days\t"
 					+ "Start Time\tEnd Time\tOccupied Seats\tSeating Type\twhiteboard\tchalkboard\t"

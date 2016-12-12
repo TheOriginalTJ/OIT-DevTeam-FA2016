@@ -26,6 +26,16 @@
         <div class="navbar-header">
             <a class="navbar-brand" href="#">Classroom Allocation</a>
         </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <form class="form-inline" role="form" method="POST"
+                      action="http://localhost:8080/ClassAllocation/exit" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-default">Terminate Program</button>
+                    </div>
+                </form>
+            </li>
+        </ul>
    </div>
 </nav>
 
@@ -233,7 +243,7 @@ var table;
                             <div class="form-group">
                                 <label for="building">Building</label>
                                 <input type="text" id="building" name="building" class="form-control"
-                                       placeholder="Ex: SB"
+                                       placeholder="Ex: SB" pattern="[A-Za-z0-9]{1,5}"
                                        required>
                             </div>
                         </div>
@@ -241,14 +251,14 @@ var table;
                             <div class="form-group">
                                 <label for="classroom_number">Classroom Number</label>
                                 <input type="text" id="classroom_number" name="classroom_number" class="form-control"
-                                       placeholder="Ex: 165" required>
+                                       placeholder="Ex: 165" pattern="[A-Za-z0-9]{1,7}" required>
                             </div>
                         </div>
                          <div class="col-md-2 col-md-offset-2">
                    		 	<div class="form-group">
                         		<label for="number_of_slots_classroom">Number of Available Seats</label>
                         		<input type="text" id="number_of_slots_classroom" name="number_of_slots_classroom" class="form-control"
-                               	placeholder="Ex: 32" required>
+                               	placeholder="Ex: 32" pattern="[0-9]{1,3}" required>
                     		</div>
                 		</div>
                     </div>

@@ -26,6 +26,16 @@
         <div class="navbar-header">
             <a class="navbar-brand" href="#">Classroom Allocation</a>
         </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <form class="form-inline" role="form" method="POST"
+                      action="http://localhost:8080/ClassAllocation/exit" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-default">Terminate Program</button>
+                    </div>
+                </form>
+            </li>
+        </ul>
    </div>
 </nav>
 
@@ -253,21 +263,21 @@ var table;
                     <div class="form-group">
                        <label for="course_number">Course Number</label>
                         <input type="text" id="course_number" name="course_number" class="form-control" placeholder="Ex: COSC120" value="<a id=course_number></a>"
-                               required>
+                               pattern="[0-9A-Za-z]{1,15}" required>
                     </div>
                 </div>
                 <div class="col-md-2 col-md-offset-2">
                     <div class="form-group">
                         <label for="course_section">Course Section</label>
                         <input type="text" id="course_section" name="course_section" class="form-control" placeholder="Ex: 01" value="<a id=course_section></a>"
-                               required>
+                               pattern="[0-9]{1,3}" required>
                     </div>
                 </div>
                 <div class="col-md-2 col-md-offset-2">
                     <div class="form-group">
                         <label for="course_name">Course Name</label>
                         <input type="text" id="course_name" name="course_name" class="form-control" placeholder="Ex: Computer Science 1" value="<a id=course_name></a>"
-                               required>
+                               pattern="[^\t]{1,100}" required>
                     </div>
                 </div>
             </div>
@@ -275,21 +285,21 @@ var table;
                 <div class="col-md-2 col-md-offset-1">
                     <div class="form-group">
                         <label for="instructor">Instructor ID</label>
-                        <input type="text" id="instructor" name="instructor" class="form-control" placeholder="Ex: 123456" value="<a id=instructor></a>" required>
+                        <input type="text" id="instructor" name="instructor" class="form-control" placeholder="Ex: 123456" value="<a id=instructor></a>" pattern="[0-9]{6}" required>
                     </div>
                 </div>
                 <div class="col-md-2 col-md-offset-2">
                     <div class="form-group">
                         <label for="course_days">Course Meeting Days</label>
                         <input type="text" id="course_days" name="course_days" class="form-control" placeholder="Ex: -M-W-F-" value="<a id=course_days></a>"
-                               required>
+                               pattern="[Ss-]?[Mm-]?[Tt-]?[Ww-]?[Rr-]?[Ff-]?[Ss-]?" required>
                     </div>
                 </div>
                 <div class="col-md-2 col-md-offset-2">
                     <div class="form-group">
                         <label for="number_of_slots">Number of Available Slots</label>
                         <input type="text" id="number_of_slots" name="number_of_slots" class="form-control"
-                               placeholder="Ex: 32" value="<a id=number_of_slots></a>" required>
+                               placeholder="Ex: 32" value="<a id=number_of_slots></a>" pattern="[0-9]{1,3}" required>
                     </div>
                 </div>
             </div>
@@ -298,14 +308,14 @@ var table;
                     <div class="form-group">
                     <label for="start_time">Start Time</label>
                         <input type="text" id="start_time" name="start_time" class="form-control" placeholder="Ex: 920" value="<a id=start_time></a>"
-                               required>
+                              pattern="([0-1]?[0-9]|2[0-3])(:?[0-5][0-9])?" required>
                     </div>
                 </div>
                 <div class="col-md-2 col-md-offset-2">
                     <div class="form-group">
                         <label for="end_time">End Time</label>
                         <input type="text" id="end_time" name="end_time" class="form-control" placeholder="Ex: 1030" value="<a id=end_time></a>"
-                               required>
+                               pattern="([0-1]?[0-9]|2[0-3])(:?[0-5][0-9])?" required>
                     </div>
                 </div>
             </div>

@@ -22,15 +22,9 @@
         <ul class="nav navbar-nav navbar-right">
             <li>
                 <form class="form-inline" role="form" method="POST"
-                      action="http://localhost:8080/ClassAllocation/schedule" enctype="multipart/form-data">
+                      action="http://localhost:8080/ClassAllocation/exit" enctype="multipart/form-data">
                     <div class="form-group">
-                        <label class="custom-file">
-                            <input type="file" id="schedule" name="schedule" class="custom-file-input" required>
-                            <span class="custom-file-control"></span>
-                        </label>
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-default">Start from Previous Schedule</button>
+                        <button type="submit" class="btn btn-default">Terminate Program</button>
                     </div>
                 </form>
             </li>
@@ -97,21 +91,21 @@
                 <div class="col-md-2 col-md-offset-1">
                     <div class="form-group">
                        <label for="course_number">Course Number</label>
-                        <input type="text" id="course_number" name="course_number" class="form-control" placeholder="Ex: COSC120"
+                        <input type="text" id="course_number" name="course_number" class="form-control" placeholder="Ex: COSC120" pattern="[0-9A-Za-z]{1,15}"
                                required>
                     </div>
                 </div>
                 <div class="col-md-2 col-md-offset-2">
                     <div class="form-group">
                         <label for="course_section">Course Section</label>
-                        <input type="text" id="course_section" name="course_section" class="form-control" placeholder="Ex: 01"
+                        <input type="text" id="course_section" name="course_section" class="form-control" placeholder="Ex: 01" pattern="[0-9]{1,3}"
                                required>
                     </div>
                 </div>
                 <div class="col-md-2 col-md-offset-2">
                     <div class="form-group">
                         <label for="course_name">Course Name</label>
-                        <input type="text" id="course_name" name="course_name" class="form-control" placeholder="Ex: Computer Science 1"
+                        <input type="text" id="course_name" name="course_name" class="form-control" placeholder="Ex: Computer Science 1" pattern="[^\t]{1,100}"
                                required>
                     </div>
                 </div>
@@ -120,13 +114,13 @@
                 <div class="col-md-2 col-md-offset-1">
                     <div class="form-group">
                         <label for="instructor">Instructor ID</label>
-                        <input type="text" id="instructor" name="instructor" class="form-control" placeholder="Ex: 123456" required>
+                        <input type="text" id="instructor" name="instructor" class="form-control" placeholder="Ex: 123456" pattern="[0-9]{6}" required>
                     </div>
                 </div>
                 <div class="col-md-2 col-md-offset-2">
                     <div class="form-group">
                         <label for="course_days">Course Meeting Days</label>
-                        <input type="text" id="course_days" name="course_days" class="form-control" placeholder="Ex: -M-W-F-"
+                        <input type="text" id="course_days" name="course_days" class="form-control" placeholder="Ex: -M-W-F-" pattern="[Ss-]?[Mm-]?[Tt-]?[Ww-]?[Rr-]?[Ff-]?[Ss-]?"
                                required>
                     </div>
                 </div>
@@ -134,7 +128,7 @@
                     <div class="form-group">
                         <label for="number_of_slots">Number of Available Slots</label>
                         <input type="text" id="number_of_slots" name="number_of_slots" class="form-control"
-                               placeholder="Ex: 32" required>
+                               placeholder="Ex: 32" pattern="[0-9]{1,3}" required>
                     </div>
                 </div>
             </div>
@@ -142,14 +136,14 @@
                 <div class="col-md-2 col-md-offset-1">
                     <div class="form-group">
                     <label for="start_time">Start Time</label>
-                        <input type="text" id="start_time" name="start_time" class="form-control" placeholder="Ex: 920"
+                        <input type="text" id="start_time" name="start_time" class="form-control" placeholder="Ex: 920" pattern="([0-1]?[0-9]|2[0-3])(:?[0-5][0-9])?"
                                required>
                     </div>
                 </div>
                 <div class="col-md-2 col-md-offset-2">
                     <div class="form-group">
                         <label for="end_time">End Time</label>
-                        <input type="text" id="end_time" name="end_time" class="form-control" placeholder="Ex: 1030"
+                        <input type="text" id="end_time" name="end_time" class="form-control" placeholder="Ex: 1030" pattern="([0-1]?[0-9]|2[0-3])(:?[0-5][0-9])?"
                                required>
                     </div>
                 </div>
@@ -280,20 +274,20 @@
                 <div class="col-md-2 col-md-offset-1">
                     <div class="form-group">
                         <label for="discipline_delete">Discipline</label>
-                        <input type="text" id="discipline_delete" name="discipline_delete" class="form-control" placeholder="Ex: COSC">
+                        <input type="text" id="discipline_delete" name="discipline_delete" class="form-control" placeholder="Ex: COSC" pattern="[A-Za-z0-9]{1,10}">
                     </div>
                 </div>
                 <div class="col-md-2 col-md-offset-2">
                     <div class="form-group">
                         <label for="course_number_delete">Course Number</label>
                         <input type="text" id="course_number_delete" name="course_number_delete" class="form-control"
-                               placeholder="Ex: COSC120">
+                               placeholder="Ex: COSC120" pattern="[0-9A-Za-z]{1,15}">
                     </div>
                 </div>
                 <div class="col-md-2 col-md-offset-2">
                     <div class="form-group">
                         <label for="instructor_delete">Instructor ID</label>
-                        <input type="text" id="instructor_delete" name="instructor_delete" class="form-control" placeholder="Ex: 123456">
+                        <input type="text" id="instructor_delete" name="instructor_delete" class="form-control" placeholder="Ex: 123456" pattern="[0-9]{6}">
                     </div>
                 </div>
             </div>
@@ -329,7 +323,7 @@
                             <div class="form-group">
                                 <label for="building">Building</label>
                                 <input type="text" id="building" name="building" class="form-control"
-                                       placeholder="Ex: SB"
+                                       placeholder="Ex: SB" pattern="[A-Za-z0-9]{1,5}"
                                        required>
                             </div>
                         </div>
@@ -337,14 +331,14 @@
                             <div class="form-group">
                                 <label for="classroom_number">Classroom Number</label>
                                 <input type="text" id="classroom_number" name="classroom_number" class="form-control"
-                                       placeholder="Ex: 165" required>
+                                       placeholder="Ex: 165" pattern="[A-Za-z0-9]{1,7}" required>
                             </div>
                         </div>
                          <div class="col-md-2 col-md-offset-2">
                    		 	<div class="form-group">
                         		<label for="number_of_slots_classroom">Number of Available Seats</label>
                         		<input type="text" id="number_of_slots_classroom" name="number_of_slots_classroom" class="form-control"
-                               	placeholder="Ex: 32" required>
+                               	placeholder="Ex: 32" pattern="[0-9]{1,3}" required>
                     		</div>
                 		</div>
                     </div>
@@ -475,14 +469,14 @@
                             <div class="form-group">
                                  <label for="building_edit">Building</label>
                                 <input type="text" id="building_edit" name="building_edit" class="form-control"
-                                       placeholder="Ex: SB">
+                                       placeholder="Ex: SB" pattern="[A-Za-z0-9]{1,5}">
                             </div>
                         </div>
                         <div class="col-md-2 col-md-offset-2">
                             <div class="form-group">
                             	<label for="classroom_number_edit">Classroom Number</label>
                                 <input type="text" id="classroom_number_edit" name="classroom_number_edit" class="form-control"
-                                       placeholder="Ex: 165">
+                                       placeholder="Ex: 165" pattern="[A-Za-z0-9]{1,7}">
                             </div>
                         </div>
                     </div>

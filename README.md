@@ -5,3 +5,11 @@ To run software:
 Double click in OIT.jar  
 Go to http://localhost:8080/ClassAllocation  
 Once finished with software. Click 'Terminate Program' button
+
+Possible Problem: Address Already in use  
+For Mac:  
+sudo lsof -i :8080  
+sudo kill -9 (Insert PID)  
+
+Windows:
+http://therealdanvega.com/blog/2015/04/16/windows-kill-process-by-port-number

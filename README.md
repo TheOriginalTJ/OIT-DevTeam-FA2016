@@ -1,9 +1,7 @@
 # OIT-DevTeam-FA2016
-This group exists in order to develop a program for OIT and the School Registrar that will read in an excel (csv) file with a list of courses and requirements, and then format the classes into a schedule (csv or excel file). Ideally, this schedule will then be loaded into the school's database. There will be additional functionality like adding and deleting a single class at a time based on course name, description, etc.
+This software will read in a tab separated .txt file that contains a list of courses and requirements for each course. A tab separated .txt file can be exported that also has building and room numbers for the courses. You will also be able to add single classes, edit classes, delete classes, add classrooms, edit classrooms, and delete classes.
 
-In the command prompt, go to the directory that contains OIT.jar  
-Run java -jar OIT.jar  
-Once executed, go to http://localhost:8080/ClassAllocation
-
-Directions to kill process again.
-http://therealdanvega.com/blog/2015/04/16/windows-kill-process-by-port-number
+To run software:  
+Double click in OIT.jar  
+Go to http://localhost:8080/ClassAllocation  
+Once finished with software. Click 'Terminate Program' button

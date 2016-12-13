@@ -23,6 +23,7 @@ public class Classroom {
 	private String monitors;
 	private String piano;
 	private Class currentclass;
+	Time times;
 	
 	//abridged constructor
 	public Classroom(String building, String roomnum, String seats, String seatingtype){
@@ -30,6 +31,7 @@ public class Classroom {
 		this.roomnum = roomnum;
 		this.seats = seats;
 		this.seatingtype = seatingtype;
+		this.times = new Time();
 	}// end constructor
 	
 	//full constructor
@@ -56,6 +58,7 @@ public class Classroom {
 		this.projectorscreen = ps;
 		this.monitors = m;
 		this.piano = p;
+		this.times = new Time();
 	}
 	
 	

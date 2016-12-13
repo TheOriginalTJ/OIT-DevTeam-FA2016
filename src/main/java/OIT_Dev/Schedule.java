@@ -79,13 +79,25 @@ public class Schedule {
 	// Create a random schedule
 	public void generateSched() {
 		for(int i = 0; i < size(); i++){
-			int j = (int) (Math.random()*100)%rooms.size();
+			//int j = (int) (Math.random()*100)%rooms.size();
 			int count = 0;
 			
+			for (int r = 0; r < rooms.size(); r++){ //check each room 
+				if (genes.get(i).getNumseats() <= rooms.get(r).getSeats()){//classseats <= roomseats
+					
+					if (rooms.get(r).times.addCourse(genes.get(i).getMeetingDays(), 
+							(genes.get(i).getStartTime()), (genes.get(i).getStartTime()))){
+						
+						System.out.println(genes.get(i).getNumseats() + "/" + rooms.get(r).getSeats());
+						genes.get(i).setRoomchoice(rooms.get(r));
+						rooms.get(r).setCurrentclass(genes.get(i));
+						break;
+					}
+				} 
+			}
 			
 			
-			
-			
+			/*
 			while(rooms.get(j).isTaken()){
 				if(j < rooms.size()-1){
 					j++;
@@ -100,7 +112,7 @@ public class Schedule {
 			genes.get(i).setRoomchoice(rooms.get(j));
 			rooms.get(j).setCurrentclass(genes.get(i));
 			
-			
+			*/
 		}
 	}
 

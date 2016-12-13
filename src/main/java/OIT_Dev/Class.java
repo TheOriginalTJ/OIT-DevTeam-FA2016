@@ -332,16 +332,16 @@ public class Class {
 		this.meetingDays = meetingDays;
 	}
 
-	public String getStartTime() {
-		return startTime;
+	public int getStartTime() {
+		return Integer.parseInt(startTime);
 	}
 
 	public void setStartTime(String startTime) {
 		this.startTime = startTime;
 	}
 	
-	public String getEndTime() {
-		return endTime;
+	public int getEndTime() {
+		return Integer.parseInt(endTime);
 	}
 
 	public void setEndTime(String endTime) {

@@ -244,21 +244,21 @@ var table;
                                 <label for="building">Building</label>
                                 <input type="text" id="building" name="building" class="form-control"
                                        placeholder="Ex: SB" pattern="[A-Za-z0-9]{1,5}"
-                                       required>
+                                       title="Between 1 and 5 uppercase letters, lowercase letters, or numbers." required>
                             </div>
                         </div>
                         <div class="col-md-2 col-md-offset-2">
                             <div class="form-group">
                                 <label for="classroom_number">Classroom Number</label>
                                 <input type="text" id="classroom_number" name="classroom_number" class="form-control"
-                                       placeholder="Ex: 165" pattern="[A-Za-z0-9]{1,7}" required>
+                                       placeholder="Ex: 165" pattern="[A-Za-z0-9]{1,7}" title="Between 1 and 7 uppercase letters, lowercase letters, or numbers.">
                             </div>
                         </div>
                          <div class="col-md-2 col-md-offset-2">
                    		 	<div class="form-group">
                         		<label for="number_of_slots_classroom">Number of Available Seats</label>
                         		<input type="text" id="number_of_slots_classroom" name="number_of_slots_classroom" class="form-control"
-                               	placeholder="Ex: 32" pattern="[0-9]{1,3}" required>
+                               	placeholder="Ex: 32" pattern="[0-9]{1,3}" title="A 1-3 digit number that may be zero (i.e. no slot limit?)." required>
                     		</div>
                 		</div>
                     </div>

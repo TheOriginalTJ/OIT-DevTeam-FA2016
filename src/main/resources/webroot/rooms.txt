@@ -51,23 +51,23 @@ GP	60	12	group	y	n	y	n	n	y		n	n	y	y	y	n	y	n	n
 GP	200	16	group	y	n	y	y	y	y	y	n	n	y	y	n	n	y	n	n
 GP	207	16	group	y	n	n	y	y	y	y	n	n	y	y	n	n	y	n	n
 GP	216	12	group	y	y	y	y	y	y	y	n	n	y	y	n	n	y	n	n
-SH	106	72	group	y	n	y	y	y	y	y	n	n		y	n	y	y	n	n
-SH	108	18	group	y						y	n	n		y	n	y	y		
-SH	109	50	individual	n							n	n		y					
-SH	111	44	individual	n	y	y	y	y	y	y	n	n		y	n	y	y	n	n
-SH	112	18	group		y	y	y	y	y	y	n	n		y					
-SH	132	36	group	n	y	y	y	y	y	y	n	n		y	n	y	y	n	n
-SH	134	35	group	y	y	y	y	y	y	y	n	n		y	n	y	y	n	n
-SH	151	24	group	y	n	n	n	n	n	y	n	n		y	n	n	y	n	n
-SH	160	18	group	y	n	n	n	n	n	y	n	n		y	n	n	y	n	n
-SH	161	28	group	y	n	y	y	y	y	y	n	n		y	n	y	y	n	n
-SH	164	10	group	y	y	n	n	n	n	n	n	n		y	n	n	n	n	n
-SH	165	30	group	y	n	y	n	n	n	y	n	n		y	n	n	y	y	n
-SH	209	16									n	n		y					
-SH	217	16									n	n		y					
-SH	221	24									n	n		y					
-SH	222	10	group	y	y	n	n	n	n	y	n	n		y	n	n	y	n	n
-SH	224	18									n	n		y					
-SH	239	16	group	n	n	n	y	n	n	y	n	n		y	n	n	n	n	n
-SH	246	20									n	n		y					
-SH	253	16									n	n		y					
+SB	106	72	group	y	n	y	y	y	y	y	n	n		y	n	y	y	n	n
+SB	108	18	group	y						y	n	n		y	n	y	y		
+SB	109	50	individual	n							n	n		y					
+SB	111	44	individual	n	y	y	y	y	y	y	n	n		y	n	y	y	n	n
+SB	112	18	group		y	y	y	y	y	y	n	n		y					
+SB	132	36	group	n	y	y	y	y	y	y	n	n		y	n	y	y	n	n
+SB	134	35	group	y	y	y	y	y	y	y	n	n		y	n	y	y	n	n
+SB	151	24	group	y	n	n	n	n	n	y	n	n		y	n	n	y	n	n
+SB	160	18	group	y	n	n	n	n	n	y	n	n		y	n	n	y	n	n
+SB	161	28	group	y	n	y	y	y	y	y	n	n		y	n	y	y	n	n
+SB	164	10	group	y	y	n	n	n	n	n	n	n		y	n	n	n	n	n
+SB	165	30	group	y	n	y	n	n	n	y	n	n		y	n	n	y	y	n
+SB	209	16									n	n		y					
+SB	217	16									n	n		y					
+SB	221	24									n	n		y					
+SB	222	10	group	y	y	n	n	n	n	y	n	n		y	n	n	y	n	n
+SB	224	18									n	n		y					
+SB	239	16	group	n	n	n	y	n	n	y	n	n		y	n	n	n	n	n
+SB	246	20									n	n		y					
+SB	253	16									n	n		y					

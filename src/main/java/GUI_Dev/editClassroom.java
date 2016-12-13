@@ -7,6 +7,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import OIT_Dev.Schedule;
+
 public class editClassroom extends HttpServlet{
 	 protected void doPost(final HttpServletRequest request, final HttpServletResponse response) {
 	        response.setContentType("text/html");
@@ -157,9 +159,12 @@ public class editClassroom extends HttpServlet{
 	            }
 	        }
 	        
+	        Schedule sch = new Schedule();
+	        
 	        if(submit!=null){
 	        	for(int i=0; i<roomlist.size(); i++){
 	        		if(roomlist.get(i).getBuilding().equals(oldName) && roomlist.get(i).getRoomnum().equals(oldNum)){
+	        			sch.deleteRoom(roomlist.get(i));
 	        			roomlist.remove(i);
 	        		}
 	        	}
@@ -173,11 +178,13 @@ public class editClassroom extends HttpServlet{
 	        
 	        roomlist.add(newClassroom);
 	        res.roomList.setRoomList(roomlist);
+	        sch.addRoom(newClassroom);
 	        }
 	        
 	        if(delete!=null){
 	        	for(int i=0; i<roomlist.size(); i++){
 	        		if(roomlist.get(i).getBuilding().equals(oldName) && roomlist.get(i).getRoomnum().equals(oldNum)){
+	        			sch.deleteRoom(roomlist.get(i));
 	        			roomlist.remove(i);
 	        		}
 	        	}

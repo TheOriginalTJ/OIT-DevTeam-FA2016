@@ -201,7 +201,7 @@ public class Schedule {
 			Writer edit;
 			BufferedReader reader = new BufferedReader(new FileReader("resources/rooms.txt"));
 			edit = new BufferedWriter(new FileWriter("resources/rooms.txt", true));
-			edit.append(room.toString());
+			edit.append('\n' + room.toString());
 			edit.close();
 			reader.close();
 		} catch(Exception e) {
@@ -226,7 +226,7 @@ public class Schedule {
 			//Skip first line
 			reader.readLine();
 			//Write template line to temp file
-			writer.write("Bldg\tRoom\tNumber of Slots\tSeating type\tWhiteboard\tChalkboard\tComputer/Laptop\tSound System\tCD Player\tDVD Player\tVideo Projector\tHearing Assisted System\tVisual Optimizer\tLaptop Connectivity\tNetwork Connections\tOverhead Projector\tPodium\tProjector Screen\tTV/Monitors\tPiano");
+			writer.write("Bldg\tRoom\tNumber of Slots\tSeating type\tWhiteboard\tChalkboard\tComputer/Laptop\tSound System\tCD Player\tDVD Player\tVideo Projector\tHearing Assisted System\tVisual Optimizer\tLaptop Connectivity\tNetwork Connections\tOverhead Projector\tPodium\tProjector Screen\tTV/Monitors\tPiano\n");
 			//Retrieve building code
 			String currentBuilding = room.getBuilding();
 			//Read through rooms.txt

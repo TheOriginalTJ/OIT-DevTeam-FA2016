@@ -23,7 +23,6 @@ public class Classroom {
 	private String monitors;
 	private String piano;
 	private Class currentclass;
-	Time times;
 	
 	//abridged constructor
 	public Classroom(String building, String roomnum, String seats, String seatingtype){
@@ -382,13 +381,23 @@ public class Classroom {
 	}
 	
 	public String toString(){
-		String build = getBuilding() + "\t" + getRoomnum() + "\t" + getSeats() + "\t" + getSeatingtype() + "\t" +
+	
+		String seatingtype;
+		
+		if(getSeatingtype().equals("Group Seating")){
+			seatingtype="group";
+		}else{
+			seatingtype="individual";
+		}
+		
+		String build = getBuilding() + "\t" + getRoomnum() + "\t" + getSeats() + "\t" + seatingtype + "\t" +
 				this.whiteboard + "\t" + this.chalkboard + "\t" + this.computer + "\t" +
 				this.soundsystem + "\t" + this.cdplayer + "\t" + this.dvdplayer + "\t" +
 				this.videoprojector + "\t" + this.hearingassisted + "\t" + this.visualoptimizer + "\t" +
 				this.laptopconnectivity + "\t" + this.networkconnections + "\t" + this.overheadprojector + "\t" +
 				this.podium + "\t" + this.projectorscreen + "\t" + this.monitors + "\t" + this.piano;
 		return build;
+	
 	}
 	
 }

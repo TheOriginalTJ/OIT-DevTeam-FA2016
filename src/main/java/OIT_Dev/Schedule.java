@@ -174,22 +174,6 @@ public class Schedule {
 		return true;
 	}
 	
-	//SOURCE: http://stackoverflow.com/questions/4858497/java-select-a-file-location
-	//Simple method for prompting user for file directory
-	public void promptForFolder( Component parent )
-	{
-		String dir = "";
-	    JFileChooser fc = new JFileChooser();
-	    fc.setFileSelectionMode( JFileChooser.DIRECTORIES_ONLY );
-
-	    if( fc.showOpenDialog( parent ) == JFileChooser.APPROVE_OPTION )
-	    {
-	        dir = fc.getSelectedFile().getAbsolutePath();
-	    }
-
-	    exportFile(dir);
-	}
-	
 	public void addRoom(Classroom room) {
 		//Check if file exists
 		File roomTxt = new File("resources/rooms.txt");
@@ -253,7 +237,7 @@ public class Schedule {
 	
 	public void exportFile(String directory) {
 		PrintWriter writer;
-		File outputfile = new File(directory);
+		File outputfile = new File(directory + File.separator + "result.txt");
 		//Attempt to create output file (***WILL OVERWRITE PREVIOUS RESULT.TXT FILES***)
 		try {
 			writer = new PrintWriter(outputfile, "UTF-8");

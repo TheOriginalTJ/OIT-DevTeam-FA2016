@@ -382,7 +382,13 @@ public class Classroom {
 	}
 	
 	public String toString(){
-		return getBuilding() + " " + getRoomnum();
+		String build = getBuilding() + "\t" + getRoomnum() + "\t" + getSeats() + "\t" + getSeatingtype() + "\t" +
+				this.whiteboard + "\t" + this.chalkboard + "\t" + this.computer + "\t" +
+				this.soundsystem + "\t" + this.cdplayer + "\t" + this.dvdplayer + "\t" +
+				this.videoprojector + "\t" + this.hearingassisted + "\t" + this.visualoptimizer + "\t" +
+				this.laptopconnectivity + "\t" + this.networkconnections + "\t" + this.overheadprojector + "\t" +
+				this.podium + "\t" + this.projectorscreen + "\t" + this.monitors + "\t" + this.piano;
+		return build;
 	}
 	
 }

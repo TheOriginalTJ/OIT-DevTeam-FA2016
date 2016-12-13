@@ -1,9 +1,14 @@
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.io.Writer;
 import java.net.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -46,7 +51,14 @@ public class Main {
     public static void main(String[] args) {
 
     	Resource res = new Resource();
-    	ClassLoader classloader = Thread.currentThread().getContextClassLoader();
+    	
+    	File rooms = new File("resources/rooms.txt");
+		if(!rooms.exists()) {
+			System.out.println("resources/rooms.txt does not exist; unable to add room to file.");
+			return;
+		}
+    	
+    	/*ClassLoader classloader = Thread.currentThread().getContextClassLoader();
         InputStream is = classloader.getResourceAsStream("webroot/rooms.txt");
         File rooms = new File("rooms.txt");
          
@@ -57,7 +69,7 @@ public class Main {
  		} catch (IOException e) {
  			// TODO Auto-generated catch block
  			e.printStackTrace();
- 		}
+ 		}*/
          
     
          Parser roomParse = new Parser(rooms.getAbsolutePath());

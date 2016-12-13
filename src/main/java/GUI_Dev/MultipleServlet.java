@@ -52,7 +52,7 @@ public class MultipleServlet extends HttpServlet {
             System.out.println("Exception while uploading file: " + e);
         }
 
-        File file = new File(file_name);
+        File file = new File("resources" + File.separator + file_name);
        
         try {
         	OutputStream outputStream = new FileOutputStream(file);

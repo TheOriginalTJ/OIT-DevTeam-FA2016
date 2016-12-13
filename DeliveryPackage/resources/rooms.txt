@@ -1,0 +1,73 @@
+Building Name	Building Number	Number of Seats	Seating Type	Whiteboard	Chalkboard	Computer/Laptop	Sound System	CD Player	DVD Player	Video Projector	Hearing Assisted System	Visual Optimizer	Laptop Connectivity	Network Connectivity	Overhead Projector	Podium	Projector Screen	TV/Monitors	Piano
+MH	101	30	individual	y	y	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+MH	103	20	group	y	y	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+MH	104	40	individual	n	y	y	y	y	y	y	n	n	y	y	y	y	y	n	y
+MH	105	30	group	n	y	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+MH	107	0	n/a	n	n	n	y	y	y	n	n	n	y	y	n	n	n	n	n
+MH	111	30	individual	y	n	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+MH	118	25	individual	n	y	y	y	y	y	y	n	n	y	y	y	y	y	n	y
+MH	119	12	group	y	y	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+MH	120	25	individual	n	y	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+MH	151	20	group	y	n	y	y	y	y	y	n	n	y	y	y	y	y	y	n
+KH	115	20	individual	y	n	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+KH	120	42	individual	n	y	n	y	y	y	y	n	n	y	y	y	y	y	n	n
+KH	212	19	group	y	n	n	y	y	y	y	n	n	y	y	y	y	y	n	n
+KH	213	30	individual	y	y	n	y	y	y	y	n	n	y	y	y	y	y	n	n
+KH	222	20	group	n	y	n	y	y	y	y	n	n	y	y	y	y	y	n	n
+KH	311	24	individual	n	y	n	y	y	y	y	n	n	y	y	y	y	y	n	n
+KH	312	17	group	y	n	n	y	y	y	y	n	n	y	y	y	y	y	n	n
+KH	316	18	group	y	n	n	y	y	y	y	n	n	y	y	y	y	y	n	n
+KH	317	18	group	n	y	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+CH	4	35	individual	y	n	n	y	y	y	y	n	n	y	y	y	y	y	n	n
+MB	109	23	group	y	n	y	y	n	y	y	n	n	y	y	n	y	y	y	n
+MB	110	15	group	y	n	n	y	n	y	n	n	n	y	y	n	n	n	y	n
+ARC	30	individual	y	n	n	y	y	y	y	n	n	y	y	y	n	y	y	n
+ARC	Movement Room	30	individual	n	n	n	y	n	n	n	n	n	n	y	n	n	n	n	n
+ARC	Rec Courts	0	individual	n	n	n	n	n	n	n	n	n	n	y	n	n	n	n	n
+LI	112	29	group	y	n	y	y	y	y	y	n	n	y	y	n	y	y	n	n
+LI	114	21	group	y	n	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+LI	115	16	group	y	n	y	y	y	y	y	n	n	y	y	n	y	y	n	n
+LI	306	25	group	y	n	y	y	y	y	y	n	n	y	y	n	y	y	n	n
+LI	307	21	group	y	n	y	y	y	y	y	n	n	y	y	n	y	y	n	y
+LI	321	70	individual	y	n	y	y	y	y	y	n	n	y	y	n	y	y	n	n
+GP	22	16	group	y	n	y	y	y	y	y	n	n	y	y	y	n	y	y	n
+GP	103	10	group	y	n	y	y	y	y	y	n	n	y	y	n	n	n	y	n
+GP	109	30	individual	y	n	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+GP	117	50	group	y	n	y	y	y	y	y	n	n	y	y	y	y	y	y	n
+GP	184	30	group	y	n	y	y	y	y	y	n	n	y	y	y	y	y	y	n
+GP	185	20	group	y	n	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+GP	186	50	individual	y	n	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+GP	195	75	individual	y	n	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+GP	197	22	individual	y	n	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+GP	198	45	individual	y	n	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+GP	230	30	group	y	n	y	y	y	y	y	n	n	y	y	y	y	y	n	n
+GP	237	30	group	y	n	y	y	n	y	y	n	n	y	y	n	y	y	n	n
+GP	239	12	group	y	n	n	y	n	y	y	n	n	y	y	n	y	y	n	n
+GP	70	16	group	y	n	y	y	n	y	y	n	n	y	y	y	n	y	n	n
+GP	72	18	group	y	n	y	y	n	y	y	n	n	y	y	y	n	y	n	n
+GP	81	24	group	y	n	y	y	n	y	y	n	n	y	y	y	n	y	n	n
+GP	6	12	group	y	n	n	n	n	y	y	n	n	y	y	n	n	n	y	n
+GP	60	12	group	y	n	y	n	n	y		n	n	y	y	y	n	y	n	n
+GP	200	16	group	y	n	y	y	y	y	y	n	n	y	y	n	n	y	n	n
+GP	207	16	group	y	n	n	y	y	y	y	n	n	y	y	n	n	y	n	n
+GP	216	12	group	y	y	y	y	y	y	y	n	n	y	y	n	n	y	n	n
+SB	106	72	group	y	n	y	y	y	y	y	n	n		y	n	y	y	n	n
+SB	108	18	group	y						y	n	n		y	n	y	y		
+SB	109	50	individual	n							n	n		y					
+SB	111	44	individual	n	y	y	y	y	y	y	n	n		y	n	y	y	n	n
+SB	112	18	group		y	y	y	y	y	y	n	n		y					
+SB	132	36	group	n	y	y	y	y	y	y	n	n		y	n	y	y	n	n
+SB	134	35	group	y	y	y	y	y	y	y	n	n		y	n	y	y	n	n
+SB	151	24	group	y	n	n	n	n	n	y	n	n		y	n	n	y	n	n
+SB	160	18	group	y	n	n	n	n	n	y	n	n		y	n	n	y	n	n
+SB	161	28	group	y	n	y	y	y	y	y	n	n		y	n	y	y	n	n
+SB	164	10	group	y	y	n	n	n	n	n	n	n		y	n	n	n	n	n
+SB	165	30	group	y	n	y	n	n	n	y	n	n		y	n	n	y	y	n
+SB	209	16									n	n		y					
+SB	217	16									n	n		y					
+SB	221	24									n	n		y					
+SB	222	10	group	y	y	n	n	n	n	y	n	n		y	n	n	y	n	n
+SB	224	18									n	n		y					
+SB	239	16	group	n	n	n	y	n	n	y	n	n		y	n	n	n	n	n
+SB	246	20									n	n		y					
+SB	253	16									n	n		y					
